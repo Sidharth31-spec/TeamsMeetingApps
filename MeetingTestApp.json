@@ -41,7 +41,8 @@
             "configurationUrl": "https://web.yammer.com/teamsmeeting/configure?client=teams",
             "scopes": [
               "team",
-              "groupchat"
+              "groupchat",
+	      "personal"
             ],
 	     "context": [
 	       "meetingChatTab",
