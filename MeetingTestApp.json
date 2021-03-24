@@ -43,17 +43,17 @@
               "team",
               "groupchat"
             ],
-			"context": [
-			  "meetingChatTab",
-			  "meetingDetailsTab",
-			  "meetingSidePanel"
-			],
-	       "defaultInstance": {
-             "contentUrl": "https://app.polly.ai/msteams_redirect/help",
-             "websiteUrl": "https://app.polly.ai/msteams_redirect/help",
-             "name": "Q&A Poll",
-             "entityId": "entityId",
-             "removeUrl": "https://app.polly.ai/msteams_redirect/config"
+	     "context": [
+	       "meetingChatTab",
+	       "meetingDetailsTab",
+	       "meetingSidePanel"
+	     ],
+	    "defaultInstance": {
+              "contentUrl": "https://app.polly.ai/msteams_redirect/help",
+              "websiteUrl": "https://app.polly.ai/msteams_redirect/help",
+              "name": "Q&A Poll",
+              "entityId": "entityId",
+              "removeUrl": "https://app.polly.ai/msteams_redirect/config"
             }
           }
         ],
