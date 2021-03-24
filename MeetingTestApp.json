@@ -1,0 +1,93 @@
+{
+  "value": {
+    "appDefinitions": [
+      {
+        "accentColor": "#093c7f",
+        "activities": {
+          "activityTypes": [
+            {
+              "description": "Announcements (coming soon)",
+              "templateText": "{actor} posted an announcement",
+              "type": "announcementCreated"
+            },
+            {
+              "description": "@mentions (coming soon)",
+              "templateText": "{actor} mentioned you",
+              "type": "userMention"
+            }
+          ]
+        },
+        "bots": [
+          {
+            "commandLists": [],
+            "id": "af88f619-46c8-4cd3-b94c-5bf0f59e5fa6",
+            "isNotificationOnly": false,
+            "scopes": [
+              "team",
+              "personal",
+              "groupchat"
+            ],
+            "supportsFiles": true
+          }
+        ],
+        "categories": [
+          "Microsoft"
+        ],
+        "developerName": "Microsoft Corporation",
+        "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2151467",
+        "galleryTabs": [
+          {
+            "canUpdateConfiguration": true,
+            "configurationUrl": "https://web.yammer.com/teamsmeeting/configure?client=teams",
+            "scopes": [
+              "team",
+              "groupchat"
+            ],
+			"context": [
+			  "meetingChatTab",
+			  "meetingDetailsTab",
+			  "meetingSidePanel"
+			],
+	       "defaultInstance": {
+             "contentUrl": "https://app.polly.ai/msteams_redirect/help",
+             "websiteUrl": "https://app.polly.ai/msteams_redirect/help",
+             "name": "Q&A Poll",
+             "entityId": "entityId",
+             "removeUrl": "https://app.polly.ai/msteams_redirect/config"
+            }
+          }
+        ],
+        "id": "4f59d233-c6e9-4a42-8581-551cae50c718",
+        "industries": [
+          "Other"
+        ],
+        "meetingExtensionDefinition": {
+          "isAnonymousAccessAllowed": true
+        },
+        "isTeamsOwned": true,
+        "isTenantConfigurable": true,
+        "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/4f59d233-c6e9-4a42-8581-551cae50c718_largeImage.png?v=1.0.0",
+        "longDescription": "Add a fully customizable Q&A experience for any scenario. Whether you’re looking for moderated Q&A for a Live Event or an open Q&A for a classroom scenario – this first party Q&A experience does the trick! Powered by Yammer, this Q&A is a first party experience​.\n\n__Customizable features Include:__\n- Turn Q&A on or Off​\n- Make Q&A moderated or un-moderated​\n- Replies on vs. off​\n- Mark best answer​\n- Upvote answers​\n- React to questions​\n- Moderators can post announcements​",
+        "manifestVersion": "devPreview",
+        "name": "Q&A (Dogfood)",
+        "permissions": [],
+        "privacyUrl": "https://go.microsoft.com/fwlink/p/?linkid=857875",
+        "publisherType": "FirstParty",
+        "shortDescription": "Questions and answers for structured meetings​",
+        "showLoadingIndicator": true,
+        "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/4f59d233-c6e9-4a42-8581-551cae50c718_smallImage.png?v=1.0.0",
+        "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2151466",
+        "validDomains": [
+          "teams.yammer.com",
+          "web.yammer.com",
+          "www.yammer.com"
+        ],
+        "version": "1.0.1",
+        "webApplicationInfo": {
+          "id": "00000005-0000-0ff1-ce00-000000000000",
+          "resource": "https://web.yammer.com/teamsmeeting"
+        }
+      }
+    ]
+  }
+}
