@@ -1,6 +1,146 @@
 {
   "value": {
     "appDefinitions": [
+        {
+        "accentColor": "#230201",
+        "bots": [
+          {
+            "id": "82d034f9-0cfd-495d-8d64-ebaadaeb3976",
+            "scopes": [
+              "personal",
+              "groupchat",
+              "team"
+            ],
+            "commandLists": [
+              {
+                "scopes": [
+                  "personal"
+                ],
+                "commands": [
+                  {
+                    "title": "help",
+                    "description": "Find out what I can do."
+                  },
+                  {
+                    "title": "check status",
+                    "description": "View current status of a document."
+                  },
+                  {
+                    "title": "show docs for me",
+                    "description": "Display documents waiting on you."
+                  },
+                  {
+                    "title": "show docs for others",
+                    "description": "Display documents waiting on others."
+                  }
+                ]
+              },
+              {
+                "scopes": [
+                  "team"
+                ],
+                "commands": [
+                  {
+                    "title": "help",
+                    "description": "Find out what I can do."
+                  },
+                  {
+                    "title": "check status",
+                    "description": "View current status of a document."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "inputExtensions": [
+          {
+            "botId": "82d034f9-0cfd-495d-8d64-ebaadaeb3976",
+            "canUpdateConfiguration": true,
+            "commands": [
+              {
+                "id": "createTaskModule",
+                "title": "Live Sign | Prerelease",
+                "description": "Sign agreements in a meeting.",
+                "type": "action",
+                "fetchTask": true,
+                "context": [
+                  "compose"
+                ]
+              }
+            ]
+          }
+        ],
+        "categories": [
+          "Communication",
+          "Productivity",
+          "WorkflowAndBusinessManagement"
+        ],
+        "developerName": "Adobe Systems Inc.",
+        "developerUrl": "https://acrobat.adobe.com/us/en/sign.html",
+        "id": "eebcf368-d37a-4ec9-b9a2-9849e06bb2ab",
+        "industries": [
+          "Other"
+        ],
+        "keywords": [
+          "adobeApps"
+        ],
+        "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/0f56a9d1-f502-40f9-a9e8-816d7adbb68b_largeImage.png?v=1.0.1",
+        "lastUpdatedAt": "2020-03-27T17:49:56.6795764Z",
+        "longDescription": "Keep document-signing workflows moving fast when you add Adobe Sign to Teams. Now, right in Teams, you can sign documents, send them for legally binding e-signatures and approvals — all with Microsoft's preferred e-sign solution.",
+        "manifestVersion": "1.7",
+        "name": "Adobe Sign Prerelease 0",
+        "officeAssetId": "WA104381233",
+        "permissions": [
+          "Identity",
+          "MessageTeamMembers"
+        ],
+        "privacyUrl": "https://www.adobe.com/privacy/policy.html",
+        "restrictedTenantTypes": [
+          "Freemium"
+        ],
+        "screenshotUrls": [
+          "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/0f56a9d1-f502-40f9-a9e8-816d7adbb68b/1.jpeg?v=1.0.1",
+          "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/0f56a9d1-f502-40f9-a9e8-816d7adbb68b/2.jpeg?v=1.0.1",
+          "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/0f56a9d1-f502-40f9-a9e8-816d7adbb68b/3.jpeg?v=1.0.1",
+          "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/0f56a9d1-f502-40f9-a9e8-816d7adbb68b/4.jpeg?v=1.0.1",
+          "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/0f56a9d1-f502-40f9-a9e8-816d7adbb68b/5.jpeg?v=1.0.1"
+        ],
+        "securityComplianceInfo": {
+          "mcasId": "11641",
+          "status": "m365Certified"
+        },
+        "shortDescription": "Sign any document or send it for e-signature.",
+        "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/0f56a9d1-f502-40f9-a9e8-816d7adbb68b_smallImage.png?v=1.0.1",
+        "staticTabs": [
+          {
+            "name": "Adobe Sign Prerelease",
+            "contentUrl": "https://static.echocdn.com/office365integration/teams.html?name={upn}&subEntityId={subEntityId}&appVersion=1.9&locale={locale}#login",
+            "scopes": [
+              "personal"
+            ],
+            "entityId": "418c8988-91fe-4c51-bf69-8e8e9315995f"
+          }
+        ],
+        "configurableTabs": [
+          {
+            "configurationUrl": "https://static.echocdn.com/office365integration/teams.html?name={upn}&tenant={tid}&group={groupId}&appVersion=1.9&locale={locale}#configTab",
+            "canUpdateConfiguration": false,
+            "scopes": [
+              "team"
+            ]
+          }
+        ],
+        "termsOfUseUrl": "https://www.adobe.com/legal/licenses-terms.html",
+        "validDomains": [
+          "*.*.echosign.com",
+          "*.echosign.com",
+          "*.echocdn.com",
+          "login.microsoftonline.com"
+        ],
+        "version": "1.9.11",
+        "videoUrl": "https://www.youtube.com/watch?v=T6Oc3A5yTyU&feature=youtu.be"
+      },
       {
         "accentColor": "#093c7f",
         "activities": {
