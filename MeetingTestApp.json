@@ -226,8 +226,38 @@
         "version": "1.0.1",
         "webApplicationInfo": {
           "id": "00000005-0000-0ff1-ce00-000000000000",
-          "resource": "https://web.yammer.com/teamsmeeting"
-        }
+          "resource": "https://web.yammer.com/teamsmeeting",
+	  "applicationPermissions": [
+            "TeamSettings.Read.Group",
+            "Member.Read.Group",
+            "Channel.Create.Group",
+            "ChannelMessage.Read.Group"
+          ]
+        },
+	"authorization": {
+	    "permissions": {
+	      "orgWide": [
+		{
+		  "name": "MeetingAudio.Toggle",
+		  "type": "Application"
+		},
+		{
+		  "name": "Message.Read",
+		  "type": "Delegated"
+		}
+	      ],
+	      "resourceSpecific": [
+		{
+		  "name": "Message.Send.Chat",
+		  "type": "Delegated"
+		},
+		{
+		  "name": "User.ReadBasic",
+		  "type": "Application"
+		}
+	      ]
+	    }
+	  }     
       }
     ]
   }
