@@ -228,8 +228,8 @@
           "id": "00000005-0000-0ff1-ce00-000000000000",
           "resource": "https://web.yammer.com/teamsmeeting",
 	  "applicationPermissions": [
-            "TeamSettings.Read.Group",
-            "Member.Read.Group"
+            "ChatMessage.Read.Chat",
+            "ChatMember.Read.Chat"
           ]
         },
 	"authorization": {
@@ -250,7 +250,7 @@
 		  "type": "Delegated"
 		},
 		{
-		  "name": "ChannelMessage.Read.Group",
+		  "name": "OnlineMeeting.ReadBasic.Chat",
 		  "type": "Application"
 		}
 	      ]
