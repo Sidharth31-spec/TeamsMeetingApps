@@ -227,10 +227,7 @@
         "webApplicationInfo": {
           "id": "00000005-0000-0ff1-ce00-000000000000",
           "resource": "https://web.yammer.com/teamsmeeting",
-	  "applicationPermissions": [
-            "ChatMessage.Read.Chat",
-            "ChatMember.Read.Chat"
-          ]
+	  "applicationPermissions": []
         },
 	"authorization": {
 	    "permissions": {
