@@ -223,7 +223,7 @@
           "web.yammer.com",
           "www.yammer.com"
         ],
-        "version": "1.0.4",
+        "version": "1.0.5",
         "webApplicationInfo": {
           "id": "00000005-0000-0ff1-ce00-000000000000",
           "resource": "https://web.yammer.com/teamsmeeting",
