@@ -231,16 +231,6 @@
         },
 	"authorization": {
 	    "permissions": {
-	      "orgWide": [
-		{
-		  "name": "MeetingAudio.Toggle",
-		  "type": "Application"
-		},
-		{
-		  "name": "Message.Read",
-		  "type": "Delegated"
-		}
-	      ],
 	      "resourceSpecific": [
 		{
 		  "name": "Message.Send.Chat",
