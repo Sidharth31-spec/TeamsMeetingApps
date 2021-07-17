@@ -164,8 +164,7 @@
             "isNotificationOnly": false,
             "scopes": [
               "team",
-              "personal",
-              "groupchat"
+              "personal"
             ],
             "supportsFiles": true
           }
@@ -223,7 +222,7 @@
           "web.yammer.com",
           "www.yammer.com"
         ],
-        "version": "1.0.6",
+        "version": "1.0.7",
         "webApplicationInfo": {
           "id": "00000005-0000-0ff1-ce00-000000000000",
           "resource": "https://web.yammer.com/teamsmeeting",
