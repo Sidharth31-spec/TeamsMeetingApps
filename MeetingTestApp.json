@@ -15,8 +15,7 @@
               ],
               "scopes": [
                 "team",
-                "personal",
-                "groupchat"
+                "personal"
               ]
             }
           ],
@@ -24,8 +23,7 @@
           "isNotificationOnly": false,
           "scopes": [
             "team",
-            "personal",
-            "groupchat"
+            "personal"
           ],
           "supportsFiles": true
         }
