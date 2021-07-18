@@ -15,8 +15,7 @@
               ],
               "scopes": [
                 "team",
-                "personal",
-                "groupchat"
+                "personal"
               ]
             }
           ],
@@ -24,8 +23,7 @@
           "isNotificationOnly": false,
           "scopes": [
             "team",
-            "personal",
-            "groupchat"
+            "personal"
           ],
           "supportsFiles": true
         }
@@ -164,7 +162,7 @@
       "validDomains": [
         "*.polly.ai"
       ],
-      "version": "2.0.6",
+      "version": "2.0.7",
       "videoUrl": "https://www.youtube.com/watch?v=7PK05mlvKTg",
       "webApplicationInfo": {
         "id": "228f3e22-92b5-4c6d-91e8-9dcc1757ad36",
