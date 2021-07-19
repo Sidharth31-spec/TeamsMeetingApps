@@ -1,346 +1,393 @@
 {
   "value": {
     "appDefinitions": [
-        {
-      "accentColor": "#0190F7",
-      "bots": [
-        {
-          "commandLists": [
-            {
-              "commands": [
-                {
-                  "description": "Start a quick poll",
-                  "title": "Your question? Option1, Option2"
-                }
-              ],
-              "scopes": [
-                "team",
-                "personal",
-                "groupchat"
-              ]
-            }
-          ],
-          "id": "817c2506-de4a-4795-971e-371ea75a03ed",
-          "isNotificationOnly": false,
-          "scopes": [
-            "team",
-            "personal",
-            "groupchat"
-          ],
-          "supportsFiles": true
-        }
-      ],
-      "categories": [
-        "Communication",
-        "Productivity",
-        "ProjectManagement"
-      ],
-      "developerName": "Polly",
-      "developerUrl": "https://www.polly.ai",
-      "galleryTabs": [
-        {
-          "canUpdateConfiguration": true,
-          "configurationUrl": "https://teams.polly.ai/msteams/content/tabconfig?theme={theme}",
-          "context": [
-            "channelTab",
-            "privateChatTab",
-            "meetingChatTab",
-            "meetingDetailsTab",
-            "meetingSidePanel"
-          ],
-          "scopes": [
-            "team",
-            "groupchat"
-          ]
-        }
-      ],
-      "id": "1542629c-01b3-4a6d-8f76-1938b779e48d",
-      "industries": [
-        "Other"
-      ],
-      "inputExtensions": [
-        {
-          "botId": "817c2506-de4a-4795-971e-371ea75a03ed",
-          "canUpdateConfiguration": false,
-          "commands": [
-            {
-              "context": [
-                "compose"
-              ],
-              "description": "Customized to your needs",
-              "fetchTask": true,
-              "id": "survey/authoring",
-              "parameters": [
-                {
-                  "description": "",
-                  "name": "param",
-                  "title": "param"
-                }
-              ],
-              "taskInfo": {
-                "height": "large",
-                "width": "700"
+      {
+        "accentColor": "#0190F7",
+        "bots": [
+          {
+            "commandLists": [
+              {
+                "commands": [
+                  {
+                    "description": "Start a quick poll",
+                    "title": "Your question? Option1, Option2"
+                  }
+                ],
+                "scopes": [
+                  "team",
+                  "personal",
+                  "groupchat"
+                ]
+              }
+            ],
+            "id": "817c2506-de4a-4795-971e-371ea75a03ed",
+            "isNotificationOnly": false,
+            "scopes": [
+              "team",
+              "personal",
+              "groupchat"
+            ],
+            "supportsFiles": true
+          }
+        ],
+        "categories": [
+          "Communication",
+          "Productivity",
+          "ProjectManagement"
+        ],
+        "developerName": "Polly",
+        "developerUrl": "https://www.polly.ai",
+        "galleryTabs": [
+          {
+            "canUpdateConfiguration": true,
+            "configurationUrl": "https://teams.polly.ai/msteams/content/tabconfig?theme={theme}",
+            "context": [
+              "channelTab",
+              "privateChatTab",
+              "meetingChatTab",
+              "meetingDetailsTab",
+              "meetingSidePanel"
+            ],
+            "scopes": [
+              "team",
+              "groupchat"
+            ]
+          }
+        ],
+        "id": "1542629c-01b3-4a6d-8f76-1938b779e48d",
+        "industries": [
+          "Other"
+        ],
+        "inputExtensions": [
+          {
+            "botId": "817c2506-de4a-4795-971e-371ea75a03ed",
+            "canUpdateConfiguration": false,
+            "commands": [
+              {
+                "context": [
+                  "compose"
+                ],
+                "description": "Customized to your needs",
+                "fetchTask": true,
+                "id": "survey/authoring",
+                "parameters": [
+                  {
+                    "description": "",
+                    "name": "param",
+                    "title": "param"
+                  }
+                ],
+                "taskInfo": {
+                  "height": "large",
+                  "width": "700"
+                },
+                "title": "Create a new polly",
+                "type": "action"
               },
-              "title": "Create a new polly",
-              "type": "action"
-            },
-            {
-              "context": [
-                "message"
-              ],
-              "description": "Create a polly from this message",
-              "fetchTask": true,
-              "id": "messageAction",
-              "parameters": [
-                {
-                  "description": "",
-                  "name": "param",
-                  "title": "param"
-                }
-              ],
-              "title": "Create a Polly",
-              "type": "action"
-            }
-          ],
-          "scopes": [
-            "team",
-            "personal"
-          ]
-        }
-      ],
-      "keywords": [
-        "survey",
-        "poll",
-        "quiz"
-      ],
-      "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/1542629c-01b3-4a6d-8f76-1938b779e48d_largeImage.png?v=2.0.3",
-      "lastUpdatedAt": "2021-04-28T18:12:36.922288Z",
-      "longDescription": "Polly is an engagement app that captures instant, contextual feedback from your team in seconds. Just about anyone can get started with Polly to quickly reach their colleagues and make data-driven decisions instantly.\r\nYou can use Polly to get meeting feedback, quiz your students, get a pulse on how your team is feeling, and so much more. Polly offers an array of advanced functionality such as templates, recurrence, scheduling, anonymity, and more all available to you in Microsoft Teams.\r\nTo get started, add Polly to a Team of your choice, and you can start creating your first polly by using the messaging extension or pinning Polly to the Team tab.\r\nFor Teams Meetings, just add Polly to the Meeting tab to start creating your polly ahead of when your meeting is scheduled, and you can send your polly on demand directly in the meeting to your attendees.\r\nAll of your results will live in your Polly tab that's pinned to the Team and you can share, delete, or close as needed. Not sure what types of questions to ask? We have 30+ templates available for you to use at any time if you need a bit of inspiration.",
-      "manifestVersion": "1.9",
-      "name": "Polly",
-      "officeAssetId": "WA104381060",
-      "permissions": [
-        "Identity",
-        "MessageTeamMembers"
-      ],
-      "privacyUrl": "https://www.polly.ai/privacy",
-      "screenshotUrls": [
-        "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/1542629c-01b3-4a6d-8f76-1938b779e48d/1.png?v=2.0.3",
-        "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/1542629c-01b3-4a6d-8f76-1938b779e48d/2.png?v=2.0.3",
-        "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/1542629c-01b3-4a6d-8f76-1938b779e48d/3.png?v=2.0.3"
-      ],
-      "securityComplianceInfo": {
-        "mcasId": "35669",
-        "status": "attested"
-      },
-      "shortDescription": "Ask your team questions with Polly and get instant answers in Microsoft Teams",
-      "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/1542629c-01b3-4a6d-8f76-1938b779e48d_smallImage.png?v=2.0.3",
-      "staticTabs": [
-        {
-          "contentUrl": "https://teams.polly.ai/msteams/content/personal/dashboard?theme={theme}",
-          "entityId": "3972bda4-858c-43de-b4a4-10d84087c723",
-          "name": "Dashboard",
-          "scopes": [
-            "personal"
-          ]
+              {
+                "context": [
+                  "message"
+                ],
+                "description": "Create a polly from this message",
+                "fetchTask": true,
+                "id": "messageAction",
+                "parameters": [
+                  {
+                    "description": "",
+                    "name": "param",
+                    "title": "param"
+                  }
+                ],
+                "title": "Create a Polly",
+                "type": "action"
+              }
+            ],
+            "scopes": [
+              "team",
+              "personal"
+            ]
+          }
+        ],
+        "keywords": [
+          "survey",
+          "poll",
+          "quiz"
+        ],
+        "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/1542629c-01b3-4a6d-8f76-1938b779e48d_largeImage.png?v=2.0.3",
+        "lastUpdatedAt": "2021-04-28T18:12:36.922288Z",
+        "longDescription": "Polly is an engagement app that captures instant, contextual feedback from your team in seconds. Just about anyone can get started with Polly to quickly reach their colleagues and make data-driven decisions instantly.\r\nYou can use Polly to get meeting feedback, quiz your students, get a pulse on how your team is feeling, and so much more. Polly offers an array of advanced functionality such as templates, recurrence, scheduling, anonymity, and more all available to you in Microsoft Teams.\r\nTo get started, add Polly to a Team of your choice, and you can start creating your first polly by using the messaging extension or pinning Polly to the Team tab.\r\nFor Teams Meetings, just add Polly to the Meeting tab to start creating your polly ahead of when your meeting is scheduled, and you can send your polly on demand directly in the meeting to your attendees.\r\nAll of your results will live in your Polly tab that's pinned to the Team and you can share, delete, or close as needed. Not sure what types of questions to ask? We have 30+ templates available for you to use at any time if you need a bit of inspiration.",
+        "manifestVersion": "1.9",
+        "name": "Polly",
+        "officeAssetId": "WA104381060",
+        "permissions": [
+          "Identity",
+          "MessageTeamMembers"
+        ],
+        "privacyUrl": "https://www.polly.ai/privacy",
+        "screenshotUrls": [
+          "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/1542629c-01b3-4a6d-8f76-1938b779e48d/1.png?v=2.0.3",
+          "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/1542629c-01b3-4a6d-8f76-1938b779e48d/2.png?v=2.0.3",
+          "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/1542629c-01b3-4a6d-8f76-1938b779e48d/3.png?v=2.0.3"
+        ],
+        "securityComplianceInfo": {
+          "mcasId": "35669",
+          "status": "attested"
         },
-        {
-          "contentUrl": "https://www.polly.ai/help/microsoft-teams",
-          "entityId": "b7a6c663-f0c2-43cf-b2a1-d0992340b519",
-          "name": "Help",
-          "scopes": [
-            "personal"
-          ],
-          "websiteUrl": "https://www.polly.ai/help/microsoft-teams"
-        },
-        {
-          "entityId": "conversations",
-          "scopes": [
-            "personal"
-          ]
-        }
-      ],
-      "termsOfUseUrl": "https://www.polly.ai/tos",
-      "validDomains": [
-        "*.polly.ai"
-      ],
-      "version": "2.0.9",
-      "videoUrl": "https://www.youtube.com/watch?v=7PK05mlvKTg",
-      "webApplicationInfo": {
-        "id": "228f3e22-92b5-4c6d-91e8-9dcc1757ad36",
-        "resource": "api://teams.polly.ai/228f3e22-92b5-4c6d-91e8-9dcc1757ad36"
-      }
-    },
-    {
-  "accentColor": "#008272",
-  "bots": [
-    {
-      "commandLists": [
-        {
-          "commands": [
-            {
-              "description": "Example: What color do you like? Red, Green",
-              "title": "Your question? Option1, Option2"
-            },
-            {
-              "description": "Get quick answers and advanced tips",
-              "title": "Help"
-            }
-          ],
-          "scopes": [
-            "team"
-          ]
-        }
-      ],
-      "id": "0af95b67-5890-4306-9c1c-a8591cead09e",
-      "scopes": [
-        "team"
-      ]
-    }
-  ],
-  "categories": [
-    "Productivity",
-    "Utilities",
-    "Microsoft"
-  ],
-  "connectors": [
-    {
-      "connectorId": "e68a6156-c7ca-42c6-b2e2-134ba4b7b887",
-      "scopes": [
-        "team"
-      ]
-    }
-  ],
-  "developerName": "Microsoft Corporation",
-  "developerUrl": "https://support.office.com/forms",
-  "disabledScopes": [
-    "PrivateChannel"
-  ],
-  "galleryTabs": [
-    {
-      "canUpdateConfiguration": false,
-      "configurationUrl": "https://forms.office.com/pages/teamsconfigpage.aspx?lang={locale}&tid={tid}&groupId={groupId}&upn={upn}&teamsTheme={theme}",
-      "context": [
-        "channelTab",
-        "meetingChatTab",
-        "meetingDetailsTab",
-        "meetingSidePanel"
-      ],
-      "scopes": [
-        "groupchat",
-        "team"
-      ]
-    }
-  ],
-  "id": "81fef3a6-72aa-4648-a763-de824aeafb7d",
-  "inputExtensions": [
-    {
-      "botId": "0af95b67-5890-4306-9c1c-a8591cead09e",
-      "commands": [
-        {
-          "context": [
-            "compose",
-            "message"
-          ],
-          "description": "Collect real-time data with Forms poll",
-          "fetchTask": true,
-          "id": "collectFormData",
-          "initialRun": false,
-          "parameters": [
-            {
-              "description": "",
-              "name": "name",
-              "title": "title"
-            }
-          ],
-          "taskInfo": {
-            "height": "600",
-            "width": "600"
+        "shortDescription": "Ask your team questions with Polly and get instant answers in Microsoft Teams",
+        "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/1542629c-01b3-4a6d-8f76-1938b779e48d_smallImage.png?v=2.0.3",
+        "staticTabs": [
+          {
+            "contentUrl": "https://teams.polly.ai/msteams/content/personal/dashboard?theme={theme}",
+            "entityId": "3972bda4-858c-43de-b4a4-10d84087c723",
+            "name": "Dashboard",
+            "scopes": [
+              "personal"
+            ]
           },
-          "title": "Create a new poll",
-          "type": "action"
+          {
+            "contentUrl": "https://www.polly.ai/help/microsoft-teams",
+            "entityId": "b7a6c663-f0c2-43cf-b2a1-d0992340b519",
+            "name": "Help",
+            "scopes": [
+              "personal"
+            ],
+            "websiteUrl": "https://www.polly.ai/help/microsoft-teams"
+          },
+          {
+            "entityId": "conversations",
+            "scopes": [
+              "personal"
+            ]
+          }
+        ],
+        "termsOfUseUrl": "https://www.polly.ai/tos",
+        "validDomains": [
+          "*.polly.ai"
+        ],
+        "version": "2.0.9",
+        "videoUrl": "https://www.youtube.com/watch?v=7PK05mlvKTg",
+        "webApplicationInfo": {
+          "id": "228f3e22-92b5-4c6d-91e8-9dcc1757ad36",
+          "resource": "api://teams.polly.ai/228f3e22-92b5-4c6d-91e8-9dcc1757ad36"
         }
-      ],
-      "scopes": [
-        "team",
-        "personal"
-      ]
-    }
-  ],
-  "isFullTrust": true,
-  "isTeamsOwned": true,
-  "isTenantConfigurable": true,
-  "languageTag": "en",
-  "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/forms_largeimage.png?v=1.0.4",
-  "longDescription": "Easily create surveys, quizzes and polls.",
-  "manifestVersion": "1.8",
-  "meetingExtensionDefinition": {
-    "isAnonymousAccessAllowed": true
-  },
-  "name": "Forms",
-  "permissions": [
-    "Identity",
-    "MessageTeamMembers"
-  ],
-  "privacyUrl": "https://www.microsoft.com/privacy",
-  "publisherType": "SecondParty",
-  "restrictedTenantTypes": [
-    "Freemium"
-  ],
-  "shortDescription": "Easily create surveys, quizzes and polls.",
-  "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/forms_smallimage.png?v=1.0.4",
-  "supportedLanguages": [
-    "en",
-    "ar",
-    "bg",
-    "cs",
-    "da",
-    "de",
-    "el",
-    "en-gb",
-    "es-mx",
-    "es",
-    "et",
-    "fi",
-    "fr",
-    "hr",
-    "hu",
-    "it",
-    "ja",
-    "ko",
-    "lt",
-    "lv",
-    "nl",
-    "pl",
-    "pt-br",
-    "pt-pt",
-    "ro",
-    "ru",
-    "sk",
-    "sl",
-    "sr-latn",
-    "sv",
-    "th",
-    "tr",
-    "uk",
-    "vi",
-    "zh-cn",
-    "zh-tw"
-  ],
-  "termsOfUseUrl": "https://www.microsoft.com/servicesagreement",
-  "validDomains": [
-    "forms.office-int.com",
-    "forms.officeppe.com",
-    "forms.office.com",
-    "login.windows-ppe.net",
-    "login.microsoftonline.com"
-  ],
-  "version": "1.1.1",
-  "webApplicationInfo": {
-    "id": "c9a559d2-7aab-4f13-a6ed-e7e9c52aec87",
-    "resource": "https://forms.office.com"
-  }
-}
+      },
+      {
+        "manifestVersion": "1.8",
+        "version": "1.2.3",
+        "name": "Asana",
+        "shortDescription": "Turn conversations into action items in Asana to keep work on track",
+        "longDescription": "With Asana’s work management",
+        "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/f0e33e18-08fc-4511-a2a7-c6bdff367263_smallImage.png?v=1.2.3",
+        "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/f0e33e18-08fc-4511-a2a7-c6bdff367263_largeImage.png?v=1.2.3",
+        "accentColor": "#FFFFFF",
+        "categories": [
+          "Communication",
+          "Productivity",
+          "WorkflowAndBusinessManagement"
+        ],
+        "developerName": "Asana",
+        "developerUrl": "https://asana.com/?noredirect&utm_source=asana_inproduct&utm_medium=organic_inproduct&utm_campaign=msft_teams_launch",
+        "privacyUrl": "https://asana.com/terms#privacy-policy",
+        "termsOfUseUrl": "https://asana.com/terms#terms-of-service",
+        "validDomains": [
+          "teams.integrations.asana.plus",
+          "*.asana.plus",
+          "*.asana.com"
+        ],
+        "bots": [
+          {
+            "id": "7a79fac7-2b8a-4bef-9595-a7c886e7821b",
+            "scopes": [
+              "personal",
+              "team"
+            ],
+            "commandLists": [
+              {
+                "scopes": [
+                  "personal"
+                ],
+                "commands": [
+                  {
+                    "title": "create task",
+                    "description": "Create a new Asana task"
+                  },
+                  {
+                    "title": "link project",
+                    "description": "Get notified about updates to a project"
+                  },
+                  {
+                    "title": "notification settings",
+                    "description": "Adjust notification settings for this channel"
+                  },
+                  {
+                    "title": "help",
+                    "description": "View a list of possible commands"
+                  }
+                ]
+              }
+            ],
+            "isNotificationOnly": false
+          }
+        ],
+        "galleryTabs": [
+          {
+            "canUpdateConfiguration": true,
+            "configurationUrl": "https://teams.integrations.asana.plus/teamstab/configure?locale={locale}",
+            "scopes": [
+              "team",
+              "groupChat"
+            ],
+            "context": [
+              "channelTab",
+              "meetingChatTab",
+              "meetingSidePanel"
+            ]
+          }
+        ],
+        "inputExtensions": [
+          {
+            "botId": "7a79fac7-2b8a-4bef-9595-a7c886e7821b",
+            "canUpdateConfiguration": false,
+            "scopes": [
+              "team",
+              "personal"
+            ],
+            "commands": [
+              {
+                "id": "tasksSearchQuery",
+                "type": "query",
+                "context": [
+                  "commandBox",
+                  "compose"
+                ],
+                "initialRun": true,
+                "fetchTask": false,
+                "parameters": [
+                  {
+                    "name": "searchQuery",
+                    "inputType": "text",
+                    "title": "Search Query",
+                    "description": "Search tasks in Asana"
+                  }
+                ],
+                "title": "Tasks",
+                "description": "Search Asana tasks"
+              },
+              {
+                "id": "projectsSearchQuery",
+                "type": "query",
+                "context": [
+                  "commandBox",
+                  "compose"
+                ],
+                "initialRun": true,
+                "fetchTask": false,
+                "parameters": [
+                  {
+                    "name": "searchQuery",
+                    "inputType": "text",
+                    "title": "Search Query",
+                    "description": "Search projects in Asana"
+                  }
+                ],
+                "title": "Projects",
+                "description": "Search Asana projects"
+              },
+              {
+                "id": "portfoliosSearchQuery",
+                "type": "query",
+                "context": [
+                  "commandBox",
+                  "compose"
+                ],
+                "initialRun": true,
+                "fetchTask": false,
+                "parameters": [
+                  {
+                    "name": "searchQuery",
+                    "inputType": "text",
+                    "title": "Search Query",
+                    "description": "Search portfolios in Asana"
+                  }
+                ],
+                "title": "Portfolios",
+                "description": "Search Asana portfolios"
+              },
+              {
+                "id": "createTask",
+                "type": "action",
+                "context": [
+                  "compose",
+                  "message",
+                  "commandBox"
+                ],
+                "initialRun": false,
+                "fetchTask": true,
+                "title": "Create task",
+                "description": "Create a new Asana task"
+              },
+              {
+                "id": "addMessageToTask",
+                "type": "action",
+                "context": [
+                  "message"
+                ],
+                "initialRun": false,
+                "fetchTask": true,
+                "title": "Add message to task",
+                "description": "Add message to Asana Task"
+              },
+              {
+                "id": "linkProject",
+                "type": "action",
+                "context": [
+                  "compose",
+                  "commandBox"
+                ],
+                "initialRun": false,
+                "fetchTask": true,
+                "title": "Link project",
+                "description": "Get notified about updates to a project"
+              },
+              {
+                "id": "notificationSettings",
+                "type": "action",
+                "context": [
+                  "compose",
+                  "commandBox"
+                ],
+                "initialRun": false,
+                "fetchTask": true,
+                "title": "Notification settings",
+                "description": "Adjust notification settings for this channel"
+              }
+            ],
+            "messageHandlers": [
+              {
+                "type": "link",
+                "value": {
+                  "domains": [
+                    "*.asana.com"
+                  ]
+                }
+              }
+            ],
+            "fetchCommands": false
+          }
+        ],
+        "securityComplianceInfo": {
+          "status": "unattested",
+          "mcasId": "10417"
+        },
+        "industries": [
+          "Other"
+        ],
+        "id": "f0e33e18-08fc-4511-a2a7-c6bdff367263",
+        "permissions": [
+          "Identity",
+          "MessageTeamMembers"
+        ]
+      }
     ]
   }
 }
