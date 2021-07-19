@@ -170,7 +170,177 @@
         "id": "228f3e22-92b5-4c6d-91e8-9dcc1757ad36",
         "resource": "api://teams.polly.ai/228f3e22-92b5-4c6d-91e8-9dcc1757ad36"
       }
+    },
+    {
+  "accentColor": "#008272",
+  "bots": [
+    {
+      "commandLists": [
+        {
+          "commands": [
+            {
+              "description": "Example: What color do you like? Red, Green",
+              "title": "Your question? Option1, Option2"
+            },
+            {
+              "description": "Get quick answers and advanced tips",
+              "title": "Help"
+            }
+          ],
+          "scopes": [
+            "team"
+          ]
+        }
+      ],
+      "id": "0af95b67-5890-4306-9c1c-a8591cead09e",
+      "scopes": [
+        "team"
+      ]
     }
+  ],
+  "categories": [
+    "Productivity",
+    "Utilities",
+    "Microsoft"
+  ],
+  "connectors": [
+    {
+      "connectorId": "e68a6156-c7ca-42c6-b2e2-134ba4b7b887",
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "developerName": "Microsoft Corporation",
+  "developerUrl": "https://support.office.com/forms",
+  "disabledScopes": [
+    "PrivateChannel"
+  ],
+  "galleryTabs": [
+    {
+      "canUpdateConfiguration": false,
+      "configurationUrl": "https://forms.office.com/pages/teamsconfigpage.aspx?lang={locale}&tid={tid}&groupId={groupId}&upn={upn}&teamsTheme={theme}",
+      "context": [
+        "channelTab",
+        "meetingChatTab",
+        "meetingDetailsTab",
+        "meetingSidePanel"
+      ],
+      "scopes": [
+        "groupchat",
+        "team"
+      ]
+    }
+  ],
+  "id": "81fef3a6-72aa-4648-a763-de824aeafb7d",
+  "inputExtensions": [
+    {
+      "botId": "0af95b67-5890-4306-9c1c-a8591cead09e",
+      "commands": [
+        {
+          "context": [
+            "compose",
+            "message"
+          ],
+          "description": "Collect real-time data with Forms poll",
+          "fetchTask": true,
+          "id": "collectFormData",
+          "initialRun": false,
+          "parameters": [
+            {
+              "description": "",
+              "name": "name",
+              "title": "title"
+            }
+          ],
+          "taskInfo": {
+            "height": "600",
+            "width": "600"
+          },
+          "title": "Create a new poll",
+          "type": "action"
+        }
+      ],
+      "scopes": [
+        "team",
+        "personal"
+      ]
+    }
+  ],
+  "isFullTrust": true,
+  "isTeamsOwned": true,
+  "isTenantConfigurable": true,
+  "languageTag": "en",
+  "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/forms_largeimage.png?v=1.0.4",
+  "longDescription": "Easily create surveys, quizzes and polls.",
+  "manifestVersion": "1.8",
+  "meetingExtensionDefinition": {
+    "isAnonymousAccessAllowed": true
+  },
+  "name": "Forms",
+  "permissions": [
+    "Identity",
+    "MessageTeamMembers"
+  ],
+  "privacyUrl": "https://www.microsoft.com/privacy",
+  "publisherType": "SecondParty",
+  "restrictedTenantTypes": [
+    "Freemium"
+  ],
+  "shortDescription": "Easily create surveys, quizzes and polls.",
+  "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/forms_smallimage.png?v=1.0.4",
+  "supportedLanguages": [
+    "en",
+    "ar",
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en-gb",
+    "es-mx",
+    "es",
+    "et",
+    "fi",
+    "fr",
+    "hr",
+    "hu",
+    "it",
+    "ja",
+    "ko",
+    "lt",
+    "lv",
+    "nl",
+    "pl",
+    "pt-br",
+    "pt-pt",
+    "ro",
+    "ru",
+    "sk",
+    "sl",
+    "sr-latn",
+    "sv",
+    "th",
+    "tr",
+    "uk",
+    "vi",
+    "zh-cn",
+    "zh-tw"
+  ],
+  "termsOfUseUrl": "https://www.microsoft.com/servicesagreement",
+  "validDomains": [
+    "forms.office-int.com",
+    "forms.officeppe.com",
+    "forms.office.com",
+    "login.windows-ppe.net",
+    "login.microsoftonline.com"
+  ],
+  "version": "1.1.1",
+  "webApplicationInfo": {
+    "id": "c9a559d2-7aab-4f13-a6ed-e7e9c52aec87",
+    "resource": "https://forms.office.com"
+  }
+}
     ]
   }
 }
