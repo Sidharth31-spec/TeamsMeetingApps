@@ -173,7 +173,7 @@
       },
       {
         "manifestVersion": "1.8",
-        "version": "1.2.4",
+        "version": "1.2.5",
         "name": "Asana",
         "shortDescription": "Turn conversations into action items in Asana to keep work on track",
         "longDescription": "With Asana’s work management",
@@ -199,8 +199,7 @@
             "id": "7a79fac7-2b8a-4bef-9595-a7c886e7821b",
             "scopes": [
               "personal",
-              "team",
-              "groupChat"
+              "team"
             ],
             "commandLists": [
               {
