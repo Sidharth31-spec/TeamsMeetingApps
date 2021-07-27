@@ -3,7 +3,7 @@
     "appDefinitions": [
         {
         "manifestVersion": "devPreview",
-        "version": "1.0.7",
+        "version": "1.0.8",
         "name": "Q&A",
         "shortDescription": "Questions and answers for structured meetings",
         "longDescription": "The Q&A app is a robust solution for structured scenarios that organizers can customize with just a few clicks. You can add open or moderated Q&A, mark the best answer for a question, filter responses, enable replies, and more. This Q&A experience is powered by Microsoft Yammer and customized for Microsoft Teams.",
@@ -11,6 +11,7 @@
         "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/4f59d233-c6e9-4a42-8581-551cae50c718_largeImage.png",
         "accentColor": "#BFE3FF",
         "screenshotUrls": [],
+        "defaultInstallScope": "Personal",
         "categories": [],
         "developerName": "Microsoft Corporation",
         "developerUrl": "https://www.yammer.com",
