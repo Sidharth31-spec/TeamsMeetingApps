@@ -1,34 +1,31 @@
 {
   "value": {
     "appDefinitions": [
-        {
-        "manifestVersion": "devPreview",
-        "version": "1.0.9",
-        "name": "Q&A",
-        "shortDescription": "Questions and answers for structured meetings",
-        "longDescription": "The Q&A app is a robust solution for structured scenarios that organizers can customize with just a few clicks. You can add open or moderated Q&A, mark the best answer for a question, filter responses, enable replies, and more. This Q&A experience is powered by Microsoft Yammer and customized for Microsoft Teams.",
-        "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/4f59d233-c6e9-4a42-8581-551cae50c718_smallImage.png",
-        "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/4f59d233-c6e9-4a42-8581-551cae50c718_largeImage.png",
-        "accentColor": "#BFE3FF",
-        "screenshotUrls": [],
-        "defaultInstallScope": "Personal",
-        "categories": [],
+      {
+        "manifestVersion": "1.10",
+        "version": "1.1.0",
+        "categories": [
+          "Microsoft"
+        ],
         "developerName": "Microsoft Corporation",
-        "developerUrl": "https://www.yammer.com",
+        "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2151467",
         "privacyUrl": "https://go.microsoft.com/fwlink/p/?linkid=857875",
-        "termsOfUseUrl": "https://aka.ms/yammer-teams-tos",
+        "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2151466",
         "validDomains": [
-          "web.yammer.com",
           "teams.yammer.com",
+          "web.yammer.com",
           "www.yammer.com"
+        ],
+        "permissions": [
+          "Identity"
         ],
         "bots": [
           {
             "id": "af88f619-46c8-4cd3-b94c-5bf0f59e5fa6",
             "scopes": [
-              "personal",
-              "groupChat"
+              "GroupChat"
             ],
+            "commandLists": [],
             "isNotificationOnly": true,
             "supportsCalling": false,
             "supportsVideo": false,
@@ -37,34 +34,37 @@
         ],
         "galleryTabs": [
           {
-            "canUpdateConfiguration": false,
+            "context": [
+              "MeetingChatTab",
+              "MeetingDetailsTab",
+              "MeetingSidePanel"
+            ],
             "configurationUrl": "https://web.yammer.com/teamsmeeting/configure?client=teams",
             "scopes": [
-              "team",
-              "groupChat"
-            ],
-            "context": [
-              "meetingChatTab",
-              "meetingDetailsTab",
-              "meetingSidePanel"
+              "GroupChat"
             ]
           }
         ],
-        "isFullScreen": false,
-        "applicableLicenseCategories": [],
+        "isFullTrust": true,
         "webApplicationInfo": {
           "id": "00000005-0000-0ff1-ce00-000000000000",
           "resource": "https://web.yammer.com/teamsmeeting"
         },
-        "isFullTrust": true,
+        "showLoadingIndicator": true,
+        "industries": [
+          "Other"
+        ],
         "meetingExtensionDefinition": {
           "isAnonymousAccessAllowed": true,
           "supportsStreaming": false
         },
-        "showLoadingIndicator": true,
-        "restrictedTenantTypes": [],
-        "industries": [],
-        "id": "255da1f8-45c3-44f7-9858-2705793101cb"
+        "shortDescription": "Questions and answers for structured meetings",
+        "longDescription": "The Q&A app is a robust solution for structured scenarios that organizers can customize with just a few clicks. You can add open or moderated Q&A, mark the best answer for a question, filter responses, enable replies, and more. This Q&A experience is powered by Microsoft Yammer and customized for Microsoft Teams.",
+        "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/4f59d233-c6e9-4a42-8581-551cae50c718_largeImage.png?v=1.0.0",
+        "accentColor": "#BFE3FF",
+        "id": "15e4734f-39d1-4e4e-8a04-867adaa7e609",
+        "name": "Q&A",
+        "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/4f59d233-c6e9-4a42-8581-551cae50c718_smallImage.png?v=1.0.0"
       }
     ]
   }
