@@ -43,11 +43,6 @@
             "scopes": [
               "groupChat",
 	      "team"    
-            ],
-            "context": [
-              "meetingChatTab",
-              "meetingDetailsTab",
-              "meetingSidePanel"
             ]
           }
         ],
