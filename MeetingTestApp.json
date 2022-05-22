@@ -39,7 +39,7 @@
             "scopes": [
               "groupchat",
 	      "team",
-	      "personal
+	      "personal"
             ],
             "commandLists": [],
             "isNotificationOnly": true,
