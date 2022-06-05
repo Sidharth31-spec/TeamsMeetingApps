@@ -62,7 +62,7 @@
 					  "type":"Delegated"
 					},
 				      	{
-					  "name":"ChatMember.Read.Chat",
+					  "name":"OnlineMeeting.ReadBasic.Chat",
 					  "type":"Application"
 					}
 			      ]
