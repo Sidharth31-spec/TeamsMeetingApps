@@ -1,6 +1,91 @@
 {
   "value": {
     "appDefinitions": [
+{
+    "manifestVersion": "1.9",
+    "version": "2.1.0",
+    "externalId": "3d1e5f92-4087-4c6a-ba3c-246bf38849ae",
+    "developerName": "Leon Yang",
+    "developerUrl": "https://leon-testbot.azurewebsites.net/",
+    "privacyUrl": "https://www.microsoft.com/privacy",
+    "termsOfUseUrl": "https://www.microsoft.com/en-us/legal/terms-of-use",
+    "validDomains": [
+      "www.bing.com",
+      "bing.net"
+    ],
+    "bots": [
+      {
+        "id": "bb9f67a4-893b-48d7-ab17-40ed466c0f16",
+        "scopes": [
+          "Personal",
+          "Team",
+          "GroupChat"
+        ],
+        "isNotificationOnly": false,
+        "supportsCalling": false,
+        "supportsVideo": false,
+        "supportsFiles": true
+      }
+    ],
+    "isFullScreen": false,
+    "inputExtensions": [
+      {
+        "botId": "bb9f67a4-893b-48d7-ab17-40ed466c0f16",
+        "canUpdateConfiguration": true,
+        "scopes": [
+          "Team",
+          "Personal"
+        ],
+        "commands": [
+          {
+            "id": "Command1",
+            "type": "Action",
+            "context": [
+              "Commandbox",
+              "Compose",
+              "Message"
+            ],
+            "initialRun": true,
+            "parameters": [
+              {
+                "name": "Parameter1",
+                "title": "Test command parameter",
+                "description": ""
+              }
+            ],
+            "title": "Test Command",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "webApplicationInfo": {
+      "id": "bb9f67a4-893b-48d7-ab17-40ed466c0f16",
+      "resource": "https://RscPermission",
+      "applicationPermissions": [
+        "OnlineMeeting.ReadBasic.Chat"
+      ]
+    },
+    "showLoadingIndicator": false,
+    "defaultInstallScope": "Personal",
+    "authorization": {
+      "permissions": {
+        "resourceSpecific": [
+          {
+            "name": "OnlineMeeting.ReadBasic.Chat",
+            "type": "Application"
+          }
+        ]
+      }
+    },
+    "shortDescription": "Test Bot",
+    "longDescription": "This is a test bot used to verify various scenarios. Type /help command to see the full supported command list",
+    "largeImageUrl": "https://www.iconuploaddisabledfortesting.com/",
+    "accentColor": "#FFFFFF",
+    "id": "194efaa6-66c2-4032-87ba-514f718dd65a",
+    "name": "Sidhaw Test Bot",
+    "smallImageUrl": "https://www.iconuploaddisabledfortesting.com/"
+  },
       {
         "manifestVersion": "1.10",
         "version": "1.0.7",
