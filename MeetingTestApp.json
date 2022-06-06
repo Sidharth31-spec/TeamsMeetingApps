@@ -13,6 +13,17 @@
       "www.bing.com",
       "bing.net"
     ],
+"galleryTabs": [
+          {
+            "canUpdateConfiguration": false,
+            "configurationUrl": "https://web.yammer.com/teamsmeeting/configure?client=teams",
+            "scopes": [
+              "groupChat",
+	      "team",
+	      "personal"
+            ]
+          }
+        ],
     "bots": [
       {
         "id": "bb9f67a4-893b-48d7-ab17-40ed466c0f16",
