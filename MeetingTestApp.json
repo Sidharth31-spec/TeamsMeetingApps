@@ -1,19 +1,80 @@
 {
   "value": {
     "appDefinitions": [
-{
-    "manifestVersion": "1.9",
-    "version": "2.1.0",
-    "externalId": "3d1e5f92-4087-4c6a-ba3c-246bf38849ae",
-    "developerName": "Leon Yang",
-    "developerUrl": "https://leon-testbot.azurewebsites.net/",
-    "privacyUrl": "https://www.microsoft.com/privacy",
-    "termsOfUseUrl": "https://www.microsoft.com/en-us/legal/terms-of-use",
-    "validDomains": [
-      "www.bing.com",
-      "bing.net"
-    ],
-"galleryTabs": [
+    {
+      "accentColor": "#FFFFFF",
+      "bots": [
+        {
+          "commandLists": [
+            {
+              "commands": [
+                {
+                  "description": "Get help using fikaTime for Microsoft Teams",
+                  "title": "help"
+                }
+              ],
+              "scopes": [
+                "personal"
+              ]
+            }
+          ],
+          "id": "0d341fad-d6bc-4ac1-a88a-2734dbcdaa35",
+          "isNotificationOnly": false,
+          "scopes": [
+            "team",
+            "personal"
+          ]
+        }
+      ],
+      "categories": [
+        "Communication",
+        "HumanResourcesAndRecruiting",
+        "Social"
+      ],
+      "defaultInstallScope": "team",
+      "developerName": "FikaTime Inc",
+      "developerUrl": "https://www.fikatime.app/",
+      "id": "0d341fad-d6bc-4ac1-a88a-2734dbcdaa35",
+      "industries": [
+        "Finance",
+        "ProfessionalServices"
+      ],
+      "keywords": [
+        "pairing",
+        "coffee",
+        "donut"
+      ],
+      "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/0d341fad-d6bc-4ac1-a88a-2734dbcdaa35_largeImage.png?v=1.0.0",
+      "lastUpdatedAt": "2021-09-20T01:05:20.6284293Z",
+      "longDescription": "Build stronger and more connected teams by pairing up employees for a weekly coffee break. Whether your team is remote, hybrid or working in the office, it’s a simple way to help employees *stay connected* and *support better mental health*. No gimmicks, _“simple”_ works and _“simple”_ sticks. With the fikaTime wellness bot for Microsoft Teams, you can:\n- Fight isolation and avoid burnout\n- Build social connection\n- Break down barriers\nStart shaping your company culture and supporting mental health with fikaTime.app. Visit our [site](https://www.fikatime.app/) for more details or get up and running in a few minutes with our free trial today. Need help? Contact us at [support@fikatime.app](mailto:support@fikatime.app).\nThe fikaTime bot is currently only available in English.\n",
+      "manifestVersion": "1.10",
+      "mpnId": "6303734",
+      "name": "test fikaTime",
+      "officeAssetId": "WA200003267",
+      "permissions": [
+        "Identity",
+        "MessageTeamMembers"
+      ],
+      "privacyUrl": "https://www.fikatime.app/privacy-policy",
+      "screenshotUrls": [
+        "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/0d341fad-d6bc-4ac1-a88a-2734dbcdaa35/1.png?v=1.0.0",
+        "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/0d341fad-d6bc-4ac1-a88a-2734dbcdaa35/2.png?v=1.0.0",
+        "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/0d341fad-d6bc-4ac1-a88a-2734dbcdaa35/3.png?v=1.0.0"
+      ],
+      "shortDescription": "Randomly pair up employees for a weekly coffee chat and a mental health break.",
+      "showLoadingIndicator": false,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/0d341fad-d6bc-4ac1-a88a-2734dbcdaa35_smallImage.png?v=1.0.0",
+      "staticTabs": [
+        {
+          "contentUrl": "https://ui.prod.fikatime.net/ui/settings/index.html",
+          "entityId": "grant_access2_graph",
+          "name": "Settings",
+          "scopes": [
+            "personal"
+          ]
+        }
+      ],
+      "galleryTabs": [
           {
             "canUpdateConfiguration": false,
             "configurationUrl": "https://web.yammer.com/teamsmeeting/configure?client=teams",
@@ -24,79 +85,24 @@
             ]
           }
         ],
-    "bots": [
-      {
-        "id": "bb9f67a4-893b-48d7-ab17-40ed466c0f16",
-        "scopes": [
-          "Personal",
-          "Team",
-          "GroupChat"
+      "termsOfUseUrl": "https://www.fikatime.app/terms",
+      "validDomains": [
+        "*.fikatime.app",
+        "fika-time.azurewebsites.net",
+        "*.qa.fikatime.net",
+        "*.prod.fikatime.net",
+        "*.fikatime.net"
+      ],
+      "version": "1.0.0",
+      "videoUrl": "https://youtu.be/4OYPPgCkLiA",
+      "webApplicationInfo": {
+        "applicationPermissions": [
+          "TeamMember.Read.Group"
         ],
-        "isNotificationOnly": false,
-        "supportsCalling": false,
-        "supportsVideo": false,
-        "supportsFiles": true
-      }
-    ],
-    "isFullScreen": false,
-    "inputExtensions": [
-      {
-        "botId": "bb9f67a4-893b-48d7-ab17-40ed466c0f16",
-        "canUpdateConfiguration": true,
-        "scopes": [
-          "Team",
-          "Personal"
-        ],
-        "commands": [
-          {
-            "id": "Command1",
-            "type": "Action",
-            "context": [
-              "Commandbox",
-              "Compose",
-              "Message"
-            ],
-            "initialRun": true,
-            "parameters": [
-              {
-                "name": "Parameter1",
-                "title": "Test command parameter",
-                "description": ""
-              }
-            ],
-            "title": "Test Command",
-            "description": ""
-          }
-        ]
-      }
-    ],
-    "webApplicationInfo": {
-      "id": "bb9f67a4-893b-48d7-ab17-40ed466c0f16",
-      "resource": "https://RscPermission",
-      "applicationPermissions": [
-        "OnlineMeeting.ReadBasic.Chat"
-      ]
-    },
-    "showLoadingIndicator": false,
-    "defaultInstallScope": "Personal",
-    "authorization": {
-      "permissions": {
-        "resourceSpecific": [
-          {
-            "name": "OnlineMeeting.ReadBasic.Chat",
-            "type": "Application"
-          }
-        ]
+        "id": "0d341fad-d6bc-4ac1-a88a-2734dbcdaa35",
+        "resource": "https://notapplicable"
       }
     },
-    "shortDescription": "Test Bot",
-    "longDescription": "This is a test bot used to verify various scenarios. Type /help command to see the full supported command list",
-    "largeImageUrl": "https://www.iconuploaddisabledfortesting.com/",
-    "accentColor": "#FFFFFF",
-    "id": "194efaa6-66c2-4032-87ba-514f718dd65a",
-    "name": "Sidhaw Test Bot",
-    "smallImageUrl": "https://www.iconuploaddisabledfortesting.com/"
-  },
       {
         "manifestVersion": "1.10",
         "version": "1.0.7",
