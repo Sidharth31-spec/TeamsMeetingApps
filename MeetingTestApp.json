@@ -93,11 +93,12 @@
         "*.prod.fikatime.net",
         "*.fikatime.net"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "videoUrl": "https://youtu.be/4OYPPgCkLiA",
       "webApplicationInfo": {
         "applicationPermissions": [
-          "TeamMember.Read.Group"
+          "TeamMember.Read.Group",
+	  "ChatMember.Read.Chat"
         ],
         "id": "0d341fad-d6bc-4ac1-a88a-2734dbcdaa35",
         "resource": "https://notapplicable"
