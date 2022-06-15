@@ -14,8 +14,7 @@
                 }
               ],
               "scopes": [
-                "personal",
-		 "groupchat"
+                "personal"
               ]
             }
           ],
@@ -94,7 +93,7 @@
         "*.prod.fikatime.net",
         "*.fikatime.net"
       ],
-      "version": "1.0.2",
+      "version": "1.0.0",
       "videoUrl": "https://youtu.be/4OYPPgCkLiA",
       "webApplicationInfo": {
         "applicationPermissions": [
