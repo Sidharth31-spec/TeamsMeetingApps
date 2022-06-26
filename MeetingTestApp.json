@@ -162,6 +162,10 @@
 					{
 					  "name":"OnlineMeeting.ReadBasic.Chat",
 					  "type":"Delegated"
+					},
+				       {
+					  "name":"ChannelMeeting.ReadBasic.Group",
+					  "type":"Delegated"
 					}
 			      ]
 		      }
