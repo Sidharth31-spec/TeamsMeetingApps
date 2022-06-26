@@ -106,7 +106,7 @@
     },
       {
         "manifestVersion": "1.10",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "name": "TestQ&A",
         "shortDescription": "Questions and answers for structured meetings​",
         "longDescription": "The Q&A app is a robust solution for structured scenarios that organizers can customize with just a few clicks. You can add open or moderated Q&A, mark the best answer for a question, filter responses, enable replies, and more. This Q&A experience is powered by Microsoft Yammer and customized for Microsoft Teams.​​",
@@ -134,19 +134,6 @@
 	      "team",
 	      "personal"
             ]
-          }
-        ],
-	"bots": [
-          {
-            "id": "af88f619-46c8-4cd3-b94c-5bf0f59e5fa6",
-            "scopes": [
-	      "personal"
-            ],
-            "commandLists": [],
-            "isNotificationOnly": true,
-            "supportsCalling": false,
-            "supportsVideo": false,
-            "supportsFiles": true
           }
         ],
         "isTeamsOwned": true,
