@@ -2,6 +2,70 @@
   "value": {
     "appDefinitions": [
       {
+        "manifestVersion": "devPreview",
+        "id": "25407c29-8335-48a3-bfdb-4384580a1857",
+        "version": "1.1.4",
+        "name": "Packing List",
+        "accentColor": "#eff9fc",
+        "categories": [
+          "Lifestyle",
+          "Microsoft"
+        ],
+        "developerName": "Microsoft Corporation",
+        "developerUrl": "https://www.microsoft.com",
+        "isAppIOSAcquirable": true,
+        "isBlockable": true,
+        "isCoreApp": false,
+        "isFullScreen": false,
+        "isFullTrust": false,
+        "isPinnable": true,
+        "isPreinstallable": true,
+        "isTeamsOwned": true,
+        "isTenantConfigurable": true,
+        "languageTag": "en-us",
+        "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/25407c29-8335-48a3-bfdb-4384580a1857_largeImage.png?v=1.1.4",
+        "longDescription": "Test app to test static tabs flow",
+        "privacyUrl": "https://packing-list.azurewebsites.net/privacy.html",
+        "publisherType": "FirstParty",
+        "shortDescription": "Packing list app",
+        "showLoadingIndicator": true,
+        "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/25407c29-8335-48a3-bfdb-4384580a1857_smallImage.png?v=1.1.4",
+        "staticTabs": [
+          {
+            "contentUrl": "https://packing-list.azurewebsites.net",
+            "context": [
+              "channelTab",
+              "personalTab",
+              "meetingSidePanel",
+              "meetingChatTab",
+              "meetingStage",
+              "meetingDetailsTab",
+              "privateChatTab"
+            ],
+            "entityId": "54d496e0-2b51-4210-bf7d-21d0b5821d9c",
+            "name": "Packing List",
+            "scopes": [
+              "personal",
+              "team",
+              "groupChat"
+            ],
+            "websiteUrl": "https://packing-list.azurewebsites.net"
+          }
+        ],
+        "termsOfUseUrl": "https://packing-list.azurewebsites.net/tou.html",
+        "thirdPartyNoticesUrl": "",
+        "validDomains": [
+          "packing-list.azurewebsites.net"
+        ],
+        "videoUrl": "",
+        "webApplicationInfo": {
+          "id": "25407c29-8335-48a3-bfdb-4384580a1857"
+        },
+        "supportedLanguages": [
+          "en-us"
+        ]
+      },
+      {
         "manifestVersion": "1.12",
         "id": "0e3bedea-4720-48b5-9e13-5a1ce1387d45",
         "version": "1.1.6",
