@@ -2,6 +2,228 @@
   "value": {
     "appDefinitions": [
       {
+        "manifestVersion": "m365devpreview",
+        "id": "2c19df50-1c3c-11ea-9327-cd28e4b6f7ba",
+        "version": "0.1.1",
+        "name": "Test Tab Ordering",
+        "accentColor": "#ff6a00",
+        "authorization": {
+          "permissions": {
+            "orgWide": [],
+            "resourceSpecific": [
+              {
+                "name": "OnlineMeeting.ReadBasic.Chat",
+                "type": "Delegated"
+              },
+              {
+                "name": "MeetingStage.Write.Chat",
+                "type": "Delegated"
+              },
+              {
+                "name": "OnlineMeetingParticipant.Read.Chat",
+                "type": "Delegated"
+              },
+              {
+                "name": "OnlineMeetingParticipant.ToggleIncomingAudio.Chat",
+                "type": "Delegated"
+              },
+              {
+                "name": "ChannelMeetingStage.Write.Group",
+                "type": "Delegated"
+              },
+              {
+                "name": "ChannelMeeting.ReadBasic.Group",
+                "type": "Delegated"
+              }
+            ]
+          }
+        },
+        "bots": [
+          {
+            "commandLists": [
+              {
+                "commands": [
+                  {
+                    "description": "hi",
+                    "title": "hello"
+                  }
+                ],
+                "scopes": [
+                  "personal"
+                ]
+              },
+              {
+                "commands": [
+                  {
+                    "description": "hi",
+                    "title": "hello"
+                  }
+                ],
+                "scopes": [
+                  "groupChat"
+                ]
+              },
+              {
+                "commands": [
+                  {
+                    "description": "hi",
+                    "title": "hello"
+                  }
+                ],
+                "scopes": [
+                  "team"
+                ]
+              }
+            ],
+            "id": "4de42b49-cefc-4874-b914-6de8d7c9482b",
+            "isNotificationOnly": true,
+            "scopes": [
+              "personal",
+              "team",
+              "groupChat"
+            ],
+            "supportsCalling": false,
+            "supportsFiles": false,
+            "supportsVideo": false
+          }
+        ],
+        "categories": [
+          "Microsoft",
+          "Education"
+        ],
+        "developerName": "Microsoft Corporation",
+        "developerUrl": "https://teams-todolist.azurewebsites.net",
+        "galleryTabs": [
+          {
+            "canUpdateConfiguration": false,
+            "configurationUrl": "https://teams-test-tab.azurewebsites.net",
+            "context": [
+              "personalTab",
+              "privateChatTab",
+              "channelTab",
+              "meetingChatTab",
+              "meetingDetailsTab",
+              "meetingSidePanel",
+              "meetingStage"
+            ],
+            "scopes": [
+              "team",
+              "groupChat"
+            ]
+          }
+        ],
+        "inputExtensions": [
+          {
+            "botId": "4de42b49-cefc-4874-b914-6de8d7c9482b",
+            "canUpdateConfiguration": true,
+            "commands": [
+              {
+                "context": [
+                  "commandBox",
+                  "compose"
+                ],
+                "description": "Test command to run query",
+                "fetchTask": false,
+                "id": "searchQuery",
+                "initialRun": true,
+                "parameters": [
+                  {
+                    "description": "Test search query",
+                    "inputType": "text",
+                    "name": "searchQuery",
+                    "title": "Search Query",
+                    "value": ""
+                  }
+                ],
+                "title": "Search",
+                "type": "query"
+              }
+            ],
+            "fetchCommands": false,
+            "messageHandlers": [
+              {
+                "type": "link",
+                "value": {
+                  "domains": [
+                    "teams-test-tab.azurewebsites.net"
+                  ],
+                  "supportsAnonymousAccess": false
+                }
+              }
+            ],
+            "scopes": [
+              "team",
+              "groupChat",
+              "personal"
+            ]
+          }
+        ],
+        "isAppIOSAcquirable": true,
+        "isBlockable": true,
+        "isCoreApp": false,
+        "isFullScreen": false,
+        "isFullTrust": false,
+        "isPinnable": false,
+        "isPreinstallable": false,
+        "isTeamsOwned": true,
+        "isTenantConfigurable": true,
+        "languageTag": "en-us",
+        "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/2c19df50-1c3c-11ea-9327-cd28e4b6f7ba_largeImage.png?v=0.1.1",
+        "longDescription": "No really, test them tabs.",
+        "meetingExtensionDefinition": {
+          "scenes": []
+        },
+        "permissions": [
+          "Identity",
+          "MessageTeamMembers"
+        ],
+        "privacyUrl": "https://teams-todolist.azurewebsites.net/privacy",
+        "publisherType": "FirstParty",
+        "shortDescription": "Test tabs.",
+        "showLoadingIndicator": true,
+        "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/2c19df50-1c3c-11ea-9327-cd28e4b6f7ba_smallImage.png?v=0.1.1",
+        "staticTabs": [
+          {
+            "contentUrl": "https://teams-test-tab.azurewebsites.net",
+            "context": [
+              "personalTab",
+              "privateChatTab",
+              "channelTab",
+              "meetingChatTab",
+              "meetingDetailsTab",
+              "meetingSidePanel",
+              "meetingStage"
+            ],
+            "entityId": "test-tab",
+            "name": "Static - Test tab",
+            "scopes": [
+              "personal",
+              "team",
+              "groupChat"
+            ],
+            "websiteUrl": "https://teams-test-tab.azurewebsites.net"
+          },
+          {
+            "entityId": "conversations",
+            "scopes": [
+              "personal"
+            ]
+          }
+        ],
+        "subscriptionOffer": {
+          "offerId": "isvtesttaborder.microsoft_managed_plan"
+        },
+        "termsOfUseUrl": "https://teams-todolist.azurewebsites.net/termsofuse",
+        "thirdPartyNoticesUrl": "",
+        "validDomains": [
+          "teams-test-tab.azurewebsites.net"
+        ],
+        "videoUrl": "",
+        "supportedLanguages": [
+          "en-us"
+        ]
+      },
+      {
         "manifestVersion": "devPreview",
         "id": "25407c29-8335-48a3-bfdb-4384580a1857",
         "version": "1.1.4",
