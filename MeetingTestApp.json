@@ -7,6 +7,15 @@
                 "version": "1.0.9",
                 "name": "Viva Sales",
                 "accentColor": "#FFFFFF",
+                "publishingPolicy": {
+                    "releaseType": "standard",
+                    "restrictions": [
+                         {
+                          "restrictionAction": "flagged",
+                          "restrictionActor": "microsoft",
+                         }
+                    ]
+                },
                 "authorization": {
                     "permissions": {
                         "resourceSpecific": [
