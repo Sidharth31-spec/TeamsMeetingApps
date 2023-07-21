@@ -87,6 +87,9 @@
                     {
                         "botId": "bb7dc610-6d2a-4ad2-8a9f-f56280ced4e4",
                         "canUpdateConfiguration": false,
+                        "supportsConversationalAI": true,
+                        "lLMDescription": "Are you serious",
+                        "type": "apiSpecification",
                         "commands": [
                             {
                                 "context": [
