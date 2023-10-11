@@ -2,6 +2,123 @@
     "value": {
         "appDefinitions": [
             {
+  "manifestVersion": "1.12",
+  "id": "d2c6f111-ffad-42a0-b65e-ee00425598aa",
+  "version": "1.0.15",
+  "name": "Viva Connections",
+  "accentColor": "#5B5FC7",
+  "activities": {
+    "activityTypes": [
+      {
+        "description": "News Published",
+        "templateText": "{notifyTemplateText}",
+        "type": "newsPublished"
+      },
+      {
+        "description": "Page Liked",
+        "templateText": "{notifyTemplateText}",
+        "type": "pageLiked"
+      },
+      {
+        "description": "Page Comment",
+        "templateText": "{notifyTemplateText}",
+        "type": "pageCommented"
+      },
+      {
+        "description": "Page Comment Reply",
+        "templateText": "{notifyTemplateText}",
+        "type": "pageCommentReplied"
+      },
+      {
+        "description": "Page At Mentions",
+        "templateText": "{notifyTemplateText}",
+        "type": "pageAtMentioned"
+      }
+    ]
+  },
+  "categories": [
+    "Microsoft",
+    "Productivity"
+  ],
+  "configurableProperties": [
+    "name",
+    "shortDescription",
+    "longDescription",
+    "smallImageUrl",
+    "largeImageUrl",
+    "accentColor",
+    "developerUrl",
+    "privacyUrl",
+    "termsOfUseUrl"
+  ],
+  "defaultBlockUntilAdminAction": false,
+  "developerName": "Microsoft Corporation",
+  "developerUrl": "https://www.microsoft.com/en-us/microsoft-viva/connections",
+  "devicePermissions": [
+    "Geolocation",
+    "Media"
+  ],
+  "isAppIOSAcquirable": true,
+  "isBlockable": true,
+  "isCoreApp": false,
+  "isFullScreen": true,
+  "isFullTrust": true,
+  "isPinnable": true,
+  "isPreinstallable": true,
+  "isTeamsOwned": true,
+  "isTenantConfigurable": true,
+  "languageTag": "en-us",
+  "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/d2c6f111-ffad-42a0-b65e-ee00425598aa_largeImage.png?v=1.0.15",
+  "longDescription": "Microsoft Viva Connections provides a curated, company-branded modern employee experience that brings together relevant news, conversations, and tools in one convenient dashboard. Users will discover news and stay informed about what's happening across the organization with an individually tailored feed that includes contributions from employees. Plus, they can take actions like checking their shifts, making it fast and easy to stay on top of work activities.",
+  "mobileModules": [
+    {
+      "icons": {
+        "default": "assets://app_icons/NewsInTeams/default/icn_default.svg",
+        "selected": "assets://app_icons/NewsInTeams/default/icn_selected.svg"
+      },
+      "id": "d2c6f111-ffad-42a0-b65e-ee00425598aa",
+      "rnPackageUrl": "codepush://meehub/?deploymentKey=E_LDX5MxMbArEaLxy56ziJDYX0Rdvv_WRuTRE",
+      "targetSdkVersion": "0.1.2018061304",
+      "title": "Viva Connections",
+      "type": "reactNative"
+    }
+  ],
+  "privacyUrl": "https://go.microsoft.com/fwlink/p/?linkid=857875",
+  "publisherDocsUrl": "https://go.microsoft.com/fwlink/?linkid=2172550",
+  "publisherType": "FirstParty",
+  "shortDescription": "Your gateway to a modern employee experience",
+  "showLoadingIndicator": false,
+  "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/d2c6f111-ffad-42a0-b65e-ee00425598aa_smallImage.png?v=1.0.15",
+  "staticTabs": [
+    {
+      "contentUrl": "https://securebroker.sharepointonline.com/_layouts/15/teamsbroker.aspx?spfx=true&theme={theme}&app=vivahome&locale={locale}&dest=https://{teamSiteDomain}/_layouts/15/vivahome.aspx",
+      "entityId": "sharepointportal_d2c6f111-ffad-42a0-b65e-ee00425598aa",
+      "name": "Viva Connections",
+      "scopes": [
+        "personal"
+      ],
+      "searchUrl": "https://{teamSiteDomain}/_layouts/15/search.aspx?q={searchQuery}",
+      "websiteUrl": "https://securebroker.sharepointonline.com/_layouts/15/teamsbroker.aspx?spfx=true&theme={theme}&app=vivahome&locale={locale}&dest=https://{teamSiteDomain}/_layouts/15/vivahome.aspx"
+    }
+  ],
+  "supportedTenantRegions": [
+    "GCC"
+  ],
+  "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2160711",
+  "thirdPartyNoticesUrl": "",
+  "validDomains": [
+    "securebroker.sharepointonline.com"
+  ],
+  "videoUrl": "",
+  "webApplicationInfo": {
+    "id": "3138fe80-4087-4b04-80a6-8866c738028a",
+    "resource": "https://{teamSiteDomain}"
+  },
+  "supportedLanguages": [
+    "en-us"
+  ]
+},
+            {
                 "manifestVersion": "1.12",
                 "id": "c92c289e-ceb4-4755-819d-0d1dffdab6fa",
                 "version": "1.0.9",
