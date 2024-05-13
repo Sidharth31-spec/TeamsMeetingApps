@@ -91,7 +91,7 @@
                 "isPinnable": true,
                 "isPreinstallable": true,
                 "isTeamsOwned": true,
-                "isMochaEnforced": true,
+                "requiresMochaEnforcement": true,
                 "isTenantConfigurable": true,
                 "languageTag": "en-us",
                 "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.0.2",
