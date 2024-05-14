@@ -1,292 +1,267 @@
 {
-    "value":
-    {
-        "appDefinitions":
-        [
-            {
-                "manifestVersion": "1.16",
-                "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-                "version": "1.0.2",
-                "name": "Copilot GCP(Mocha)",
-                "accentColor": "#FFFFFF",
-                "authorization":
-                {
-                    "permissions":
-                    {
-                        "resourceSpecific":
-                        [
-                            {
-                                "name": "TeamsActivity.Send.User",
-                                "type": "Application"
-                            }
-                        ]
-                    }
-                },
-                "bots":
-                [
-                    {
-                        "commandLists":
-                        [
-                            {
-                                "commands":
-                                [
-                                    {
-                                        "description": " ",
-                                        "title": "Highlights from the past 7 days"
-                                    },
-                                    {
-                                        "description": " ",
-                                        "title": "What decisions were made?"
-                                    },
-                                    {
-                                        "description": " ",
-                                        "title": "Search the web for..."
-                                    },
-                                    {
-                                        "description": " ",
-                                        "title": "Summarize the file..."
-                                    }
-                                ],
-                                "scopes":
-                                [
-                                    "groupChat"
-                                ]
-                            }
-                        ],
-                        "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-                        "isNotificationOnly": false,
-                        "scopes":
-                        [
-                            "groupchat"
-                        ],
-                        "supportsCalling": true,
-                        "supportsFiles": false,
-                        "supportsVideo": true
-                    }
+  "value": {
+    "appDefinitions": [
+      {
+        "manifestVersion": "1.16",
+        "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+        "version": "1.0.2",
+        "name": "Teams Copilot",
+        "accentColor": "#FFFFFF",
+        "authorization": {
+          "permissions": {
+            "resourceSpecific": [
+              {
+                "name": "TeamsActivity.Send.User",
+                "type": "Application"
+              }
+            ]
+          }
+        },
+        "bots": [
+          {
+            "commandLists": [
+              {
+                "commands": [
+                  {
+                    "description": " ",
+                    "title": "Highlights from the past 7 days"
+                  },
+                  {
+                    "description": " ",
+                    "title": "What decisions were made?"
+                  },
+                  {
+                    "description": " ",
+                    "title": "Search the web for..."
+                  },
+                  {
+                    "description": " ",
+                    "title": "Summarize the file..."
+                  }
                 ],
-                "categories":
-                [
-                    "Productivity",
-                    "Utilities"
-                ],
-                "developerName": "Microsoft Corporation",
-                "developerUrl": "https://www.microsoft.com",
-                "inputExtensions":
-                [
-                    {
-                        "botId": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-                        "canUpdateConfiguration": true,
-                        "commands":
-                        [],
-                        "fetchCommands": false,
-                        "messageHandlers":
-                        []
-                    }
-                ],
-                "isAppIOSAcquirable": true,
-                "isBlockable": true,
-                "isCoreApp": false,
-                "isFullScreen": false,
-                "isFullTrust": false,
-                "isPinnable": true,
-                "isPreinstallable": true,
-                "isTeamsOwned": true,
-                "requiresMochaEnforcement": true,
-                "isTenantConfigurable": true,
-                "languageTag": "en-us",
-                "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.0.2",
-                "longDescription": "Copilot can answer questions, find files, create agendas, and more in group chats and meetings.",
-                "privacyUrl": "https://tabs.teams.microsoft.com/pre/youtubeLegal",
-                "publisherType": "FirstParty",
-                "shortDescription": "Teams Copilot",
-                "showLoadingIndicator": false,
-                "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.0.2",
-                "termsOfUseUrl": "https://tabs.teams.microsoft.com/pre/youtubeLegal",
-                "webApplicationInfo":
-                {
-                    "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-                    "resource": "api://botid-8e55a7b1-6766-4f0a-8610-ecacfe3d569a"
-                },
-                "supportedLanguages":
-                [
-                    "en-us"
+                "scopes": [
+                  "groupChat"
                 ]
-            },
-            {
-                "manifestVersion": "1.16",
-                "id": "ae31a134-9428-440c-a50d-229e6456fd60",
-                "version": "1.0.2",
-                "name": "Teams Copilot[GCP INT]",
-                "accentColor": "#FFFFFF",
-                "authorization":
-                {
-                    "permissions":
-                    {
-                        "resourceSpecific":
-                        [
-                            {
-                                "name": "TeamsActivity.Send.User",
-                                "type": "Application"
-                            }
-                        ]
-                    }
-                },
-                "bots":
-                [
-                    {
-                        "commandLists":
-                        [
-                            {
-                                "commands":
-                                [
-                                    {
-                                        "description": " ",
-                                        "title": "Highlights from the past 7 days"
-                                    },
-                                    {
-                                        "description": " ",
-                                        "title": "What decisions were made?"
-                                    },
-                                    {
-                                        "description": " ",
-                                        "title": "Search the web for..."
-                                    },
-                                    {
-                                        "description": " ",
-                                        "title": "Summarize the file..."
-                                    }
-                                ],
-                                "scopes":
-                                [
-                                    "groupChat"
-                                ]
-                            }
-                        ],
-                        "id": "b1379a75-ce5e-4fa3-80c6-89bb39bf646c",
-                        "isNotificationOnly": false,
-                        "scopes":
-                        [
-                            "groupChat"
-                        ],
-                        "supportsCalling": true,
-                        "supportsFiles": false,
-                        "supportsVideo": true
-                    }
-                ],
-                "categories":
-                [
-                    "Productivity",
-                    "Utilities"
-                ],
-                "developerName": "Microsoft Corporation",
-                "developerUrl": "https://www.microsoft.com",
-                "inputExtensions":
-                [
-                    {
-                        "botId": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-                        "canUpdateConfiguration": true,
-                        "commands":
-                        [],
-                        "fetchCommands": false,
-                        "messageHandlers":
-                        []
-                    }
-                ],
-                "isAppIOSAcquirable": true,
-                "isBlockable": true,
-                "isCoreApp": false,
-                "isFullScreen": false,
-                "isFullTrust": false,
-                "isPinnable": true,
-                "isPreinstallable": true,
-                "isTeamsOwned": true,
-                "isTenantConfigurable": true,
-                "languageTag": "en-us",
-                "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.0.2",
-                "longDescription": "Copilot can answer questions, find files, create agendas, and more in group chats and meetings.",
-                "privacyUrl": "https://tabs.teams.microsoft.com/pre/youtubeLegal",
-                "publisherType": "FirstParty",
-                "shortDescription": "Teams Copilot",
-                "showLoadingIndicator": false,
-                "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.0.2",
-                "termsOfUseUrl": "https://tabs.teams.microsoft.com/pre/youtubeLegal",
-                "webApplicationInfo":
-                {
-                    "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-                    "resource": "api://botid-8e55a7b1-6766-4f0a-8610-ecacfe3d569a"
-                },
-                "supportedLanguages":
-                [
-                    "en-us"
-                ]
-            },
-            {
-                "manifestVersion": "1.16",
-                "id": "1a69c0fd-6ec8-488e-8900-ff3a2fcf5f51",
-                "version": "1.0.3",
-                "name": "Designer[X]",
-                "accentColor": "#ffffff",
-                "bots":
-                [
-                    {
-                        "id": "5e2795e3-ce8c-4cfb-b302-35fe5cd01597",
-                        "isNotificationOnly": false,
-                        "scopes":
-                        [
-                            "team",
-                            "groupChat"
-                        ],
-                        "supportsCalling": false,
-                        "supportsFiles": false,
-                        "supportsVideo": false
-                    }
-                ],
-                "categories":
-                [
-                    "Productivity",
-                    "Utilities"
-                ],
-                "defaultGroupCapability":
-                {},
-                "developerName": "Microsoft Corporation",
-                "developerUrl": "https://designer.microsoft.com",
-                "isAppIOSAcquirable": true,
-                "isBlockable": true,
-                "isCoreApp": false,
-                "isFullScreen": false,
-                "isFullTrust": false,
-                "isPinnable": true,
-                "isPreinstallable": true,
-                "isTeamsOwned": true,
-                "isTenantConfigurable": true,
-                "languageTag": "en-us",
-                "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/1a69c0fd-6ec8-488e-8900-ff3a2fcf5f51/1a69c0fd-6ec8-488e-8900-ff3a2fcf5f51_largeImage.png?v=1.0.3",
-                "longDescription": "Designer brings its AI-driven features to Teams chat, transforming the way users create images. Beyond simply generating visuals from text prompts, this tool facilitates real-time collaborative refinements to the images, making certain the final output aligns with the collective requirements of all participants. Seamlessly incorporated into Teams chat, Designer enhances efficiency and injects a lively creative flair into conversations, establishing it as an essential tool for modern communication.",
-                "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
-                "publisherType": "FirstParty",
-                "shortDescription": "Designer: Collaborative AI-driven Image Creator in Teams.",
-                "showLoadingIndicator": true,
-                "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/1a69c0fd-6ec8-488e-8900-ff3a2fcf5f51/1a69c0fd-6ec8-488e-8900-ff3a2fcf5f51_smallImage.png?v=1.0.3",
-                "termsOfUseUrl": "https://designer.microsoft.com/ecosystem/enterpriseUserTermsOfUse.pdf",
-                "validDomains":
-                [
-                    "designerapp.edog.officeapps.live.com",
-                    "token.botframework.com",
-                    "designer.microsoft.com",
-                    "designerapp.officeapps.live.com",
-                    "designerapp.azurewebsites.net",
-                    "designerapp-dogfood.azurewebsites.net"
-                ],
-                "webApplicationInfo":
-                {
-                    "id": "5e2795e3-ce8c-4cfb-b302-35fe5cd01597",
-                    "resource": "api://botid-5e2795e3-ce8c-4cfb-b302-35fe5cd01597"
-                },
-                "supportedLanguages":
-                [
-                    "en-us"
-                ]
-            }
+              }
+            ],
+            "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+            "isNotificationOnly": false,
+            "scopes": [
+              "groupchat"
+            ],
+            "supportsCalling": true,
+            "supportsFiles": false,
+            "supportsVideo": true
+          }
+        ],
+        "categories": [
+          "Productivity",
+          "Utilities"
+        ],
+        "developerName": "Microsoft Corporation",
+        "developerUrl": "https://www.microsoft.com",
+        "inputExtensions": [
+          {
+            "botId": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+            "canUpdateConfiguration": true,
+            "commands": [],
+            "fetchCommands": false,
+            "messageHandlers": []
+          }
+        ],
+        "isAppIOSAcquirable": true,
+        "isBlockable": true,
+        "isCoreApp": false,
+        "isFullScreen": false,
+        "isFullTrust": false,
+        "isPinnable": true,
+        "isPreinstallable": true,
+        "isTeamsOwned": true,
+        "requiresMochaEnforcement": true,
+        "isTenantConfigurable": true,
+        "languageTag": "en-us",
+        "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.0.2",
+        "longDescription": "Copilot can answer questions, find files, create agendas, and more in group chats and meetings.",
+        "privacyUrl": "https://tabs.teams.microsoft.com/pre/youtubeLegal",
+        "publisherType": "FirstParty",
+        "shortDescription": "Teams Copilot",
+        "showLoadingIndicator": false,
+        "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.0.2",
+        "termsOfUseUrl": "https://tabs.teams.microsoft.com/pre/youtubeLegal",
+        "webApplicationInfo": {
+          "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+          "resource": "api://botid-8e55a7b1-6766-4f0a-8610-ecacfe3d569a"
+        },
+        "supportedLanguages": [
+          "en-us"
         ]
-    }
+      },
+      {
+        "manifestVersion": "1.16",
+        "id": "b1379a75-ce5e-4fa3-80c6-89bb39bf646c",
+        "version": "1.0.3",
+        "name": "Copilot Int",
+        "accentColor": "#FFFFFF",
+        "authorization": {
+          "permissions": {
+            "resourceSpecific": [
+              {
+                "name": "TeamsActivity.Send.User",
+                "type": "Application"
+              },
+              {
+                "name": "OnlineMeetingParticipant.Read.Chat",
+                "type": "Application"
+              },
+              {
+                "name": "OnlineMeetingNotification.Send.Chat",
+                "type": "Application"
+              },
+              {
+                "name": "OnlineMeeting.ReadBasic.Chat",
+                "type": "Application"
+              }
+            ]
+          }
+        },
+        "bots": [
+          {
+            "commandLists": [
+              {
+                "commands": [
+                  {
+                    "description": " ",
+                    "title": "Highlights from the past 7 days"
+                  },
+                  {
+                    "description": " ",
+                    "title": "What decisions were made?"
+                  },
+                  {
+                    "description": " ",
+                    "title": "Search the web for"
+                  },
+                  {
+                    "description": " ",
+                    "title": "Summarize the file"
+                  }
+                ],
+                "scopes": [
+                  "groupChat"
+                ]
+              }
+            ],
+            "id": "b1379a75-ce5e-4fa3-80c6-89bb39bf646c",
+            "isNotificationOnly": false,
+            "scopes": [
+              "groupChat"
+            ],
+            "supportsCalling": true,
+            "supportsFiles": true,
+            "supportsVideo": true
+          }
+        ],
+        "categories": [
+          "Utilities",
+          "Productivity"
+        ],
+        "developerName": "Microsoft Corporation",
+        "developerUrl": "https://www.microsoft.com",
+        "inputExtensions": [
+          {
+            "botId": "b1379a75-ce5e-4fa3-80c6-89bb39bf646c",
+            "canUpdateConfiguration": false,
+            "commands": [],
+            "fetchCommands": false,
+            "messageHandlers": []
+          }
+        ],
+        "isAppIOSAcquirable": true,
+        "isBlockable": true,
+        "isCoreApp": false,
+        "isFullScreen": false,
+        "isFullTrust": false,
+        "isPinnable": true,
+        "isPreinstallable": true,
+        "isTeamsOwned": true,
+        "isTenantConfigurable": true,
+        "languageTag": "en-us",
+        "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b1379a75-ce5e-4fa3-80c6-89bb39bf646c/b1379a75-ce5e-4fa3-80c6-89bb39bf646c_largeImage.png?v=1.0.3",
+        "longDescription": "Copilot can answer questions, find files, create agendas, and more in group chats and meetings.",
+        "privacyUrl": "https://tabs.teams.microsoft.com/pre/youtubeLegal",
+        "publisherType": "FirstParty",
+        "shortDescription": "Copilot Int",
+        "showLoadingIndicator": false,
+        "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b1379a75-ce5e-4fa3-80c6-89bb39bf646c/b1379a75-ce5e-4fa3-80c6-89bb39bf646c_smallImage.png?v=1.0.3",
+        "termsOfUseUrl": "https://tabs.teams.microsoft.com/pre/youtubeLegal",
+        "webApplicationInfo": {
+          "id": "b1379a75-ce5e-4fa3-80c6-89bb39bf646c",
+          "resource": "api://botid-b1379a75-ce5e-4fa3-80c6-89bb39bf646c"
+        },
+        "supportedLanguages": [
+          "en-us"
+        ]
+      },
+      {
+        "manifestVersion": "1.16",
+        "id": "1a69c0fd-6ec8-488e-8900-ff3a2fcf5f51",
+        "version": "1.0.3",
+        "name": "Designer[X]",
+        "accentColor": "#ffffff",
+        "bots": [
+          {
+            "id": "5e2795e3-ce8c-4cfb-b302-35fe5cd01597",
+            "isNotificationOnly": false,
+            "scopes": [
+              "team",
+              "groupChat"
+            ],
+            "supportsCalling": false,
+            "supportsFiles": false,
+            "supportsVideo": false
+          }
+        ],
+        "categories": [
+          "Productivity",
+          "Utilities"
+        ],
+        "defaultGroupCapability": {},
+        "developerName": "Microsoft Corporation",
+        "developerUrl": "https://designer.microsoft.com",
+        "isAppIOSAcquirable": true,
+        "isBlockable": true,
+        "isCoreApp": false,
+        "isFullScreen": false,
+        "isFullTrust": false,
+        "isPinnable": true,
+        "isPreinstallable": true,
+        "isTeamsOwned": true,
+        "isTenantConfigurable": true,
+        "languageTag": "en-us",
+        "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/1a69c0fd-6ec8-488e-8900-ff3a2fcf5f51/1a69c0fd-6ec8-488e-8900-ff3a2fcf5f51_largeImage.png?v=1.0.3",
+        "longDescription": "Designer brings its AI-driven features to Teams chat, transforming the way users create images. Beyond simply generating visuals from text prompts, this tool facilitates real-time collaborative refinements to the images, making certain the final output aligns with the collective requirements of all participants. Seamlessly incorporated into Teams chat, Designer enhances efficiency and injects a lively creative flair into conversations, establishing it as an essential tool for modern communication.",
+        "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+        "publisherType": "FirstParty",
+        "shortDescription": "Designer: Collaborative AI-driven Image Creator in Teams.",
+        "showLoadingIndicator": true,
+        "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/1a69c0fd-6ec8-488e-8900-ff3a2fcf5f51/1a69c0fd-6ec8-488e-8900-ff3a2fcf5f51_smallImage.png?v=1.0.3",
+        "termsOfUseUrl": "https://designer.microsoft.com/ecosystem/enterpriseUserTermsOfUse.pdf",
+        "validDomains": [
+          "designerapp.edog.officeapps.live.com",
+          "token.botframework.com",
+          "designer.microsoft.com",
+          "designerapp.officeapps.live.com",
+          "designerapp.azurewebsites.net",
+          "designerapp-dogfood.azurewebsites.net"
+        ],
+        "webApplicationInfo": {
+          "id": "5e2795e3-ce8c-4cfb-b302-35fe5cd01597",
+          "resource": "api://botid-5e2795e3-ce8c-4cfb-b302-35fe5cd01597"
+        },
+        "supportedLanguages": [
+          "en-us"
+        ]
+      }
+    ]
+  }
 }
