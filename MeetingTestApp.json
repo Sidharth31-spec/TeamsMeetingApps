@@ -77,6 +77,13 @@
         "isPinnable": true,
         "isPreinstallable": true,
         "isTeamsOwned": true,
+        "requiredServicePlanIdSets": [
+          {
+            "requiredServicePlanIds": [
+              "b95945de-b3bd-46db-8437-f2beb6ea2347"
+            ]
+          }
+        ],
         "requiresMochaEnforcement": true,
         "isTenantConfigurable": true,
         "languageTag": "en-us",
