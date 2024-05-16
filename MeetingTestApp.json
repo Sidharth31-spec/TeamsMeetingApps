@@ -4,8 +4,8 @@
       {
         "manifestVersion": "1.16",
         "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-        "version": "1.0.4",
-        "name": "Copilot",
+        "version": "1.0.5",
+        "name": "Teams Copilot",
         "accentColor": "#FFFFFF",
         "authorization": {
           "permissions": {
