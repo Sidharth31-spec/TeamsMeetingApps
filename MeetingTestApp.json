@@ -3,6 +3,135 @@
     "appDefinitions": [
       {
         "manifestVersion": "1.16",
+        "id": "0e3bedea-4720-48b5-9e13-5a1ce1387d45",
+        "version": "1.0.9",
+        "name": "Polls with Mocha",
+        "accentColor": "#6264A7",
+        "authorization": {
+          "permissions": {
+            "orgWide": [],
+            "resourceSpecific": []
+          }
+        },
+        "bots": [
+          {
+            "id": "fd931076-bbfb-4a38-a85c-1f0fb5b61bee",
+            "isNotificationOnly": true,
+            "scopes": [
+              "groupchat",
+              "team"
+            ],
+            "supportsCalling": false,
+            "supportsFiles": false,
+            "supportsVideo": false
+          }
+        ],
+        "categories": [
+          "Productivity",
+          "Utilities",
+          "Microsoft"
+        ],
+        "developerName": "Microsoft Corporation",
+        "developerUrl": "https://support.microsoft.com/forms",
+        "galleryTabs": [
+          {
+            "canUpdateConfiguration": false,
+            "configurationUrl": "https://forms.office.com/pages/teamsconfigpage.aspx?lang={locale}&tid={tid}&groupId={groupId}&upn={upn}&teamsTheme={theme}&appid=0e3bedea-4720-48b5-9e13-5a1ce1387d45",
+            "context": [
+              "meetingChatTab",
+              "meetingDetailsTab",
+              "meetingSidePanel"
+            ],
+            "scopes": [
+              "groupchat",
+              "team"
+            ]
+          }
+        ],
+        "inputExtensions": [
+          {
+            "botId": "fd931076-bbfb-4a38-a85c-1f0fb5b61bee",
+            "canUpdateConfiguration": false,
+            "commands": [
+              {
+                "context": [
+                  "compose"
+                ],
+                "description": "Collect real-time data with Forms poll",
+                "fetchTask": true,
+                "id": "collectFormData",
+                "initialRun": false,
+                "title": "Create a new poll",
+                "type": "action"
+              }
+            ],
+            "fetchCommands": false,
+            "messageHandlers": []
+          }
+        ],
+        "isAppIOSAcquirable": true,
+        "isBlockable": true,
+        "isCoreApp": false,
+        "isFullScreen": false,
+        "isFullTrust": false,
+        "isPinnable": true,
+        "isPreinstallable": true,
+        "isTeamsOwned": true,
+        "requiredServicePlanIdSets": [
+          {
+            "requiredServicePlanIds": [
+              "5810ac4e-0cdd-42be-93ce-80f8eb95618e"
+            ]
+          }
+        ],
+        "isTenantConfigurable": true,
+        "keywords": [
+          "forms",
+          "surveys"
+        ],
+        "languageTag": "en-us",
+        "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/gcc_flight/0e3bedea-4720-48b5-9e13-5a1ce1387d45/0e3bedea-4720-48b5-9e13-5a1ce1387d45_largeImage.png?v=1.0.9",
+        "longDescription": "Easily create choice polls, quizzes and word cloud polls before or during your meeting. Collect responses in real-time.",
+        "meetingExtensionDefinition": {
+          "isAnonymousAccessAllowed": false,
+          "scenes": []
+        },
+        "privacyUrl": "https://www.microsoft.com/privacy",
+        "publisherType": "FirstParty",
+        "shortDescription": "Easily create polls in your meeting.",
+        "showLoadingIndicator": false,
+        "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/gcc_flight/0e3bedea-4720-48b5-9e13-5a1ce1387d45/0e3bedea-4720-48b5-9e13-5a1ce1387d45_smallImage.png?v=1.0.9",
+        "staticTabs": [
+          {
+            "contentUrl": "https://forms.office.com/Pages/TeamsMeetingPollPage.aspx?&lang={locale}&tid={tid}&teamsTheme={theme}&upn={upn}&appid=0e3bedea-4720-48b5-9e13-5a1ce1387d45",
+            "context": [
+              "meetingChatTab",
+              "meetingDetailsTab",
+              "meetingSidePanel"
+            ],
+            "entityId": "TeamsMeetingPollPage",
+            "name": "Polls",
+            "scopes": [
+              "team",
+              "groupChat"
+            ],
+            "websiteUrl": "https://forms.office.com"
+          }
+        ],
+        "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2174878",
+        "thirdPartyNoticesUrl": "",
+        "validDomains": [
+          "forms.office.com",
+          "forms.cloud.microsoft"
+        ],
+        "videoUrl": "",
+        "webApplicationInfo": {
+          "id": "c9a559d2-7aab-4f13-a6ed-e7e9c52aec87",
+          "resource": "https://forms.office.com"
+        }
+      },
+      {
+        "manifestVersion": "1.16",
         "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
         "version": "1.0.5",
         "name": "Teams Copilot",
