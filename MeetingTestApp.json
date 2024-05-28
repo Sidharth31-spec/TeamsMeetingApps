@@ -209,7 +209,7 @@
         "requiredServicePlanIdSets": [
           {
             "requiredServicePlanIds": [
-              "5810ac4e-0cdd-42be-93ce-80f8eb95618e"
+              "b95945de-b3bd-46db-8437-f2beb6ea2347"
             ]
           }
         ],
@@ -328,8 +328,7 @@
         "requiredServicePlanIdSets": [
           {
             "requiredServicePlanIds": [
-              "b95945de-b3bd-46db-8437-f2beb6ea2347",
-              "5810ac4e-0cdd-42be-93ce-80f8eb95618e"
+              "b95945de-b3bd-46db-8437-f2beb6ea2347"
             ]
           }
         ],
