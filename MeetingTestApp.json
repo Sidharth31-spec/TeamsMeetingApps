@@ -134,7 +134,7 @@
         "manifestVersion": "1.16",
         "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
         "version": "1.0.5",
-        "name": "Teams Copilot",
+        "name": "AppsCore Copilot",
         "accentColor": "#FFFFFF",
         "authorization": {
           "permissions": {
@@ -209,7 +209,8 @@
         "requiredServicePlanIdSets": [
           {
             "requiredServicePlanIds": [
-              "b95945de-b3bd-46db-8437-f2beb6ea2347"
+              "b95945de-b3bd-46db-8437-f2beb6ea2347",
+              "5810ac4e-0cdd-42be-93ce-80f8eb95618e"
             ]
           }
         ],
@@ -328,7 +329,8 @@
         "requiredServicePlanIdSets": [
           {
             "requiredServicePlanIds": [
-              "b95945de-b3bd-46db-8437-f2beb6ea2347"
+              "b95945de-b3bd-46db-8437-f2beb6ea2347",
+              "5810ac4e-0cdd-42be-93ce-80f8eb95618e"
             ]
           }
         ],
