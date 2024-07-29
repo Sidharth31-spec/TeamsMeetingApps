@@ -4,7 +4,7 @@
       {
         "manifestVersion": "1.16",
         "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-        "version": "1.0.5",
+        "version": "1.0.9",
         "name": "Copilot",
         "accentColor": "#FFFFFF",
         "authorization": {
@@ -12,6 +12,26 @@
             "resourceSpecific": [
               {
                 "name": "TeamsActivity.Send.User",
+                "type": "Application"
+              },
+              {
+                "name": "ChannelMessage.Read.Group",
+                "type": "Application"
+              },
+              {
+                "name": "ChatMessage.Read.Chat",
+                "type": "Application"
+              },
+              {
+                "name": "OnlineMeeting.ReadBasic.Chat",
+                "type": "Application"
+              },
+              {
+                "name": "OnlineMeetingNotification.Send.Chat",
+                "type": "Application"
+              },
+              {
+                "name": "OnlineMeetingParticipant.Read.Chat",
                 "type": "Application"
               }
             ]
@@ -24,7 +44,7 @@
                 "commands": [
                   {
                     "description": " ",
-                    "title": "Highlights from the past 7 days"
+                    "title": "Highlights from the conversation"
                   },
                   {
                     "description": " ",
@@ -32,11 +52,7 @@
                   },
                   {
                     "description": " ",
-                    "title": "Search the web for..."
-                  },
-                  {
-                    "description": " ",
-                    "title": "Summarize the file..."
+                    "title": "Show the open items in a table"
                   }
                 ],
                 "scopes": [
@@ -47,10 +63,11 @@
             "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
             "isNotificationOnly": false,
             "scopes": [
-              "groupchat"
+              "groupchat",
+              "groupChat"
             ],
             "supportsCalling": true,
-            "supportsFiles": false,
+            "supportsFiles": true,
             "supportsVideo": true
           }
         ],
@@ -79,123 +96,25 @@
         "isTeamsOwned": true,
         "isTenantConfigurable": true,
         "languageTag": "en-us",
-        "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.0.2",
-        "longDescription": "Copilot can answer questions, find files, create agendas, and more in group chats and meetings.",
-        "privacyUrl": "https://tabs.teams.microsoft.com/pre/youtubeLegal",
+        "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring1_5/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.0.9",
+        "longDescription": "Copilot can summarize and answer questions on files, create agendas, and more in group chats and meetings.",
+        "privacyUrl": "https://privacy.microsoft.com/privacystatement",
         "publisherType": "FirstParty",
-        "shortDescription": "Teams Copilot",
+        "requiredServicePlanIdSets": [
+          {
+            "requiredServicePlanIds": [
+              "b95945de-b3bd-46db-8437-f2beb6ea2347",
+              "5810ac4e-0cdd-42be-93ce-80f8eb95618e"
+            ]
+          }
+        ],
+        "shortDescription": "Your Team Copilot for group chats and meetings",
         "showLoadingIndicator": false,
-        "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.0.2",
-        "termsOfUseUrl": "https://tabs.teams.microsoft.com/pre/youtubeLegal",
+        "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring1_5/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.0.9",
+        "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
         "webApplicationInfo": {
           "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
           "resource": "api://botid-8e55a7b1-6766-4f0a-8610-ecacfe3d569a"
-        },
-        "supportedLanguages": [
-          "en-us"
-        ]
-      },
-      {
-        "manifestVersion": "1.16",
-        "id": "b1379a75-ce5e-4fa3-80c6-89bb39bf646c",
-        "version": "1.0.6",
-        "name": "Copilot Int",
-        "accentColor": "#FFFFFF",
-        "authorization": {
-          "permissions": {
-            "resourceSpecific": [
-              {
-                "name": "TeamsActivity.Send.User",
-                "type": "Application"
-              },
-              {
-                "name": "OnlineMeetingParticipant.Read.Chat",
-                "type": "Application"
-              },
-              {
-                "name": "OnlineMeetingNotification.Send.Chat",
-                "type": "Application"
-              },
-              {
-                "name": "OnlineMeeting.ReadBasic.Chat",
-                "type": "Application"
-              }
-            ]
-          }
-        },
-        "bots": [
-          {
-            "commandLists": [
-              {
-                "commands": [
-                  {
-                    "description": " ",
-                    "title": "Highlights from the past 7 days"
-                  },
-                  {
-                    "description": " ",
-                    "title": "What decisions were made?"
-                  },
-                  {
-                    "description": " ",
-                    "title": "Search the web for"
-                  },
-                  {
-                    "description": " ",
-                    "title": "Summarize the file"
-                  }
-                ],
-                "scopes": [
-                  "groupChat"
-                ]
-              }
-            ],
-            "id": "b1379a75-ce5e-4fa3-80c6-89bb39bf646c",
-            "isNotificationOnly": false,
-            "scopes": [
-              "groupChat"
-            ],
-            "supportsCalling": true,
-            "supportsFiles": true,
-            "supportsVideo": true
-          }
-        ],
-        "categories": [
-          "Utilities",
-          "Productivity"
-        ],
-        "developerName": "Microsoft Corporation",
-        "developerUrl": "https://www.microsoft.com",
-        "inputExtensions": [
-          {
-            "botId": "b1379a75-ce5e-4fa3-80c6-89bb39bf646c",
-            "canUpdateConfiguration": false,
-            "commands": [],
-            "fetchCommands": false,
-            "messageHandlers": []
-          }
-        ],
-        "isAppIOSAcquirable": true,
-        "isBlockable": true,
-        "isCoreApp": false,
-        "isFullScreen": false,
-        "isFullTrust": false,
-        "isPinnable": true,
-        "isPreinstallable": true,
-        "isTeamsOwned": true,
-        "isTenantConfigurable": true,
-        "languageTag": "en-us",
-        "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b1379a75-ce5e-4fa3-80c6-89bb39bf646c/b1379a75-ce5e-4fa3-80c6-89bb39bf646c_largeImage.png?v=1.0.5",
-        "longDescription": "Copilot can answer questions, find files, create agendas, and more in group chats and meetings.",
-        "privacyUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
-        "publisherType": "FirstParty",
-        "shortDescription": "Copilot Int",
-        "showLoadingIndicator": false,
-        "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b1379a75-ce5e-4fa3-80c6-89bb39bf646c/b1379a75-ce5e-4fa3-80c6-89bb39bf646c_smallImage.png?v=1.0.5",
-        "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
-        "webApplicationInfo": {
-          "id": "b1379a75-ce5e-4fa3-80c6-89bb39bf646c",
-          "resource": "api://botid-b1379a75-ce5e-4fa3-80c6-89bb39bf646c"
         },
         "supportedLanguages": [
           "en-us"
