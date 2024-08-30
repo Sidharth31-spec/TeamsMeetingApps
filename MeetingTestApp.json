@@ -9,7 +9,6 @@
         "longDescription": "The Shared Power Apps (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
         "developerName": "Microsoft Corporation",
         "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/powerapps_largeimage.png?v=0.3",
-        "isBlockable": false,
         "getTemplatedAppInstanceUrl": {
           "urlTemplate": "https://tip2.api.powerapps.com/environments/{environment}/teamsApps/{templatedInstanceAppId}?api-version=2020-06-01",
           "authModel": "powerapps"
@@ -186,7 +185,7 @@
         "id": "09e19d1e-ea5e-4adf-af47-fb8dd013361f",
         "name": "Shared Copilot Extensions (Int)",
         "developerName": "Microsoft Corporation",
-        "isBlockable": true,
+        "isBlockable": false,
         "shortDescription": "The Copilots Extensions (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft copilot studio in \"Copilot Extensions\" and can't install them in Teams.",
         "longDescription": "The Copilots Extensions (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
         "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilotextensions_largeimage.png",
