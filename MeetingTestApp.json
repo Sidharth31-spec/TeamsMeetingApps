@@ -189,6 +189,13 @@
         "shortDescription": "The Copilots Extensions (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft copilot studio in \"Copilot Extensions\" and can't install them in Teams.",
         "longDescription": "The Copilots Extensions (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
         "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilotextensions_largeimage.png",
+        "requiredServicePlanIdSets": [
+          {
+            "requiredServicePlanIds": [
+              "3f30311c-6b1e-48a4-ab79-725b469da960"
+            ]
+          }
+        ],
         "getTemplatedAppInstanceUrl": {
           "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}?api-version=2020-02-01",
           "authModel": "powerapps"
