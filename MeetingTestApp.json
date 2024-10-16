@@ -111,9 +111,9 @@
         "longDescription": "Copilot participates in meetings and chats to help the group be more productive, together.\n[Get Started](https://go.microsoft.com/fwlink/?linkid=2280873)",
         "privacyUrl": "https://privacy.microsoft.com/privacystatement",
         "publisherType": "FirstParty",
-         "publishingPolicy": {
-            "releaseType": "preview",
-         },
+        "publishingPolicy": {
+          "releaseType": "preview"
+        },
         "requiredServicePlanIdSets": [
           {
             "requiredServicePlanIds": [
