@@ -114,6 +114,7 @@
         "publishingPolicy": {
           "releaseType": "preview"
         },
+        "isNotificationOnly": true,
         "requiredServicePlanIdSets": [
           {
             "requiredServicePlanIds": [
