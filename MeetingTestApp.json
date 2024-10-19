@@ -4,7 +4,7 @@
       {
         "manifestVersion": "1.16",
         "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-        "version": "1.2.1",
+        "version": "1.2.2",
         "name": "Copilot",
         "accentColor": "#FFFFFF",
         "authorization": {
@@ -41,37 +41,12 @@
               {
                 "name": "OnlineMeetingTranscript.Read.Chat",
                 "type": "Application"
-              },
-              {
-                "name": "File.Read.Chat",
-                "type": "Application"
               }
             ]
           }
         },
         "bots": [
           {
-            "commandLists": [
-              {
-                "commands": [
-                  {
-                    "description": " ",
-                    "title": "Highlights from the conversation"
-                  },
-                  {
-                    "description": " ",
-                    "title": "What decisions were made?"
-                  },
-                  {
-                    "description": " ",
-                    "title": "Show the open items in a table"
-                  }
-                ],
-                "scopes": [
-                  "groupChat"
-                ]
-              }
-            ],
             "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
             "isNotificationOnly": true,
             "scopes": [
@@ -107,13 +82,10 @@
         "isTeamsOwned": true,
         "isTenantConfigurable": true,
         "languageTag": "en-us",
-        "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.2.1",
+        "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring2/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.2.2",
         "longDescription": "Copilot participates in meetings and chats to help the group be more productive, together.\n[Get Started](https://go.microsoft.com/fwlink/?linkid=2280873)",
         "privacyUrl": "https://privacy.microsoft.com/privacystatement",
         "publisherType": "FirstParty",
-        "publishingPolicy": {
-          "releaseType": "preview"
-        },
         "requiredServicePlanIdSets": [
           {
             "requiredServicePlanIds": [
@@ -123,11 +95,14 @@
         ],
         "shortDescription": "Copilot for group chats and meetings",
         "showLoadingIndicator": false,
-        "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.2.1",
+        "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring2/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.2.2",
         "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
         "webApplicationInfo": {
           "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
           "resource": "api://botid-8e55a7b1-6766-4f0a-8610-ecacfe3d569a"
+        },
+        "publishingPolicy": {
+          "releaseType": "preview"
         },
         "supportedLanguages": [
           "en-us"
