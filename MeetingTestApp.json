@@ -4,44 +4,12 @@
       {
         "manifestVersion": "1.16",
         "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-        "version": "1.2.3",
+        "version": "1.2.4",
         "name": "Copilot",
         "accentColor": "#FFFFFF",
         "authorization": {
           "permissions": {
             "resourceSpecific": [
-              {
-                "name": "TeamsActivity.Send.User",
-                "type": "Application"
-              },
-              {
-                "name": "ChannelMessage.Read.Group",
-                "type": "Application"
-              },
-              {
-                "name": "ChatMessage.Read.Chat",
-                "type": "Application"
-              },
-              {
-                "name": "OnlineMeeting.ReadBasic.Chat",
-                "type": "Application"
-              },
-              {
-                "name": "OnlineMeetingNotification.Send.Chat",
-                "type": "Application"
-              },
-              {
-                "name": "OnlineMeetingParticipant.Read.Chat",
-                "type": "Application"
-              },
-              {
-                "name": "ChannelMeetingTranscript.Read.Group",
-                "type": "Application"
-              },
-              {
-                "name": "OnlineMeetingTranscript.Read.Chat",
-                "type": "Application"
-              }
             ]
           }
         },
