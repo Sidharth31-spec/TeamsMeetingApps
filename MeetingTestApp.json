@@ -79,7 +79,7 @@
   "isTeamsOwned": true,
   "isTenantConfigurable": true,
   "languageTag": "en-us",
-  "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring1_5/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.2.3",
+  "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.2.3",
   "longDescription": "Facilitator participates in meetings and chats to help the group be more productive, together.\n[Get Started](https://go.microsoft.com/fwlink/?linkid=2280873)",
   "privacyUrl": "https://privacy.microsoft.com/privacystatement",
   "publisherType": "FirstParty",
@@ -92,7 +92,7 @@
   ],
   "shortDescription": "Facilitator for group chats and meetings",
   "showLoadingIndicator": false,
-  "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring1_5/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.2.3",
+  "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.2.3",
   "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
   "webApplicationInfo": {
     "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
