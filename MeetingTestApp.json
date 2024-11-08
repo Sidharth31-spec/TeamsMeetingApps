@@ -47,8 +47,29 @@
         },
         "bots": [
           {
+            "commandLists": [
+              {
+                "commands": [
+                  {
+                    "description": " ",
+                    "title": "Highlights from the conversation"
+                  },
+                  {
+                    "description": " ",
+                    "title": "What decisions were made?"
+                  },
+                  {
+                    "description": " ",
+                    "title": "Show the open items in a table"
+                  }
+                ],
+                "scopes": [
+                  "groupChat"
+                ]
+              }
+            ],
             "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-            "isNotificationOnly": true,
+            "isNotificationOnly": false,
             "scopes": [
               "groupchat"
             ],
@@ -56,10 +77,6 @@
             "supportsFiles": true,
             "supportsVideo": true
           }
-        ],
-        "categories": [
-          "Productivity",
-          "Utilities"
         ],
         "developerName": "Microsoft Corporation",
         "developerUrl": "https://www.microsoft.com",
