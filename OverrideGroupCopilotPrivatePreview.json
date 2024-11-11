@@ -1,1 +1,128 @@
-
+{
+  "value": {
+    "appDefinitions": [
+      {
+        "manifestVersion": "1.16",
+        "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+        "version": "1.3.6",
+        "name": "Facilitator",
+        "accentColor": "#FFFFFF",
+        "authorization": {
+          "permissions": {
+            "resourceSpecific": [
+              {
+                "name": "TeamsActivity.Send.User",
+                "type": "Application"
+              },
+              {
+                "name": "ChannelMessage.Read.Group",
+                "type": "Application"
+              },
+              {
+                "name": "ChatMessage.Read.Chat",
+                "type": "Application"
+              },
+              {
+                "name": "OnlineMeeting.ReadBasic.Chat",
+                "type": "Application"
+              },
+              {
+                "name": "OnlineMeetingNotification.Send.Chat",
+                "type": "Application"
+              },
+              {
+                "name": "OnlineMeetingParticipant.Read.Chat",
+                "type": "Application"
+              },
+              {
+                "name": "ChannelMeetingTranscript.Read.Group",
+                "type": "Application"
+              },
+              {
+                "name": "OnlineMeetingTranscript.Read.Chat",
+                "type": "Application"
+              }
+            ]
+          }
+        },
+        "bots": [
+          {
+            "commandLists": [
+              {
+                "commands": [
+                  {
+                    "description": " ",
+                    "title": "Highlights from the conversation"
+                  },
+                  {
+                    "description": " ",
+                    "title": "What decisions were made?"
+                  },
+                  {
+                    "description": " ",
+                    "title": "Show the open items in a table"
+                  }
+                ],
+                "scopes": [
+                  "groupChat"
+                ]
+              }
+            ],
+            "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+            "isNotificationOnly": false,
+            "scopes": [
+              "groupchat"
+            ],
+            "supportsCalling": true,
+            "supportsFiles": true,
+            "supportsVideo": true
+          }
+        ],
+        "developerName": "Microsoft Corporation",
+        "developerUrl": "https://www.microsoft.com",
+        "inputExtensions": [
+          {
+            "botId": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+            "canUpdateConfiguration": true,
+            "commands": [],
+            "fetchCommands": false,
+            "messageHandlers": []
+          }
+        ],
+        "isAppIOSAcquirable": true,
+        "isBlockable": true,
+        "isCoreApp": false,
+        "isFullScreen": false,
+        "isFullTrust": false,
+        "isPinnable": true,
+        "isPreinstallable": true,
+        "isTeamsOwned": true,
+        "isTenantConfigurable": true,
+        "languageTag": "en-us",
+        "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.2.3",
+        "longDescription": "Facilitator participates in meetings and chats to help the group be more productive, together.\n[Get Started](https://go.microsoft.com/fwlink/?linkid=2280873)",
+        "privacyUrl": "https://privacy.microsoft.com/privacystatement",
+        "publisherType": "FirstParty",
+        "requiredServicePlanIdSets": [
+          {
+            "requiredServicePlanIds": [
+              "b95945de-b3bd-46db-8437-f2beb6ea2347",
+              "5810ac4e-0cdd-42be-93ce-80f8eb95618e"
+            ]
+          }
+        ],
+        "shortDescription": "Facilitator for group chats and meetings",
+        "showLoadingIndicator": false,
+        "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.2.3",
+        "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
+        "webApplicationInfo": {
+          "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
+          "resource": "api://botid-8e55a7b1-6766-4f0a-8610-ecacfe3d569a"
+        },
+        "supportedLanguages": [
+          "en-us"
+        ]
+      }
+    ]
+  }
+}
