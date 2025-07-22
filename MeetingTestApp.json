@@ -2,125 +2,529 @@
   "value": {
     "appDefinitions": [
       {
-        "manifestVersion": "1.16",
-        "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-        "version": "1.3.6",
-        "name": "Facilitator",
-        "accentColor": "#FFFFFF",
-        "authorization": {
-          "permissions": {
-            "resourceSpecific": [
-              {
-                "name": "TeamsActivity.Send.User",
-                "type": "Application"
-              },
-              {
-                "name": "ChannelMessage.Read.Group",
-                "type": "Application"
-              },
-              {
-                "name": "ChatMessage.Read.Chat",
-                "type": "Application"
-              },
-              {
-                "name": "OnlineMeeting.ReadBasic.Chat",
-                "type": "Application"
-              },
-              {
-                "name": "OnlineMeetingNotification.Send.Chat",
-                "type": "Application"
-              },
-              {
-                "name": "OnlineMeetingParticipant.Read.Chat",
-                "type": "Application"
-              },
-              {
-                "name": "ChannelMeetingTranscript.Read.Group",
-                "type": "Application"
-              },
-              {
-                "name": "OnlineMeetingTranscript.Read.Chat",
-                "type": "Application"
-              }
-            ]
-          }
-        },
+        "officeAssetId": null,
+        "permissions": null,
+        "externalId": null,
+        "amsSellerAccountId": null,
+        "supportedPlatforms": null,
+        "shortDescription": "Athena - Productivity Agent Eng Only",
+        "longDescription": "Athena is a cutting-edge productivity agent designed to streamline the product development lifecycle for everyone at Microsoft. \n\nBy combining AI-powered and traditional solutions, Athena aims to reduce time-consuming tasks, enhance efficiency, and elevate both quality and productivity across the board.\n\nAthena’s AI-driven capabilities to streamline privacy workflows, accelerate PR reviews, gain insight to your organization knowledge base, optimize Azure DevOps (ADO) processes and — all without leaving Microsoft Teams.",
+        "smallImageUrl": "https://devappglobal.blob.core.windows.net/images/633ac51b-07d4-4555-9464-ad4548516043/outline/cfde78cc-0392-480f-89df-aa85ca322b1d",
+        "largeImageUrl": "https://devappglobal.blob.core.windows.net/images/633ac51b-07d4-4555-9464-ad4548516043/color/17a01f13-01f7-4902-a5a4-0148b40b9231",
+        "accentColor": "#c7bbbb",
+        "screenshotUrls": [],
+        "videoUrl": null,
+        "categories": [
+          "Microsoft",
+          "DeveloperTools",
+          "Productivity"
+        ],
+        "disabledScopes": null,
+        "developerName": "Microsoft Corporation",
+        "developerUrl": "https://aka.ms/teamsathena",
+        "privacyUrl": "https://aka.ms/athena-privacy",
+        "termsOfUseUrl": "https://aka.ms/athena-terms",
+        "thirdPartyNoticesUrl": null,
+        "validDomains": [
+          "engsys-teamsapp-prod.azurewebsites.net",
+          "token.botframework.com"
+        ],
+        "devicePermissions": [
+          "notifications"
+        ],
         "bots": [
           {
+            "id": "186ce823-1149-4bc0-8b59-bcd122121e26",
+            "scopes": [
+              "personal",
+              "groupChat",
+              "team"
+            ],
             "commandLists": [
               {
                 "commands": [
                   {
-                    "description": " ",
-                    "title": "Highlights from the conversation"
+                    "title": "What can you do?",
+                    "description": "Discover how Athena can help you streamline workflows and boost productivity."
                   },
                   {
-                    "description": " ",
-                    "title": "What decisions were made?"
+                    "title": "Create a bug with title <TITLE>",
+                    "description": "Create a bug in Azure DevOps with info you provide."
                   },
                   {
-                    "description": " ",
-                    "title": "Show the open items in a table"
+                    "title": "List active tasks assigned to me",
+                    "description": "See tasks assigned to you in Azure DevOps that have an Active status."
+                  },
+                  {
+                    "title": "Track my PR [PR number]",
+                    "description": "Keep up-to-date on the status of specific pull requests."
+                  },
+                  {
+                    "title": "Analyze this threat model [.tm7]",
+                    "description": "Validate your TM7 threat model to ensure it meets privacy and security standards."
+                  },
+                  {
+                    "title": "Comment on my active bugs/tasks",
+                    "description": "Add comments on your bugs, tasks, and other work items in Azure DevOps."
                   }
                 ],
                 "scopes": [
-                  "groupChat"
+                  "personal"
                 ]
               }
             ],
-            "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
             "isNotificationOnly": false,
-            "scopes": [
-              "groupchat"
-            ],
-            "supportsCalling": true,
-            "supportsFiles": true,
-            "supportsVideo": true
+            "supportsCalling": false,
+            "supportsVideo": false,
+            "supportsFiles": true
           }
         ],
-        "developerName": "Microsoft Corporation",
-        "developerUrl": "https://www.microsoft.com",
-        "inputExtensions": [
+        "customBots": [],
+        "galleryTabs": [],
+        "staticTabs": [
           {
-            "botId": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-            "canUpdateConfiguration": true,
-            "commands": [],
-            "fetchCommands": false,
-            "messageHandlers": []
+            "entityId": "conversations",
+            "name": null,
+            "contentUrl": null,
+            "websiteUrl": null,
+            "scopes": [
+              "personal"
+            ],
+            "context": null,
+            "order": null,
+            "displayInNonGeneralChannel": null,
+            "containerAppIds": null,
+            "searchUrl": null,
+            "contentBotId": null,
+            "supportedPlatform": null
+          },
+          {
+            "entityId": "93f13114-b562-4618-bf60-05fbaa70ec7b",
+            "name": "Pull Requests",
+            "contentUrl": "https://engsys-teamsapp-prod.azurewebsites.net/pull-requests/",
+            "websiteUrl": "https://engsys-teamsapp-prod.azurewebsites.net/pull-requests/",
+            "scopes": [
+              "personal"
+            ],
+            "context": null,
+            "order": null,
+            "displayInNonGeneralChannel": null,
+            "containerAppIds": null,
+            "searchUrl": null,
+            "contentBotId": null,
+            "supportedPlatform": null
+          },
+          {
+            "entityId": "33c53556-c108-4c50-9b11-262115e39ffc",
+            "name": "Ring Blockers (Beta)",
+            "contentUrl": "https://engsys-teamsapp-prod.azurewebsites.net/ring-blockers",
+            "websiteUrl": "https://engsys-teamsapp-prod.azurewebsites.net/ring-blockers",
+            "scopes": [
+              "personal"
+            ],
+            "context": null,
+            "order": null,
+            "displayInNonGeneralChannel": null,
+            "containerAppIds": null,
+            "searchUrl": null,
+            "contentBotId": null,
+            "supportedPlatform": null
+          },
+          {
+            "entityId": "2729d25c-ce54-43c2-8364-de428dea121d",
+            "name": "Experimentation",
+            "contentUrl": "https://engsys-teamsapp-prod.azurewebsites.net/teams-exp-form",
+            "websiteUrl": "https://engsys-teamsapp-prod.azurewebsites.net/teams-exp-form",
+            "scopes": [
+              "personal"
+            ],
+            "context": null,
+            "order": null,
+            "displayInNonGeneralChannel": null,
+            "containerAppIds": null,
+            "searchUrl": null,
+            "contentBotId": null,
+            "supportedPlatform": null
+          },
+          {
+            "entityId": "about",
+            "name": null,
+            "contentUrl": null,
+            "websiteUrl": null,
+            "scopes": [
+              "personal"
+            ],
+            "context": null,
+            "order": null,
+            "displayInNonGeneralChannel": null,
+            "containerAppIds": null,
+            "searchUrl": null,
+            "contentBotId": null,
+            "supportedPlatform": null
           }
         ],
-        "isAppIOSAcquirable": true,
-        "isBlockable": true,
-        "isCoreApp": false,
         "isFullScreen": false,
         "isFullTrust": false,
-        "isPinnable": true,
-        "isPreinstallable": true,
+        "inputExtensions": [],
+        "connectors": [],
+        "mobileModules": null,
         "isTeamsOwned": true,
         "isTenantConfigurable": true,
+        "applicableLicenseCategories": [],
+        "webApplicationInfo": {
+          "id": "186ce823-1149-4bc0-8b59-bcd122121e26",
+          "resource": "api://engsys-teamsapp-prod.azurewebsites.net/botid-186ce823-1149-4bc0-8b59-bcd122121e26",
+          "scopes": null,
+          "applicationPermissions": null,
+          "nestedAppAuthInfo": null
+        },
+        "showLoadingIndicator": true,
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "creatorId": null,
+        "deletedDateTimeUtc": null,
+        "restrictedTenantTypes": [],
+        "supportedTenantRegions": [],
+        "isCoreApp": false,
+        "isPinnable": true,
+        "isBlockable": true,
+        "isAppIOSAcquirable": true,
+        "isPreinstallable": true,
         "languageTag": "en-us",
-        "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_largeImage.png?v=1.2.3",
-        "longDescription": "Facilitator participates in meetings and chats to help the group be more productive, together.\n[Get Started](https://go.microsoft.com/fwlink/?linkid=2280873)",
-        "privacyUrl": "https://privacy.microsoft.com/privacystatement",
-        "publisherType": "FirstParty",
-        "requiredServicePlanIdSets": [
-          {
-            "requiredServicePlanIds": [
-              "b95945de-b3bd-46db-8437-f2beb6ea2347"
+        "securityComplianceInfo": null,
+        "scopeConstraints": null,
+        "mpnId": null,
+        "activities": {
+          "activityTypes": [
+            {
+              "type": "notifyRBOwner",
+              "description": "Work Item {workItemId} needs your attention",
+              "templateText": "{actor} notified you of RB {workItemId}",
+              "allowedIconIds": null
+            },
+            {
+              "type": "mergeReadyPullRequest",
+              "description": "Your Pull Request is Merge Ready",
+              "templateText": "Pull Request {PullRequestId} is merge ready",
+              "allowedIconIds": null
+            }
+          ],
+          "activityIcons": null
+        },
+        "hostedCapabilities": null,
+        "templatedAppId": null,
+        "validTrouterPaths": null,
+        "industries": [],
+        "keywords": [],
+        "configurableProperties": [],
+        "defaultInstallScope": null,
+        "defaultGroupCapability": null,
+        "lastUpdatedAt": null,
+        "meetingExtensionDefinition": null,
+        "appCatalogExtension": null,
+        "subscriptionOffer": null,
+        "authorization": {
+          "permissions": {
+            "resourceSpecific": [
+              {
+                "name": "TeamsActivity.Send.Group",
+                "type": "Application"
+              },
+              {
+                "name": "TeamsActivity.Send.Chat",
+                "type": "Application"
+              },
+              {
+                "name": "TeamsActivity.Send.User",
+                "type": "Application"
+              }
             ]
           }
+        },
+        "defaultBlockUntilAdminAction": null,
+        "publisherDocsUrl": null,
+        "graphConnector": null,
+        "publisherType": null,
+        "supportedChannelTypes": [],
+        "appUpdateEvent": null,
+        "actions": null,
+        "manifestVersion": "1.20",
+        "id": "633ac51b-07d4-4555-9464-ad4548516043",
+        "version": "1.0.3",
+        "name": "Athena 1P",
+        "supportedLanguages": [
+          "en-us"
+        ]
+      },
+      {
+        "officeAssetId": null,
+        "permissions": null,
+        "externalId": null,
+        "amsSellerAccountId": null,
+        "supportedPlatforms": null,
+        "shortDescription": "Athena (Dogfood) - Teams productivity assistant",
+        "longDescription": "Athena is designed to assist everyone in Teams organizations with engineering lifecycle related questions and boost our own productivity! Athena can gather answers from multiple data sources to give you a summary of what you need related to Release, Build, Gate, Experimentation, and Livesite (more coming) without the need for extensive searching or stitching answers, Say goodbye to wiki bookmarks! Athena can retain context so you can continue to converse on the topic.  In FY25, Athena will unlock many more Teams related experiences and the ability to take actions and help you make decisions.",
+        "smallImageUrl": "https://devappglobal.blob.core.windows.net/images/0100c96d-819d-4b3b-b6d4-96bb5bfe1c12/outline/6b90e7ae-9c64-483e-8e7e-2d916af4cfed",
+        "largeImageUrl": "https://devappglobal.blob.core.windows.net/images/0100c96d-819d-4b3b-b6d4-96bb5bfe1c12/color/7ebaad60-f317-490e-b7f7-015224a95bd7",
+        "accentColor": "#c7bbbb",
+        "screenshotUrls": [],
+        "videoUrl": null,
+        "categories": [
+          "Productivity",
+          "Microsoft",
+          "DeveloperTools"
         ],
-        "shortDescription": "Facilitator for group chats and meetings",
-        "showLoadingIndicator": false,
-        "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/8e55a7b1-6766-4f0a-8610-ecacfe3d569a/8e55a7b1-6766-4f0a-8610-ecacfe3d569a_smallImage.png?v=1.2.3",
-        "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
+        "disabledScopes": null,
+        "developerName": "Microsoft Corporation",
+        "developerUrl": "https://aka.ms/teamsathena",
+        "privacyUrl": "https://aka.ms/athena-privacy",
+        "termsOfUseUrl": "https://aka.ms/axe-terms",
+        "thirdPartyNoticesUrl": null,
+        "validDomains": [
+          "engsys-teamsapp-preprod.azurewebsites.net",
+          "token.botframework.com"
+        ],
+        "devicePermissions": [
+          "notifications"
+        ],
+        "bots": [
+          {
+            "id": "6e540189-9d24-465f-82df-18dbbe15af95",
+            "scopes": [
+              "personal",
+              "team",
+              "groupChat"
+            ],
+            "commandLists": [
+              {
+                "commands": [
+                  {
+                    "title": "What can you do?",
+                    "description": "Discover how Athena streamlines workflow with actions to boost productivity"
+                  },
+                  {
+                    "title": "Track my PR [PR number]",
+                    "description": "Track status of your PRs, identify and act on bottlenecks in the review process"
+                  },
+                  {
+                    "title": "Track commit [commit hash]",
+                    "description": "Track your code’s deployment progression across Clouds and Rings with updates"
+                  },
+                  {
+                    "title": "Analyze this threat model [.tm7]",
+                    "description": "Validate your TM7 threat model to ensure it meets privacy and security standards"
+                  },
+                  {
+                    "title": "Suggest area path for bug [Id]",
+                    "description": "Get guidance to plan, track, and clear ring blockers."
+                  },
+                  {
+                    "title": "Status of T2.1 RWC Jan-A",
+                    "description": "Get info on releases <[T1/2]-[W|L|WL]-[Platform]-[YY]-[Month]-[A|B|C|D]>"
+                  }
+                ],
+                "scopes": [
+                  "personal"
+                ]
+              }
+            ],
+            "isNotificationOnly": false,
+            "supportsCalling": false,
+            "supportsVideo": false,
+            "supportsFiles": true
+          }
+        ],
+        "customBots": [],
+        "galleryTabs": [
+          {
+            "canHaveTabConversation": null,
+            "canUpdateConfiguration": false,
+            "configurationUrl": "https://engsys-teamsapp-preprod.azurewebsites.net/pull-requests",
+            "scopes": [
+              "groupChat",
+              "team"
+            ],
+            "meetingSurfaces": null,
+            "context": [
+              "channelTab",
+              "privateChatTab"
+            ],
+            "supportedPlatform": null,
+            "defaultInstance": null
+          }
+        ],
+        "staticTabs": [
+          {
+            "entityId": "conversations",
+            "name": null,
+            "contentUrl": null,
+            "websiteUrl": null,
+            "scopes": [
+              "personal"
+            ],
+            "context": null,
+            "order": null,
+            "displayInNonGeneralChannel": null,
+            "containerAppIds": null,
+            "searchUrl": null,
+            "contentBotId": null,
+            "supportedPlatform": null
+          },
+          {
+            "entityId": "5d5a26f0-f94d-498f-b11d-e483790bbbfc",
+            "name": "Pull Requests",
+            "contentUrl": "https://engsys-teamsapp-preprod.azurewebsites.net/pull-requests/",
+            "websiteUrl": "https://engsys-teamsapp-preprod.azurewebsites.net/pull-requests/",
+            "scopes": [
+              "personal"
+            ],
+            "context": null,
+            "order": null,
+            "displayInNonGeneralChannel": null,
+            "containerAppIds": null,
+            "searchUrl": null,
+            "contentBotId": null,
+            "supportedPlatform": null
+          },
+          {
+            "entityId": "3b07a73b-51a2-47a9-935b-f810aeaddd45",
+            "name": "RingBlockers",
+            "contentUrl": "https://engsys-teamsapp-preprod.azurewebsites.net/ring-blockers",
+            "websiteUrl": "https://engsys-teamsapp-preprod.azurewebsites.net/ring-blockers",
+            "scopes": [
+              "personal"
+            ],
+            "context": [
+              "personalTab",
+              "channelTab"
+            ],
+            "order": null,
+            "displayInNonGeneralChannel": null,
+            "containerAppIds": null,
+            "searchUrl": null,
+            "contentBotId": null,
+            "supportedPlatform": null
+          },
+          {
+            "entityId": "88f1dccc-8b42-45d2-8cb7-055f3e3261be",
+            "name": "Experimentation",
+            "contentUrl": "https://engsys-teamsapp-preprod.azurewebsites.net/teams-exp-form",
+            "websiteUrl": "https://engsys-teamsapp-preprod.azurewebsites.net/teams-exp-form",
+            "scopes": [
+              "personal"
+            ],
+            "context": null,
+            "order": null,
+            "displayInNonGeneralChannel": null,
+            "containerAppIds": null,
+            "searchUrl": null,
+            "contentBotId": null,
+            "supportedPlatform": null
+          },
+          {
+            "entityId": "about",
+            "name": null,
+            "contentUrl": null,
+            "websiteUrl": null,
+            "scopes": [
+              "personal"
+            ],
+            "context": null,
+            "order": null,
+            "displayInNonGeneralChannel": null,
+            "containerAppIds": null,
+            "searchUrl": null,
+            "contentBotId": null,
+            "supportedPlatform": null
+          }
+        ],
+        "isFullScreen": false,
+        "isFullTrust": false,
+        "inputExtensions": [],
+        "connectors": [],
+        "mobileModules": null,
+        "isTeamsOwned": true,
+        "isTenantConfigurable": true,
+        "applicableLicenseCategories": [],
         "webApplicationInfo": {
-          "id": "8e55a7b1-6766-4f0a-8610-ecacfe3d569a",
-          "resource": "api://botid-8e55a7b1-6766-4f0a-8610-ecacfe3d569a"
+          "id": "6e540189-9d24-465f-82df-18dbbe15af95",
+          "resource": "api://engsys-teamsapp-preprod.azurewebsites.net/botid-6e540189-9d24-465f-82df-18dbbe15af95",
+          "scopes": null,
+          "applicationPermissions": null,
+          "nestedAppAuthInfo": null
         },
-        "publishingPolicy": {
-          "releaseType": "preview"
+        "showLoadingIndicator": true,
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "creatorId": null,
+        "deletedDateTimeUtc": null,
+        "restrictedTenantTypes": [],
+        "supportedTenantRegions": [],
+        "isCoreApp": false,
+        "isPinnable": true,
+        "isBlockable": true,
+        "isAppIOSAcquirable": true,
+        "isPreinstallable": true,
+        "languageTag": "en-us",
+        "securityComplianceInfo": null,
+        "scopeConstraints": null,
+        "mpnId": null,
+        "activities": {
+          "activityTypes": [
+            {
+              "type": "notifyRBOwner",
+              "description": "Work Item {workItemId} needs your attention",
+              "templateText": "{actor} notified you of RB {workItemId}",
+              "allowedIconIds": null
+            },
+            {
+              "type": "mergeReadyPullRequest",
+              "description": "Your Pull Request is Merge Ready",
+              "templateText": "Pull Request {PullRequestId} is merge ready",
+              "allowedIconIds": null
+            }
+          ],
+          "activityIcons": null
         },
+        "hostedCapabilities": null,
+        "templatedAppId": null,
+        "validTrouterPaths": null,
+        "industries": [],
+        "keywords": [],
+        "configurableProperties": [],
+        "defaultInstallScope": null,
+        "defaultGroupCapability": null,
+        "lastUpdatedAt": null,
+        "meetingExtensionDefinition": null,
+        "appCatalogExtension": null,
+        "subscriptionOffer": null,
+        "authorization": {
+          "permissions": {
+            "resourceSpecific": [
+              {
+                "name": "TeamsActivity.Send.Group",
+                "type": "Application"
+              },
+              {
+                "name": "TeamsActivity.Send.Chat",
+                "type": "Application"
+              },
+              {
+                "name": "TeamsActivity.Send.User",
+                "type": "Application"
+              }
+            ]
+          }
+        },
+        "defaultBlockUntilAdminAction": null,
+        "publisherDocsUrl": null,
+        "graphConnector": null,
+        "publisherType": null,
+        "supportedChannelTypes": [],
+        "appUpdateEvent": null,
+        "actions": null,
+        "manifestVersion": "1.17",
+        "id": "0100c96d-819d-4b3b-b6d4-96bb5bfe1c12",
+        "version": "4.1.1",
+        "name": "Athena (DF)",
         "supportedLanguages": [
           "en-us"
         ]
