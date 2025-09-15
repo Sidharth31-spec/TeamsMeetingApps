@@ -100,7 +100,31 @@
                     "oAuthConfiguration": {
                         "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyNhZWM3YjRjMS04ODgyLTQ4MjItOGFjMy1jYmI1ZDYwNjgwZjg="
                     },
-                    "tools": []
+                    "tools": [
+                        {
+                            "name": "asana_get_user",
+                            "description": "Get user details by ID, email, or \"me\". Returns name, email, workspaces. Use to find user IDs for task assignment. \"me\" returns authenticated user info. Essential before assigning tasks. When no user_id is provided, defaults to \"me\" (authenticated user) - equivalent to the former asana_get_user_info tool.",
+                            "inputSchema": {
+                                "type": "object",
+                                "properties": {
+                                    "user_id": {
+                                        "type": "string",
+                                        "description": "A string identifying a user. This can be 'me', an email, or the gid of a user. When omitted, defaults to 'me' (authenticated user)."
+                                    },
+                                    "opt_fields": {
+                                        "type": "string",
+                                        "description": "Comma-separated list of optional fields to include in the response."
+                                    }
+                                },
+                                "additionalProperties": false,
+                                "$schema": "http://json-schema.org/draft-07/schema#"
+                            },
+                            "annotations": {
+                                "title": "Get user",
+                                "readOnlyHint": true
+                            }
+                        }
+                    ]
                 },
                 "aa183fd9-7104-46c4-af9f-9ee9b81d717e": {
                     "serverUrl": "https://mcp.atlassian.com/v1/sse",
