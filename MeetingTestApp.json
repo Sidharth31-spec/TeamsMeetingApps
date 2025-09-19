@@ -1079,7 +1079,7 @@
                     "serverUrl": "https://mcp.atlassian.com/v1/sse",
                     "authType": "oAuth2.0",
                     "oAuthConfiguration": {
-                        "oAuthConfigurationId": "MjQzMmI1N2ItMGFiZC00M2RiLWFhN2ItMTZlYWRkMTE1ZDM0IyM1OGU3OTAyNS1iOWU0LTQxZWYtOGFlZS0wZjcyOTNhNzg5Yjk="
+                        "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM2MTBkMTIxNC1jZTM5LTQ0Y2MtOTQwYy0yYTYxYjI1MDY1Nzk="
                     },
                     "tools": [
                         {
@@ -2166,7 +2166,7 @@
                     "serverUrl": "https://mcp.atlassian.com/v1/sse",
                     "authType": "oAuth2.0",
                     "oAuthConfiguration": {
-                        "oAuthConfigurationId": "MjQzMmI1N2ItMGFiZC00M2RiLWFhN2ItMTZlYWRkMTE1ZDM0IyM1OGU3OTAyNS1iOWU0LTQxZWYtOGFlZS0wZjcyOTNhNzg5Yjk="
+                        "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM2MTBkMTIxNC1jZTM5LTQ0Y2MtOTQwYy0yYTYxYjI1MDY1Nzk="
                     },
                     "tools": []
                 },
