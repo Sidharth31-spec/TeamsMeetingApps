@@ -22,6 +22,9 @@
         "shortDescription": "Work smarter, get insights faster, and make a bigger impact with AI.",
         "longDescription": "Work smarter, get insights faster, and make a bigger impact with AI.",
         "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/project_agent_statusagentlogo.png?v=2.0.0",
+        "privacyUrl": "https://privacy.microsoft.com/privacystatement",
+        "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
+        "developerUrl": "https://www.microsoft.com",
         "getTemplatedAppInstanceUrl": {
           "urlTemplate": "",
           "authModel": "tca"
