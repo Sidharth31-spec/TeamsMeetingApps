@@ -137,9 +137,6 @@
                                 }
                             },
                             "required": [
-                                "organization",
-                                "project",
-                                "workItemType",
                                 "question",
                                 "includeRelations"
                             ]
