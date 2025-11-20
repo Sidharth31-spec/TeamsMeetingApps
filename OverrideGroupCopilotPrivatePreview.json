@@ -38,11 +38,11 @@
           "resource": "<TBA>"
         },
         "agenticUserTemplate": {
-          "agentIdentityBlueprintId": "9009da34-6d9c-4f1a-9c73-1e8372878761"
+          "agentIdentityBlueprintId": "36a2c39d-1fcf-433e-8015-8aa27d921c0c"
         },
         "bots": [
           {
-            "id": "3206dd1c-aea0-4122-bcd7-5ff0890ad6b8"
+            "id": "3914e2ec-62b6-4dec-96c1-5710a9c532ef"
           }
         ],
         "appInstanceDefinition": {
