@@ -115,18 +115,6 @@
                         "inputSchema": {
                             "type": "object",
                             "properties": {
-                                "organization": {
-                                    "type": "string",
-                                    "description": "The Azure DevOps organization"
-                                },
-                                "project": {
-                                    "type": "string",
-                                    "description": "The Azure DevOps project"
-                                },
-                                "workItemType": {
-                                    "type": "string",
-                                    "description": "The type of the work item the user is asking for or null if ambiguous"
-                                },
                                 "question": {
                                     "type": "string",
                                     "description": "The user\u0027s question about work items including the work item type if the user includes it."
