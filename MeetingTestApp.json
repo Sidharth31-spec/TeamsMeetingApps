@@ -132,9 +132,9 @@
                         }
                       },
                       {
-                        "Name": "ICMPlugin_GetIncidentDetails",
-                        "Description": "Get Incident details for the specified id from ICM portal",
-                        "InputSchema": {
+                        "name": "ICMPlugin_GetIncidentDetails",
+                        "description": "Get Incident details for the specified id from ICM portal",
+                        "inputSchema": {
                           "type": "object",
                           "properties": {
                             "incidentId": {
