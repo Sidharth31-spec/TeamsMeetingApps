@@ -100,7 +100,7 @@
             },            
             "mcpConfig": {
                 "0100c96d-819d-4b3b-b6d4-96bb5bfe1c12":{
-                    "serverUrl": "https://athena-api.azure-api.net/api/mcp/ProjectAgentADO",
+                    "serverUrl": "https://athena-api.azure-api.net/api/mcp/LivesiteAgent",
                     "authType": "oAuth2.0",
                     "oAuthConfiguration": {
                         "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyNkYTVmYmRlYi01YWFmLTRjOWMtYTUzOC04OWNiNGE4YjNiYTc="
@@ -129,6 +129,26 @@
                         "annotations": {
                             "title": "List workitems",
                             "readOnlyHint": true
+                        }
+                      },
+                      {
+                        "Name": "ICMPlugin_GetIncidentDetails",
+                        "Description": "Get Incident details for the specified id from ICM portal",
+                        "InputSchema": {
+                          "type": "object",
+                          "properties": {
+                            "incidentId": {
+                              "type": "integer",
+                              "description": "Incident Id used to get details"
+                            }
+                          },
+                          "required": [
+                            "incidentId"
+                          ],
+                          "annotations": {
+                            "title": "Get incident details",
+                            "readOnlyHint": true
+                          }
                         }
                       }
                     ]
