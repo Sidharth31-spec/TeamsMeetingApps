@@ -133,21 +133,21 @@
                       },
                       {
                         "name": "ICMPlugin_GetIncidentDetails",
-                        "description": "Get Incident details for the specified id from ICM portal",
+                        "description": "Retrieves full incident details for a single ICM incident identified by its unique numeric incidentId. Use this tool when you already know the incident ID (e.g., from a prior search, message, or system reference) and need authoritative details such as status, severity, owners, timeline, and resolution. Example - Summarize incident 123456 with current status, severity, owning team, and latest mitigation notes.",
                         "inputSchema": {
                           "type": "object",
                           "properties": {
                             "incidentId": {
                               "type": "integer",
-                              "description": "Incident Id used to get details"
+                              "description": "Positive integer uniquely identifying the ICM incident (e.g., 1234567). Must not contain non-numeric characters or whitespace."
                             }
                           },
                           "required": [
                             "incidentId"
                           ],
                           "annotations": {
-                            "title": "Get incident details",
-                            "readOnlyHint": true
+                             "title": "Get incident details",
+                             "readOnlyHint": true
                           }
                         }
                       }
