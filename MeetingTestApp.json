@@ -72,7 +72,10 @@
             "67de0563-0766-4c26-8957-2eee30c4e798",
             "28b871ff-85bf-48a5-9bee-364f2b74d104",
             "b4d412f5-c2e6-4ba1-b67e-accb9d0acc84",
-            "f622422e-0bd3-4784-a11c-782e63162638"
+            "f622422e-0bd3-4784-a11c-782e63162638",
+            "bfb36a0c-4e9a-4c1a-95c4-1df2c609c9e8",
+            "beb9e813-30ff-417b-90fc-97d748cbeb4c",
+            "7391ec55-2d88-4294-8e6b-b70267dd719a"
           ],
             "copilotBotsAllowedAppIds": [],
             "federationBlockedAppIds": [
@@ -82,9 +85,12 @@
             ],
             "powerAppsDiscovery": {
                 "gptTemplateAppIds": [
-                    "1ef3c012-7ba0-4e29-b6e7-e724183ab93f"
+                    "09e19d1e-ea5e-4adf-af47-fb8dd013361f",
+                    "9e2962b8-7eae-4124-86f3-1799090725e1"
                 ],
                 "customCopilotTemplateAppIds": [
+                    "f6405520-7907-4464-8f6e-9889e2fb7d8f",
+                    "958bb540-13ba-46ab-8d6a-8ab39e3e1fd8"
                 ],
                 "powerPlatformTemplateAppIds": [
                     "ba1cabe6-dfd2-4334-96c0-0dcdf86e18e5",
@@ -99,38 +105,13 @@
               ]
             },            
             "mcpConfig": {
-                "0100c96d-819d-4b3b-b6d4-96bb5bfe1c12":{
+                "633ac51b-07d4-4555-9464-ad4548516043":{
                     "serverUrl": "https://athena-api.azure-api.net/api/mcp/LivesiteAgent",
                     "authType": "oAuth2.0",
                     "oAuthConfiguration": {
                         "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyNkYTVmYmRlYi01YWFmLTRjOWMtYTUzOC04OWNiNGE4YjNiYTc="
                     },
                     "tools":[
-                      {
-                        "name": "WorkItemPlugin_QueryWorkItems",
-                        "description": "Asks questions about work items in Azure Devops like bugs, tasks, epics or features that can be answered by azure devops fields or the tags on the work item.\r\n\r\nFollow-up questions should route back to this tool, when they are relevant to querying work items. Example:\r\n\r\nUser: What are the bugs assigned to me?\r\nAssistant: \u003CResponse\u003E\r\nUser: What are the active ones?\r\n\r\nWhere the question is NOT relevant to querying and therefore should NOT route back to this tool:\r\n\r\nUser: What are the bugs assigned to me including the severity?/Assistant: \u003CResponse\u003E\r\nUser: What do the severity levels mean?",
-                        "inputSchema": {
-                            "type": "object",
-                            "properties": {
-                                "question": {
-                                    "type": "string",
-                                    "description": "The user\u0027s question about work items including the work item type if the user includes it."
-                                },
-                                "includeRelations": {
-                                    "type": "boolean",
-                                    "description": "Whether to include related links like pull requests"
-                                }
-                            },
-                            "required": [
-                                "question",
-                                "includeRelations"
-                            ]
-                        },
-                        "annotations": {
-                            "title": "List workitems",
-                            "readOnlyHint": true
-                        }
-                      },
                       {
                         "name": "ICMPlugin_GetIncidentDetails",
                         "description": "Retrieves full incident details for a single ICM incident identified by its unique numeric incidentId. Use this tool when you already know the incident ID (e.g., from a prior search, message, or system reference) and need authoritative details such as status, severity, owners, timeline, and resolution. Example - Summarize incident 123456 with current status, severity, owning team, and latest mitigation notes.",
@@ -146,9 +127,55 @@
                             "incidentId"
                           ],
                           "annotations": {
-                             "title": "Get incident details",
-                             "readOnlyHint": true
+                            "title": "Get incident details",
+                            "readOnlyHint": true
                           }
+                        }
+                      }
+                    ]
+                },
+                "0100c96d-819d-4b3b-b6d4-96bb5bfe1c12":{
+                    "serverUrl": "https://athena-api.azure-api.net/api/mcp/ProjectAgentADO",
+                    "authType": "oAuth2.0",
+                    "oAuthConfiguration": {
+                        "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyNkYTVmYmRlYi01YWFmLTRjOWMtYTUzOC04OWNiNGE4YjNiYTc="
+                    },
+                    "tools":[
+                      {
+                        "name": "WorkItemPlugin_QueryWorkItems",
+                        "description": "Asks questions about work items in Azure Devops like bugs, tasks, epics or features that can be answered by azure devops fields or the tags on the work item.\r\n\r\nFollow-up questions should route back to this tool, when they are relevant to querying work items. Example:\r\n\r\nUser: What are the bugs assigned to me?\r\nAssistant: \u003CResponse\u003E\r\nUser: What are the active ones?\r\n\r\nWhere the question is NOT relevant to querying and therefore should NOT route back to this tool:\r\n\r\nUser: What are the bugs assigned to me including the severity?/Assistant: \u003CResponse\u003E\r\nUser: What do the severity levels mean?",
+                        "inputSchema": {
+                            "type": "object",
+                            "properties": {
+                                "organization": {
+                                    "type": "string",
+                                    "description": "The Azure DevOps organization"
+                                },
+                                "project": {
+                                    "type": "string",
+                                    "description": "The Azure DevOps project"
+                                },
+                                "workItemType": {
+                                    "type": "string",
+                                    "description": "The type of the work item the user is asking for or null if ambiguous"
+                                },
+                                "question": {
+                                    "type": "string",
+                                    "description": "The user\u0027s question about work items including the work item type if the user includes it."
+                                },
+                                "includeRelations": {
+                                    "type": "boolean",
+                                    "description": "Whether to include related links like pull requests"
+                                }
+                            },
+                            "required": [
+                                "question",
+                                "includeRelations"
+                            ]
+                        },
+                         "annotations": {
+                              "title": "List workItems",
+                              "readOnlyHint": true
                         }
                       }
                     ]
@@ -2221,14 +2248,6 @@
                         }
                     ]
                 },
-                "30bb610c-6321-40fe-a047-056e7d0dac96": {
-                    "serverUrl": "https://mcp.atlassian.com/v1/sse",
-                    "authType": "oAuth2.0",
-                    "oAuthConfiguration": {
-                        "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM2MTBkMTIxNC1jZTM5LTQ0Y2MtOTQwYy0yYTYxYjI1MDY1Nzk="
-                    },
-                    "tools": []
-                },
                 "ca9e26b7-dce5-44a0-b2b7-a70a3d65ce25": {
                     "serverUrl": "https://api.githubcopilot.com/mcp",
                     "authType": "oAuth2.0",
@@ -3057,97 +3076,6 @@
                       "annotations": {
                         "title": "List notifications",
                         "readOnlyHint": true
-                      }
-                    },
-                    {
-                      "name": "create_pull_request",
-                      "description": "Create a new pull request in a GitHub repository.",
-                      "inputSchema": {
-                        "type": "object",
-                        "properties": {
-                          "base": {
-                            "description": "Branch to merge into",
-                            "type": "string"
-                          },
-                          "body": {
-                            "description": "PR description",
-                            "type": "string"
-                          },
-                          "draft": {
-                            "description": "Create as draft PR",
-                            "type": "boolean"
-                          },
-                          "head": {
-                            "description": "Branch containing changes",
-                            "type": "string"
-                          },
-                          "maintainer_can_modify": {
-                            "description": "Allow maintainer edits",
-                            "type": "boolean"
-                          },
-                          "owner": {
-                            "description": "Repository owner",
-                            "type": "string"
-                          },
-                          "repo": {
-                            "description": "Repository name",
-                            "type": "string"
-                          },
-                          "title": {
-                            "description": "PR title",
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "owner",
-                          "repo",
-                          "title",
-                          "head",
-                          "base"
-                        ]
-                      },
-                      "annotations": {
-                        "title": "Open new pull request",
-                        "readOnlyHint": false
-                      }
-                    },
-                    {
-                      "name": "create_pull_request_with_copilot",
-                      "description": "Delegate a task to GitHub Copilot coding agent to perform in the background.",
-                      "inputSchema": {
-                        "type": "object",
-                        "properties": {
-                          "base_ref": {
-                            "description": "Git reference (e.g., branch) that the agent will start its work from. If not specified, defaults to the repository's default branch",
-                            "type": "string"
-                          },
-                          "owner": {
-                            "description": "Repository owner. You can guess the owner, but confirm it with the user before proceeding.",
-                            "type": "string"
-                          },
-                          "problem_statement": {
-                            "description": "Detailed description of the task to be performed (e.g., 'Implement a feature that does X', 'Fix bug Y', etc.)",
-                            "type": "string"
-                          },
-                          "repo": {
-                            "description": "Repository name. You can guess the repository name, but confirm it with the user before proceeding.",
-                            "type": "string"
-                          },
-                          "title": {
-                            "description": "Title for the pull request that will be created",
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "owner",
-                          "repo",
-                          "problem_statement",
-                          "title"
-                        ]
-                      },
-                      "annotations": {
-                        "title": "Perform task with GitHub Copilot coding agent",
-                        "readOnlyHint": false
                       }
                     },
                     {
