@@ -9,8 +9,103 @@
                 "isBlockable": false,
                 "shortDescription": "This MOS Extensions app in your organization’s app store serves as the entry point for all agent shared apps created using Microsoft Copilot Studio (MCS)/TTK via MOS.",
                 "longDescription": "This MOS Extensions app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
-                "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilotextensions_largeimage.png",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/copilotextensions_largeimage.png",
                 "appInstanceDefinition": {}
+            },
+            {
+                "version": "1.0.1",
+                "id": "ba1cabe6-dfd2-4334-96c0-0dcdf86e18e5",
+                "name": "Shared Power Apps",
+                "developerName": "Microsoft Corporation",
+                "shortDescription": "The Shared Power Apps app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
+                "longDescription": "The Shared Power Apps app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/powerapps_largeimage.png?v=0.2",
+                "getTemplatedAppInstanceUrl": {
+                    "urlTemplate": "https://api.powerapps.com/environments/{environment}/teamsApps/{templatedInstanceAppId}?api-version=2020-06-01",
+                    "authModel": "powerapps"
+                },
+                "searchTemplatedAppsUrl": {
+                    "urlTemplate": "https://api.powerapps.com/teamsApps?api-version=2020-06-01",
+                    "authModel": "powerapps"
+                },
+                "webApplicationInfo": {
+                    "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
+                    "resource": "https://service.powerapps.com/"
+                },
+                "embedIconsInDefinitionOptions": {
+                    "maxSizeInBytes": 200000,
+                    "allowedFormats": [
+                        "image/png"
+                    ]
+                },
+                "appInstanceDefinition": {
+                    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+                    "accentColor": "{$.accentColor}",
+                    "configurableTabs": [
+                        {
+                            "configurationUrl": "{$.configurableTabs[0].configurationUrl}",
+                            "canUpdateConfiguration": true,
+                            "scopes": [
+                                "team",
+                                "groupchat"
+                            ]
+                        }
+                    ],
+                    "description": {
+                        "short": "{$.description.short}",
+                        "full": "{$.description.full}"
+                    },
+                    "developer": {
+                        "name": "Power Apps",
+                        "websiteUrl": "https://powerapps.microsoft.com/en-us/",
+                        "privacyUrl": "https://go.microsoft.com/fwlink/p/?LinkID=698505",
+                        "termsOfUseUrl": "https://go.microsoft.com/fwlink/p/?LinkID=698507"
+                    },
+                    "devicePermissions": [
+                        "geolocation",
+                        "media",
+                        "notifications",
+                        "midi",
+                        "openExternal"
+                    ],
+                    "icons": {
+                        "outline": "{$.icons.outline}",
+                        "color": "{$.icons.color}"
+                    },
+                    "id": "{$.id}",
+                    "manifestVersion": "1.7",
+                    "name": {
+                        "short": "{$.name.short}",
+                        "full": "{$.name.full}"
+                    },
+                    "packageName": "{$.packageName}",
+                    "permissions": [
+                        "identity",
+                        "messageTeamMembers"
+                    ],
+                    "staticTabs": [
+                        {
+                            "entityId": "{$.staticTabs[0].entityId}",
+                            "name": "{$.staticTabs[0].name}",
+                            "contentUrl": "{$.staticTabs[0].contentUrl}",
+                            "websiteUrl": "{$.staticTabs[0].websiteUrl}",
+                            "scopes": [
+                                "personal"
+                            ]
+                        }
+                    ],
+                    "validDomains": [
+                        "*.powerapps.com",
+                        "*.*.powerapps.com",
+                        "*.dynamics.com",
+                        "*.*.dynamics.com"
+                    ],
+                    "version": "{$.version}",
+                    "webApplicationInfo": {
+                        "id": "3e62f81e-590b-425b-9531-cad6683656cf",
+                        "resource": "https://apps.powerapps.com"
+                    }
+                }
             },
             {
                 "version": "0.0.5",
@@ -19,7 +114,7 @@
                 "shortDescription": "The Shared Power Apps (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
                 "longDescription": "The Shared Power Apps (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
                 "developerName": "Microsoft Corporation",
-                "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/powerapps_largeimage.png?v=0.3",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/powerapps_largeimage.png?v=0.3",
                 "getTemplatedAppInstanceUrl": {
                     "urlTemplate": "https://tip2.api.powerapps.com/environments/{environment}/teamsApps/{templatedInstanceAppId}?api-version=2020-06-01",
                     "authModel": "powerapps"
@@ -31,6 +126,12 @@
                 "webApplicationInfo": {
                     "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
                     "resource": "https://service.powerapps.com/"
+                },
+                "embedIconsInDefinitionOptions": {
+                    "maxSizeInBytes": 200000,
+                    "allowedFormats": [
+                        "image/png"
+                    ]
                 },
                 "appInstanceDefinition": {
                     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
@@ -83,9 +184,7 @@
                                 "team",
                                 "groupchat"
                             ],
-                            "context": [
-                                "{$.configurableTabs[0].context}"
-                            ]
+                            "context": [ "{$.configurableTabs[0].context}" ]
                         }
                     ],
                     "permissions": [
@@ -112,7 +211,7 @@
                 "isBlockable": false,
                 "shortDescription": "The Shared Copilots (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
                 "longDescription": "The Shared Copilots (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
-                "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/powerva_largeimage.png?v=0.3",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/powerva_largeimage.png?v=0.3",
                 "getTemplatedAppInstanceUrl": {
                     "urlTemplate": "https://tip2.api.powerapps.com/environments/{environment}/botApps/{templatedInstanceAppId}?api-version=2020-02-01",
                     "authModel": "powerapps"
@@ -207,7 +306,7 @@
                 "isBlockable": false,
                 "shortDescription": "The Shared Copilots (PPE) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
                 "longDescription": "The Shared Copilots (PPE) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
-                "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/powerva_largeimage.png?v=0.3",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/powerva_largeimage.png?v=0.3",
                 "getTemplatedAppInstanceUrl": {
                     "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/botApps/{templatedInstanceAppId}?api-version=2020-02-01",
                     "authModel": "powerapps"
@@ -291,6 +390,17 @@
                     "webApplicationInfo": {
                         "id": "{$.webApplicationInfo.id}",
                         "resource": "{$.webApplicationInfo.resource}"
+                    },
+                    "copilotAgents": {
+                        "customEngineAgents": [
+                            {
+                                "id": "{$.copilotAgents.customEngineAgents[0].id}",
+                                "type": "{$.copilotAgents.customEngineAgents[0].type}",
+                                "disclaimer": {
+                                    "text": "{$.copilotAgents.customEngineAgents[0].disclaimer.text}"
+                                }
+                            }
+                        ]
                     }
                 }
             },
@@ -302,7 +412,7 @@
                 "isBlockable": false,
                 "shortDescription": "The Shared Copilots app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any copilots from Microsoft Copilot Studio in \"Copilot Extensions\" or \"Built With Power Platform\" and can't install them in Teams.",
                 "longDescription": "The Shared Copilots app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any copilots from Microsoft Copilot Studio in \"Copilot Extensions\" or \"Built With Power Platform\" and can't install them in Teams.",
-                "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/powerva_largeimage.png?v=0.3",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/powerva_largeimage.png?v=0.3",
                 "getTemplatedAppInstanceUrl": {
                     "urlTemplate": "https://api.powerapps.com/environments/{environment}/botApps/{templatedInstanceAppId}?api-version=2020-06-01",
                     "authModel": "powerapps"
@@ -379,6 +489,17 @@
                     "webApplicationInfo": {
                         "id": "{$.webApplicationInfo.id}",
                         "resource": "{$.webApplicationInfo.resource}"
+                    },
+                    "copilotAgents": {
+                        "customEngineAgents": [
+                            {
+                                "id": "{$.copilotAgents.customEngineAgents[0].id}",
+                                "type": "{$.copilotAgents.customEngineAgents[0].type}",
+                                "disclaimer": {
+                                    "text": "{$.copilotAgents.customEngineAgents[0].disclaimer.text}"
+                                }
+                            }
+                        ]
                     }
                 }
             },
@@ -390,7 +511,7 @@
                 "isBlockable": false,
                 "shortDescription": "The Copilots Extensions (PPE) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft copilot studio in \"Copilot Extensions\" and can't install them in Teams.",
                 "longDescription": "The Copilots Extensions (PPE) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
-                "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilotextensions_largeimage.png",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/copilotextensions_largeimage.png",
                 "getTemplatedAppInstanceUrl": {
                     "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}?api-version=2020-02-01",
                     "authModel": "powerapps"
@@ -475,6 +596,17 @@
                     "webApplicationInfo": {
                         "id": "{$.webApplicationInfo.id}",
                         "resource": "{$.webApplicationInfo.resource}"
+                    },
+                    "copilotAgents": {
+                        "customEngineAgents": [
+                            {
+                                "id": "{$.copilotAgents.customEngineAgents[0].id}",
+                                "type": "{$.copilotAgents.customEngineAgents[0].type}",
+                                "disclaimer": {
+                                    "text": "{$.copilotAgents.customEngineAgents[0].disclaimer.text}"
+                                }
+                            }
+                        ]
                     }
                 }
             },
@@ -486,7 +618,7 @@
                 "isBlockable": false,
                 "shortDescription": "The Copilots Extensions (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft copilot studio in \"Copilot Extensions\" and can't install them in Teams.",
                 "longDescription": "The Copilots Extensions (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
-                "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilotextensions_largeimage.png",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/copilotextensions_largeimage.png",
                 "getTemplatedAppInstanceUrl": {
                     "urlTemplate": "https://tip2.api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}?api-version=2020-02-01",
                     "authModel": "powerapps"
@@ -571,6 +703,17 @@
                     "webApplicationInfo": {
                         "id": "{$.webApplicationInfo.id}",
                         "resource": "{$.webApplicationInfo.resource}"
+                    },
+                    "copilotAgents": {
+                        "customEngineAgents": [
+                            {
+                                "id": "{$.copilotAgents.customEngineAgents[0].id}",
+                                "type": "{$.copilotAgents.customEngineAgents[0].type}",
+                                "disclaimer": {
+                                    "text": "{$.copilotAgents.customEngineAgents[0].disclaimer.text}"
+                                }
+                            }
+                        ]
                     }
                 }
             },
@@ -582,7 +725,7 @@
                 "developerName": "Microsoft Corporation",
                 "shortDescription": "The Copilots Extensions app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any copilot extensions from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
                 "longDescription": "The Copilots Extensions app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any copilot extensions from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
-                "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilotextensions_largeimage.png",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/copilotextensions_largeimage.png",
                 "getTemplatedAppInstanceUrl": {
                     "urlTemplate": "https://api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}?api-version=2020-02-01",
                     "authModel": "powerapps"
@@ -664,6 +807,17 @@
                     "webApplicationInfo": {
                         "id": "{$.webApplicationInfo.id}",
                         "resource": "{$.webApplicationInfo.resource}"
+                    },
+                    "copilotAgents": {
+                        "customEngineAgents": [
+                            {
+                                "id": "{$.copilotAgents.customEngineAgents[0].id}",
+                                "type": "{$.copilotAgents.customEngineAgents[0].type}",
+                                "disclaimer": {
+                                    "text": "{$.copilotAgents.customEngineAgents[0].disclaimer.text}"
+                                }
+                            }
+                        ]
                     }
                 }
             },
@@ -763,7 +917,7 @@
                     }
                 }
             },
-             {
+            {
                 "version": "1.0.0",
                 "id": "9009da34-6d9c-4f1a-9c73-1e8372878761",
                 "name": "Channel Agent DF",
@@ -806,7 +960,7 @@
                 "isBlockable": false,
                 "shortDescription": "This is an agent created based on the sources selected by its owner.",
                 "longDescription": "Agents are created and customized based on the sources selected, including SharePoint sites, documents, and other files. Users can start conversations with these agents directly from a SharePoint site or by adding an agent to a Teams group chat and get the support they need to optimize their productivity with AI. ",
-                "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/sharepoint_agent.png?v=0.3",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/sharepoint_agent.png?v=0.3",
                 "getTemplatedAppInstanceUrl": {
                     "urlTemplate": "https://substrate-sdf.office.com/KnowledgeGraph/api/v1.0/CustomCopilotBot/TeamsManifests/{templatedInstanceAppId}",
                     "authModel": "substrate"
@@ -860,7 +1014,9 @@
                                 "source": "onedriveSharepoint",
                                 "environment": "{$.bots[0].registrationInfo.environment}"
                             },
-                            "commandLists": [ "{$.bots[0].commandLists}" ]
+                            "commandLists": [
+                                "{$.bots[0].commandLists}"
+                            ]
                         }
                     ],
                     "permissions": [
@@ -869,7 +1025,6 @@
                     ],
                     "validDomains": [
                         "*.botframework.com",
-                        "login.microsoftonline.com",
                         "*.*.botframework.com"
                     ],
                     "webApplicationInfo": {
