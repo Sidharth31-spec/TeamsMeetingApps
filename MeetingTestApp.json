@@ -141,43 +141,87 @@
                         "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyNkYTVmYmRlYi01YWFmLTRjOWMtYTUzOC04OWNiNGE4YjNiYTc="
                     },
                     "tools":[
-                      {
-                        "name": "WorkItemPlugin_QueryWorkItems",
-                        "description": "Asks questions about work items in Azure Devops like bugs, tasks, epics or features that can be answered by azure devops fields or the tags on the work item.\r\n\r\nFollow-up questions should route back to this tool, when they are relevant to querying work items. Example:\r\n\r\nUser: What are the bugs assigned to me?\r\nAssistant: \u003CResponse\u003E\r\nUser: What are the active ones?\r\n\r\nWhere the question is NOT relevant to querying and therefore should NOT route back to this tool:\r\n\r\nUser: What are the bugs assigned to me including the severity?/Assistant: \u003CResponse\u003E\r\nUser: What do the severity levels mean?",
-                        "inputSchema": {
-                            "type": "object",
-                            "properties": {
-                                "organization": {
-                                    "type": "string",
-                                    "description": "The Azure DevOps organization"
+                        {
+                            "name": "WorkItemPlugin_QueryWorkItems",
+                            "description": "Asks questions about work items in Azure Devops like bugs, tasks, epics or features that can be answered by azure devops fields or the tags on the work item.\r\n\r\nFollow-up questions should route back to this tool, when they are relevant to querying work items. Example:\r\n\r\nUser: What are the bugs assigned to me?\r\nAssistant: \u003CResponse\u003E\r\nUser: What are the active ones?\r\n\r\nWhere the question is NOT relevant to querying and therefore should NOT route back to this tool:\r\n\r\nUser: What are the bugs assigned to me including the severity?/Assistant: \u003CResponse\u003E\r\nUser: What do the severity levels mean?",
+                            "inputSchema": {
+                                "type": "object",
+                                "properties": {
+                                    "organization": {
+                                        "type": "string",
+                                        "description": "The Azure DevOps organization"
+                                    },
+                                    "project": {
+                                        "type": "string",
+                                        "description": "The Azure DevOps project"
+                                    },
+                                    "workItemType": {
+                                        "type": "string",
+                                        "description": "The type of the work item the user is asking for or null if ambiguous"
+                                    },
+                                    "question": {
+                                        "type": "string",
+                                        "description": "The user\u0027s question about work items including the work item type if the user includes it."
+                                    },
+                                    "includeRelations": {
+                                        "type": "boolean",
+                                        "description": "Whether to include related links like pull requests"
+                                    }
                                 },
-                                "project": {
-                                    "type": "string",
-                                    "description": "The Azure DevOps project"
-                                },
-                                "workItemType": {
-                                    "type": "string",
-                                    "description": "The type of the work item the user is asking for or null if ambiguous"
-                                },
-                                "question": {
-                                    "type": "string",
-                                    "description": "The user\u0027s question about work items including the work item type if the user includes it."
-                                },
-                                "includeRelations": {
-                                    "type": "boolean",
-                                    "description": "Whether to include related links like pull requests"
-                                }
+                                "required": [
+                                    "question",
+                                    "includeRelations"
+                                ]
                             },
-                            "required": [
-                                "question",
-                                "includeRelations"
-                            ]
+                            "annotations": {
+                                "title": "List workItems",
+                                "readOnlyHint": true
+                            }
                         },
-                         "annotations": {
-                              "title": "List workItems",
-                              "readOnlyHint": true
+                        {
+                            "Name": "WorkItemPlugin_CreateWorkItem",
+                            "Description": "Creates an ADO work item (example: bug or task). Always call this tool for \u0027create a bug\u0027, \u0027create a task\u0027 or similar even if no parameters are provided",
+                            "InputSchema": {
+                                "type": "object",
+                                "properties": {
+                                    "organization": {
+                                        "type": "string",
+                                        "description": "The Azure DevOps organization. Never prompt the user for this parameter. Supply null if unavailable."
+                                    },
+                                    "project": {
+                                        "type": "string",
+                                        "description": "The Azure DevOps project. Never prompt the user for this parameter. Supply null if unavailable."
+                                    },
+                                    "type": {
+                                        "type": "string",
+                                        "description": "Type of the work item to be created such as an Epic, Requirement, Feature, Task, Bug or User Story"
+                                    },
+                                    "title": {
+                                        "type": "string",
+                                        "description": "Title of the ADO work item being created"
+                                    },
+                                    "description": {
+                                        "type": "string",
+                                        "description": "Description of the ADO work item being created"
+                                    },
+                                    "areaPath": {
+                                        "type": "string",
+                                        "description": "Area Path of the ADO work item being created"
+                                    },
+                                    "additionalFields": {
+                                        "type": "string",
+                                        "description": "A map of additional fields to their values as a JSON map. Example: Create a bug with Status Tweet foo would produce {\u0022Status Tweet\u0022: \u0022foo\u0022}"
+                                    }
+                                },
+                                "required": [
+                                    "type",
+                                    "title",
+                                    "description",
+                                    "areaPath"
+                                ],
+                                "destructiveHint": "This function performs an action that may modify data or state."
+                            }
                         }
-                      }
                     ]
                 },
                 "f0e33e18-08fc-4511-a2a7-c6bdff367263": {
@@ -2252,7 +2296,7 @@
                     "serverUrl": "https://api.githubcopilot.com/mcp",
                     "authType": "oAuth2.0",
                     "oAuthConfiguration": {
-                        "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM3ZDUzYTQ0Ny1mYTMzLTQ5MmMtOTIxNC0xMmExMTA3Y2Y1ZGU="
+                        "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyMzNTc0NmNiNy03OGU2LTRmOWUtOGVhMi1mNzRlYjNmYjEwNzc="
                     },
                   "tools": [
                     {
