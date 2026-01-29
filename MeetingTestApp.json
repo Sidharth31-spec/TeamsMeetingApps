@@ -58,7 +58,44 @@
                             "readOnlyHint": true
                           }
                         }
-                      }
+                      },
+                      {
+                        "name": "ICMDataPlugin_QueryIncidents",
+                        "description": "Query IcM incidents based on the provided parameters from Athena.",
+                        "inputSchema": {
+                          "type": "object",
+                          "properties": {
+                            "lookbackPeriodDays": {
+                              "type": "integer",
+                              "description": "The lookback period in days"
+                            },
+                            "showOutagesOnly": {
+                              "type": "boolean",
+                              "description": "Whether to limit results to outages only"
+                            },
+                            "severityList": {
+                              "type": "string",
+                              "description": "The severities to include: 0, 1, 2, 25, 3, 4"
+                            },
+                            "statusList": {
+                              "type": "string",
+                              "description": "The statuses to include: ACTIVE, MITIGATED, RESOLVED"
+                            },
+                            "teamName": {
+                              "type": "string",
+                              "description": "The IcM team name"
+                            },
+                            "keywordList": {
+                              "type": "string",
+                              "description": "Comma-separated keywords to search for in incident title and tags. Empty means no keyword filtering."
+                            }
+                          },
+                          "required": [],
+                          "annotations": {
+                            "title": "Get incident details",
+                            "readOnlyHint": true
+                          }
+                        }
                     ]
                 },
                 "0100c96d-819d-4b3b-b6d4-96bb5bfe1c12":{
