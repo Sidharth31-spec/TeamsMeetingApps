@@ -2820,169 +2820,127 @@
           ]
         },
         "f0e33e18-08fc-4511-a2a7-c6bdff367263": {
-          "serverUrl": "https://mcp.asana.com/sse",
+          "serverUrl": "https://mcp.asana.com/v2/mcp",
           "authType": "oAuth2.0",
           "oAuthConfiguration": {
-            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM5ZDVmOGZkMS01ZWI2LTQ3Y2YtOTc2Yy01YmUwNzA3ZGY3ZTA="
+            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM4MDZiYTNiOC0zOGE1LTQ5NTgtODFkOS01MGQ2YzZjNDVhNTE="
           },
           "tools": [
             {
-              "name": "asana_list_workspaces",
-              "description": "Get all accessible workspaces. Returns workspace IDs needed for most other operations. Always call this FIRST to discover valid workspace IDs before using workspace-specific tools. Results include workspace name, ID, and organization info.",
+              "name": "get_portfolio",
+              "title": "Get portfolio",
+              "description": "Get detailed portfolio data by ID including name, owner, and projects. Use after finding portfolio ID via typeahead. Returns complete portfolio configuration. Essential for understanding portfolio context and content.",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "opt_fields": {
+                  "portfolio_gid": {
                     "type": "string",
-                    "description": "Comma-separated list of optional fields to include in the response."
-                  },
-                  "limit": {
-                    "type": "number",
-                    "minimum": 1,
-                    "maximum": 100,
-                    "description": "Limit number of results. This is only necessary if the user is in large number of workspaces. Value must be between 1 and 100."
-                  }
-                },
-                "additionalProperties": false,
-                "$schema": "http://json-schema.org/draft-07/schema#"
-              },
-              "annotations": {
-                "title": "List workspaces",
-                "readOnlyHint": true
-              }
-            },
-            {
-              "name": "asana_get_user",
-              "description": "Get user details by ID, email, or \"me\". Returns name, email, workspaces. Use to find user IDs for task assignment. \"me\" returns authenticated user info. Essential before assigning tasks. When no user_id is provided, defaults to \"me\" (authenticated user) - equivalent to the former asana_get_user_info tool.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {
-                  "user_id": {
-                    "type": "string",
-                    "description": "A string identifying a user. This can be 'me', an email, or the gid of a user. When omitted, defaults to 'me' (authenticated user)."
+                    "description": "Globally unique identifier for the portfolio"
                   },
                   "opt_fields": {
                     "type": "string",
-                    "description": "Comma-separated list of optional fields to include in the response."
-                  }
-                },
-                "additionalProperties": false,
-                "$schema": "http://json-schema.org/draft-07/schema#"
-              },
-              "annotations": {
-                "title": "Get user",
-                "readOnlyHint": true
-              }
-            },
-            {
-              "name": "asana_get_teams_for_user",
-              "description": "Get teams user belongs to. Returns team names and IDs. Use to check user team access or find teams for specific user. Requires organization ID. \"me\" supported for current user.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {
-                  "user_gid": {
-                    "type": "string",
-                    "description": "A string identifying a user. This can be 'me', an email, or the gid of a user."
-                  },
-                  "organization": {
-                    "type": "string",
-                    "description": "Globally unique identifier of the  workspace or organization."
-                  },
-                  "limit": {
-                    "type": "number",
-                    "minimum": 1,
-                    "maximum": 100,
-                    "description": "Number of projects to return per page (1-100)."
-                  },
-                  "offset": {
-                    "type": "string",
-                    "description": "Pagination offset token."
-                  },
-                  "opt_fields": {
-                    "type": "string",
-                    "description": "Comma-separated list of optional fields to include."
+                    "description": "Comma-separated list of optional fields to include in the response"
                   }
                 },
                 "required": [
-                  "user_gid",
-                  "organization"
+                  "portfolio_gid"
                 ],
                 "additionalProperties": false,
                 "$schema": "http://json-schema.org/draft-07/schema#"
               },
               "annotations": {
-                "title": "Get teams for user",
-                "readOnlyHint": true
+                "title": "Get portfolio",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_get_team_users",
-              "description": "List all team members. Returns user names and IDs. Use team ID from typeahead search first. Supports pagination for large teams. Results are sorted alphabetically and limited to 2000 results.",
+              "name": "get_portfolios",
+              "title": "Get portfolios",
+              "description": "List portfolios in workspace owned by the current user. REQUIRES workspace parameter. Returns portfolio names and IDs for portfolios you own. Use for portfolio discovery and management. Supports pagination for workspaces with many portfolios.",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "team_id": {
-                    "type": "string",
-                    "description": "Globally unique identifier for the team."
-                  },
-                  "opt_fields": {
-                    "type": "string",
-                    "description": "Comma-separated list of optional fields to include in the response."
+                  "limit": {
+                    "type": "number",
+                    "minimum": 1,
+                    "maximum": 100,
+                    "description": "Results per page (1-100)"
                   },
                   "offset": {
                     "type": "string",
-                    "description": "Pagination offset token from a previous request."
+                    "description": "Pagination offset token"
+                  },
+                  "opt_fields": {
+                    "type": "string",
+                    "description": "Comma-separated list of optional fields to include in the response"
                   }
                 },
-                "required": [
-                  "team_id"
-                ],
                 "additionalProperties": false,
                 "$schema": "http://json-schema.org/draft-07/schema#"
               },
               "annotations": {
-                "title": "Get team users",
-                "readOnlyHint": true
+                "title": "Get portfolios",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_get_teams_for_workspace",
-              "description": "List all teams in workspace. Returns team names and IDs. Use to discover teams before searching team projects/users. Essential for workspace structure understanding. Supports pagination.",
+              "name": "get_items_for_portfolio",
+              "title": "Get items for portfolio",
+              "description": "List projects, goals, and other items in a portfolio. Returns item names, IDs, and types. Use for portfolio content exploration and management. Supports pagination for portfolios with many items.",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "workspace_gid": {
+                  "portfolio_gid": {
                     "type": "string",
-                    "description": "Globally unique identifier for the workspace or organization"
+                    "description": "Globally unique identifier for the portfolio"
                   },
                   "limit": {
                     "type": "number",
                     "minimum": 1,
                     "maximum": 100,
-                    "description": "Number of teams to return per page (1-100)."
+                    "description": "Results per page (1-100)"
                   },
                   "offset": {
                     "type": "string",
-                    "description": "Pagination offset token."
+                    "description": "Pagination offset token"
                   },
                   "opt_fields": {
                     "type": "string",
-                    "description": "Comma-separated list of optional fields to include."
+                    "description": "Comma-separated list of optional fields to include in the response"
                   }
                 },
                 "required": [
-                  "workspace_gid"
+                  "portfolio_gid"
                 ],
                 "additionalProperties": false,
                 "$schema": "http://json-schema.org/draft-07/schema#"
               },
               "annotations": {
-                "title": "Get teams for workspace",
-                "readOnlyHint": true
+                "title": "Get items for portfolio",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_get_project",
+              "name": "get_project",
+              "title": "Get project",
               "description": "Get detailed project data including name, description, owner, members, custom fields, and settings. Use after finding project ID via typeahead. Returns complete project configuration needed for task operations. Specify opt_fields for custom fields data.",
               "inputSchema": {
                 "type": "object",
@@ -3004,19 +2962,22 @@
               },
               "annotations": {
                 "title": "Get project",
-                "readOnlyHint": true
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_get_projects",
+              "name": "get_projects",
+              "title": "Get projects",
               "description": "List projects filtered by workspace. Supports team, archived filters. Returns project names and IDs. Use for filtered project views and bulk operations.",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "workspace": {
-                    "type": "string",
-                    "description": "Globally unique identifier for the workspace."
-                  },
                   "team": {
                     "type": "string",
                     "description": "Filter projects on team id"
@@ -3041,203 +3002,264 @@
                     "description": "Pagination offset token."
                   }
                 },
-                "required": [
-                  "workspace"
-                ],
                 "additionalProperties": false,
                 "$schema": "http://json-schema.org/draft-07/schema#"
               },
               "annotations": {
                 "title": "Get projects",
-                "readOnlyHint": true
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_get_projects_for_team",
-              "description": "List all projects for a team. Returns both active and archived projects with IDs. Use after finding team ID via typeahead. Supports pagination for teams with many projects. Essential for team portfolio views.",
+              "name": "create_project",
+              "title": "Create project",
+              "description": "Create new project in Asana. Every project requires a workspace, and this cannot be changed after creation. If workspace is an organization, a team must also be specified. Client agents should explicitly ask for team when creating a project rather than inferring it. Supports custom fields, templates, due dates, and privacy settings. Returns project ID for immediate task creation. Essential for project setup.",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "team_gid": {
+                  "name": {
                     "type": "string",
-                    "description": "Globally unique identifier for the team."
+                    "description": "Name of the project."
+                  },
+                  "team": {
+                    "type": "string",
+                    "description": "Globally unique identifier for the team. Required if workspace is not provided."
+                  },
+                  "notes": {
+                    "type": "string",
+                    "description": "Project description."
+                  },
+                  "html_notes": {
+                    "type": "string",
+                    "description": "HTML-formatted description for the project."
+                  },
+                  "color": {
+                    "type": "string",
+                    "enum": [
+                      "dark-pink",
+                      "dark-green",
+                      "dark-blue",
+                      "dark-red",
+                      "dark-teal",
+                      "dark-brown",
+                      "dark-orange",
+                      "dark-purple",
+                      "dark-warm-gray",
+                      "light-pink",
+                      "light-green",
+                      "light-blue",
+                      "light-red",
+                      "light-teal",
+                      "light-brown",
+                      "light-orange",
+                      "light-purple",
+                      "light-warm-gray",
+                      "none"
+                    ],
+                    "description": "Color of the project (light-green, dark-green, light-blue, dark-blue, etc)."
+                  },
+                  "due_date": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "Date on which this project is due (YYYY-MM-DD format)."
+                  },
+                  "start_date": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "Date on which this project is started (YYYY-MM-DD format)."
+                  },
+                  "is_template": {
+                    "type": "boolean",
+                    "description": "Whether the project is a template. Defaults to false."
+                  },
+                  "public": {
+                    "type": "boolean",
+                    "description": "True if project is public to the entire workspace. Defaults to false."
+                  },
+                  "default_view": {
+                    "type": "string",
+                    "enum": [
+                      "list",
+                      "board",
+                      "calendar",
+                      "timeline"
+                    ],
+                    "description": "The default view of the project (list, board, calendar, timeline)."
+                  },
+                  "custom_fields": {
+                    "type": "string",
+                    "description": "JSON string of custom fields in format: {\"field_gid\": \"value\"}."
+                  },
+                  "owner": {
+                    "type": "string",
+                    "description": "User identifier for project owner. Can be \"me\", an email, or a user GID."
+                  },
+                  "followers": {
+                    "type": "string",
+                    "description": "Comma-separated list of user GIDs to add as followers."
+                  },
+                  "members": {
+                    "type": "string",
+                    "description": "Comma-separated list of user GIDs to add as members."
+                  },
+                  "default_access_level": {
+                    "type": "string",
+                    "enum": [
+                      "admin",
+                      "editor",
+                      "commenter",
+                      "viewer"
+                    ],
+                    "description": "Default access level for project members (admin, editor, commenter, viewer)."
+                  },
+                  "minimum_access_level_for_customization": {
+                    "type": "string",
+                    "enum": [
+                      "admin",
+                      "editor"
+                    ],
+                    "description": "Minimum access level for customization (admin, editor)."
+                  },
+                  "minimum_access_level_for_sharing": {
+                    "type": "string",
+                    "enum": [
+                      "admin",
+                      "editor",
+                      "commenter",
+                      "viewer"
+                    ],
+                    "description": "Minimum access level for sharing (admin, editor, commenter, viewer)."
+                  },
+                  "icon": {
+                    "type": "string",
+                    "enum": [
+                      "list",
+                      "board",
+                      "timeline",
+                      "calendar",
+                      "rocket",
+                      "people",
+                      "graph",
+                      "star",
+                      "bug",
+                      "light_bulb",
+                      "globe",
+                      "gear",
+                      "notebook",
+                      "computer",
+                      "check",
+                      "target",
+                      "html",
+                      "megaphone",
+                      "chat_bubbles",
+                      "briefcase",
+                      "page_layout",
+                      "mountain_flag",
+                      "puzzle",
+                      "presentation",
+                      "line_and_symbols",
+                      "speed_dial",
+                      "ribbon",
+                      "shoe",
+                      "shopping_basket",
+                      "map",
+                      "ticket",
+                      "coins"
+                    ],
+                    "description": "Project icon type."
+                  },
+                  "privacy_setting": {
+                    "type": "string",
+                    "enum": [
+                      "public_to_workspace",
+                      "private_to_team",
+                      "private"
+                    ],
+                    "description": "Privacy level for the project (public_to_workspace, private_to_team, private)."
                   },
                   "archived": {
                     "type": "boolean",
-                    "default": false,
-                    "description": "Filter projects by archived status."
-                  },
-                  "limit": {
-                    "type": "number",
-                    "minimum": 1,
-                    "maximum": 100,
-                    "description": "Number of projects to return per page (1-100)."
-                  },
-                  "offset": {
-                    "type": "string",
-                    "description": "Pagination offset token."
+                    "description": "Whether the project is archived. Defaults to false."
                   },
                   "opt_fields": {
                     "type": "string",
-                    "description": "Comma-separated list of optional fields to include."
+                    "description": "Comma-separated list of optional fields to include in response."
                   }
                 },
                 "required": [
-                  "team_gid"
+                  "name"
                 ],
                 "additionalProperties": false,
                 "$schema": "http://json-schema.org/draft-07/schema#"
               },
               "annotations": {
-                "title": "Get projects for team",
-                "readOnlyHint": true
+                "title": "Create project",
+                "readOnlyHint": false,
+                "destructiveHint": false,
+                "idempotentHint": false,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_get_projects_for_workspace",
-              "description": "Get ALL projects in a workspace across all teams. Returns project names and IDs. Use for workspace-wide operations or when team is unknown. May return large result set - consider using typeahead search first.",
+              "name": "get_status_overview",
+              "title": "Get status overview",
+              "description": "Get status overview and progress reports for initiatives/projects. Use this tool as a standalone when users ask for: status updates, status reports, project status, work overview, progress overview, initiative status, identified blockers, or any status-related queries. This tool searches projects and portfolios, extracts tasks and status updates, and returns aggregated project details, tasks, and status information. IMPORTANT: Call this tool directly with keywords - do NOT call other search tools first. This tool handles all searching and aggregation internally.",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "workspace_gid": {
+                  "keywords": {
                     "type": "string",
-                    "description": "Globally unique identifier for the workspace."
-                  },
-                  "limit": {
-                    "type": "number",
-                    "minimum": 1,
-                    "maximum": 100,
-                    "description": "Number of projects to return per page (1-100)."
-                  },
-                  "offset": {
-                    "type": "string",
-                    "description": "Pagination offset token."
-                  },
-                  "archived": {
-                    "type": "boolean",
-                    "default": false,
-                    "description": "Filter projects by archived status."
+                    "description": "Keywords to search for projects. Can be a single keyword (e.g., 'asana') or multiple comma-separated keywords (e.g., 'asana, chatgpt, integration'). The tool searches each keyword separately and combines results from all matching projects (OR logic - matches any keyword)."
                   },
                   "opt_fields": {
                     "type": "string",
-                    "description": "Comma-separated list of optional fields to include."
+                    "description": "Comma-separated list of optional fields to include in task data (e.g., 'name,notes,assignee,due_on,completed')."
                   }
                 },
                 "required": [
-                  "workspace_gid"
+                  "keywords"
                 ],
                 "additionalProperties": false,
                 "$schema": "http://json-schema.org/draft-07/schema#"
               },
               "annotations": {
-                "title": "Get projects for workspace",
-                "readOnlyHint": true
-              }
-            },
-            {
-              "name": "asana_get_project_status",
-              "description": "Get single status update by ID. Returns color (green/yellow/red), text, author, and timestamp. Use when you know specific status ID. For all statuses, use asana_get_project_statuses instead.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {
-                  "project_status_gid": {
-                    "type": "string",
-                    "description": "The project status GID to retrieve"
-                  },
-                  "opt_fields": {
-                    "type": "string",
-                    "description": "Comma-separated list of optional fields to include"
-                  }
-                },
-                "required": [
-                  "project_status_gid"
-                ],
-                "additionalProperties": false,
-                "$schema": "http://json-schema.org/draft-07/schema#"
+                "title": "Get status overview",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
               },
-              "annotations": {
-                "title": "Get project status",
-                "readOnlyHint": true
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_get_project_statuses",
-              "description": "List all status updates for a project chronologically. Returns status color, text, author for each update. Use to track project health over time. Supports pagination for projects with many updates.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {
-                  "project_gid": {
-                    "type": "string",
-                    "description": "The project GID to get statuses for"
-                  },
-                  "limit": {
-                    "type": "number",
-                    "minimum": 1,
-                    "maximum": 100,
-                    "description": "Results per page (1-100)"
-                  },
-                  "offset": {
-                    "type": "string",
-                    "description": "Pagination offset token"
-                  },
-                  "opt_fields": {
-                    "type": "string",
-                    "description": "Comma-separated list of optional fields to include"
-                  }
-                },
-                "required": [
-                  "project_gid"
-                ],
-                "additionalProperties": false,
-                "$schema": "http://json-schema.org/draft-07/schema#"
-              },
-              "annotations": {
-                "title": "Get project statuses",
-                "readOnlyHint": true
-              }
-            },
-            {
-              "name": "asana_get_project_task_counts",
-              "description": "Get task statistics for a project. Returns counts of incomplete, completed, and milestone tasks. Use for quick project progress overview, capacity checks, or reporting dashboards.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {
-                  "project_id": {
-                    "type": "string",
-                    "description": "The project ID to get task counts for"
-                  },
-                  "opt_fields": {
-                    "type": "string",
-                    "description": "Comma-separated list of optional fields to include"
-                  }
-                },
-                "required": [
-                  "project_id"
-                ],
-                "additionalProperties": false,
-                "$schema": "http://json-schema.org/draft-07/schema#"
-              },
-              "annotations": {
-                "title": "Get project task counts",
-                "readOnlyHint": true
-              }
-            },
-            {
-              "name": "asana_search_tasks",
+              "name": "search_tasks",
+              "title": "Search tasks",
               "description": "Advanced task search with multiple filters. Supports text search, all date filters, status filters, user filters, project/portfolio/section/tag filters, and custom fields. Returns matching tasks with IDs. Handles complex queries and bulk task operations. When the user asks about tasks assigned to them, use assignee_any=\"me\" for best results. Note: If you specify projects_any and sections_any, you will receive tasks for the project and tasks for the section. If you're looking for only tasks in a section, omit the projects_any from the request.",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "workspace": {
-                    "type": "string",
-                    "description": "Globally unique identifier for the workspace."
-                  },
                   "text": {
                     "type": "string",
                     "description": "Text to search for in task name or description."
                   },
                   "resource_subtype": {
                     "type": "string",
+                    "enum": [
+                      "default_task",
+                      "milestone",
+                      "approval"
+                    ],
                     "description": "Filters results by the task's resource_subtype (e.g., milestone)."
                   },
                   "completed": {
@@ -3461,6 +3483,13 @@
                   },
                   "sort_by": {
                     "type": "string",
+                    "enum": [
+                      "due_date",
+                      "created_at",
+                      "completed_at",
+                      "likes",
+                      "modified_at"
+                    ],
                     "description": "Field to sort by (e.g., 'due_date', 'created_at', 'completed_at', 'likes', 'modified_at'). Defaults to modified_at."
                   },
                   "sort_ascending": {
@@ -3487,19 +3516,23 @@
                     "description": "Number of results to return (1-100)."
                   }
                 },
-                "required": [
-                  "workspace"
-                ],
                 "additionalProperties": false,
                 "$schema": "http://json-schema.org/draft-07/schema#"
               },
               "annotations": {
                 "title": "Search tasks",
-                "readOnlyHint": true
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_get_task",
+              "name": "get_task",
+              "title": "Get task",
               "description": "Get full task details by ID. Returns name, description, assignee, due dates, custom fields, projects, dependencies. Essential before updating tasks. Use opt_fields for custom field values. Required for understanding task context.",
               "inputSchema": {
                 "type": "object",
@@ -3521,11 +3554,18 @@
               },
               "annotations": {
                 "title": "Get task",
-                "readOnlyHint": true
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_create_task",
+              "name": "create_task",
+              "title": "Create task",
               "description": "Create task in Asana with context. REQUIRES one of: project_id, parent, or workspace+assignee together. For assignee-only tasks, both workspace and assignee must be provided. Returns task ID with confirmation. You can directly tag and mention people by using links in html_notes field",
               "inputSchema": {
                 "type": "object",
@@ -3537,10 +3577,6 @@
                   "project_id": {
                     "type": "string",
                     "description": "Project GID for task creation. Required if not using parent or workspace+assignee."
-                  },
-                  "workspace": {
-                    "type": "string",
-                    "description": "Workspace GID where task will be created. Required when using assignee without project_id."
                   },
                   "parent": {
                     "type": "string",
@@ -3593,6 +3629,10 @@
                     ],
                     "description": "Approval status (pending, approved, rejected, changes_requested)."
                   },
+                  "section_id": {
+                    "type": "string",
+                    "description": "Section GID to place task in. Requires project_id to be provided."
+                  },
                   "assignee_section": {
                     "type": "string",
                     "description": "Section GID to place task in the assignee's My Tasks list."
@@ -3632,11 +3672,18 @@
               },
               "annotations": {
                 "title": "Create task",
-                "readOnlyHint": false
+                "readOnlyHint": false,
+                "destructiveHint": false,
+                "idempotentHint": false,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_update_task",
+              "name": "update_task",
+              "title": "Update task",
               "description": "Update existing task properties. Change name, notes, assignee, completion status, due dates, custom fields. Requires task ID. Returns updated task data. Use asana_get_task first to understand current state.",
               "inputSchema": {
                 "type": "object",
@@ -3648,6 +3695,10 @@
                   "name": {
                     "type": "string",
                     "description": "New name for the task."
+                  },
+                  "html_notes": {
+                    "type": "string",
+                    "description": "New task description in HTML format. You can create links to other asana objects with the following instructions: For <a> tags specifically, to make it easier to create @-mentions through the API, we only require that you provide the GID of the object you wish to reference. If you have access to that object, the API will automatically generate the appropriate href and other attributes for you. For example, to create a link to a task with GID \"123\", you can send the tag <a data-asana-gid=\"123\"/> which will then be expanded to <a href=\"https://app.asana.com/0/0/123/f\" data-asana-accessible=\"true\" data-asana-dynamic=\"true\" data-asana-type=\"task\" data-asana-gid=\"123\">Task Name</a>. You can also generate a link to a task in a specific project or tag by including a data-asana-project or data-asana-tag attribute in the <a> tag. All other attributes, as well as the contents of the tag, are ignored.\n\nTo keep the contents of your tag and make a custom vanity link, include the property data-asana-dynamic=\"false\" when setting the contents of the tag. You would send <a data-asana-gid=\"123\" data-asana-dynamic=\"false\">This is some custom text!</a> and receive <a data-asana-accessible=\"true\" data-asana-dynamic=\"false\" data-asana-type=\"task\" data-asana-gid=\"123\">This is some custom text!</a>\n\nIf you do not have access to the referenced object when you try to create a link, the API will not generate an href for you, but will instead look for an href you provide. This allows you to write back <a> tags unmodified even if you do not have access to the resource. If you do not have access to the referenced object and no href is provided, your request will be rejected with a 400 Bad Request error. Similarly, if you provide neither a GID nor a valid href, the request will be rejected with the same error. "
                   },
                   "notes": {
                     "type": "string",
@@ -3684,19 +3735,22 @@
               },
               "annotations": {
                 "title": "Update task",
-                "readOnlyHint": false
+                "readOnlyHint": false,
+                "destructiveHint": true,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_get_tasks",
+              "name": "get_tasks",
+              "title": "Get tasks",
               "description": "List tasks filtered by context (workspace/project/tag/section/user list). One context required. Supports assignee, date filters. Returns task names and IDs. Use for filtered task views and bulk operations.",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "workspace": {
-                    "type": "string",
-                    "description": "Globally unique identifier for the workspace."
-                  },
                   "project": {
                     "type": "string",
                     "description": "Globally unique identifier for the project."
@@ -3747,18 +3801,25 @@
               },
               "annotations": {
                 "title": "Get tasks",
-                "readOnlyHint": true
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             },
             {
-              "name": "asana_typeahead_search",
-              "description": "Quick search across Asana objects. ALWAYS use this FIRST before specialized search. Returns most relevant items based on recency and usage. Faster than dedicated search tools for finding specific items. Works for: users, projects, tasks, teams, tags, portfolios, goals. Empty query returns recently accessed items. DO NOT guess the workspace GID. If no workspace GID is provided look it up.",
+              "name": "search_objects",
+              "title": "Search objects",
+              "description": "Quick search across Asana objects. ALWAYS use this FIRST before specialized search. Returns most relevant items based on recency and usage. Faster than dedicated search tools for finding specific items. If the user is not specific about which objects to search, use the following priority order: project + task > portfolio > goal + others (user, team, tag, custom_field).",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "workspace_gid": {
+                  "opt_fields": {
                     "type": "string",
-                    "description": "Globally unique identifier for the workspace."
+                    "description": "Comma-separated list of optional fields to include in the response."
                   },
                   "resource_type": {
                     "type": "string",
@@ -3787,15 +3848,80 @@
                   }
                 },
                 "required": [
-                  "workspace_gid",
                   "resource_type"
                 ],
                 "additionalProperties": false,
                 "$schema": "http://json-schema.org/draft-07/schema#"
               },
               "annotations": {
-                "title": "Typeahead search",
-                "readOnlyHint": true
+                "title": "Search objects",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
+              }
+            },
+            {
+              "name": "get_user",
+              "title": "Get user",
+              "description": "Get user details by ID, email, or \"me\". Returns name, email, workspaces. Use to find user IDs for task assignment. \"me\" returns authenticated user info. Essential before assigning tasks. When no user_id is provided, defaults to \"me\" (authenticated user) - equivalent to the former asana_get_user_info tool.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "user_id": {
+                    "type": "string",
+                    "description": "A string identifying a user. This can be 'me', an email, or the gid of a user. When omitted, defaults to 'me' (authenticated user)."
+                  },
+                  "opt_fields": {
+                    "type": "string",
+                    "description": "Comma-separated list of optional fields to include in the response."
+                  }
+                },
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "title": "Get user",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
+              }
+            },
+            {
+              "name": "get_workspace_users",
+              "title": "Get workspace users",
+              "description": "Get all users in workspace. Returns compact users with names and IDs. Results are sorted alphabetically and limited to 2000. Prefer searching more narrowly, like by typeahead or team first instead of this.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "opt_fields": {
+                    "type": "string",
+                    "description": "Comma-separated list of optional fields to include in the response."
+                  },
+                  "offset": {
+                    "type": "string",
+                    "description": "Pagination offset token from a previous request."
+                  }
+                },
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "title": "Get workspace users",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              },
+              "execution": {
+                "taskSupport": "forbidden"
               }
             }
           ]
