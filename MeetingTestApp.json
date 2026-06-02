@@ -106,7 +106,9 @@
       "mcpConfig": {
         "145360ce-cf7d-46e3-92b2-d6773fc0a0e4": {
           "serverUrl": "https://www.microsoft.com/releasecommunications/mcp",
-          "oAuthConfiguration": {},
+          "oAuthConfiguration": {
+            "oAuthConfigurationId": "placeholder-no-auth"
+          },
           "tools": [
             {
               "name": "get_m365_roadmap_by_id",
