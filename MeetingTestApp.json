@@ -106,18 +106,18 @@
        "agentSkillsConfig": {
           "a3869608-b8be-4e8a-b560-67bd4ae30b33": [
             {
-              "Name": "meeting-shareout",
-              "Description": "Summarizes a detailed Teams meeting recap into a readable message appropriate format. Extracts the high-level summary, key decisions, and assigned action items for sharing.",
-              "Folder": "./skills/meeting-shareout",
-              "FileUrls": [
+              "name": "meeting-shareout",
+              "description": "Summarizes a detailed Teams meeting recap into a readable message appropriate format. Extracts the high-level summary, key decisions, and assigned action items for sharing.",
+              "folder": "./skills/meeting-shareout",
+              "fileUrls": [
                 "https://res.cdn.office.net/teamsappdata/app-assets/ring0/a3869608-b8be-4e8a-b560-67bd4ae30b33/agentskills/meeting-shareout/skill.md"
               ]
             },
             {
-              "Name": "follow-up-items",
-              "Description": "Extracts assigned follow-up action items from Teams meeting transcript and meeting chat messages. Posts the task list to the meeting channel with @mentions and follows up with an automated reminder.",
-              "Folder": "./skills/follow-up-items",
-              "FileUrls": [
+              "name": "follow-up-items",
+              "description": "Extracts assigned follow-up action items from Teams meeting transcript and meeting chat messages. Posts the task list to the meeting channel with @mentions and follows up with an automated reminder.",
+              "folder": "./skills/follow-up-items",
+              "fileUrls": [
                 "https://res.cdn.office.net/teamsappdata/app-assets/ring0/a3869608-b8be-4e8a-b560-67bd4ae30b33/agentskills/follow-up-items/skill.md"
               ]
             }
