@@ -8210,7 +8210,7 @@
           "serverUrl": "https://mcp.asana.com/v2/mcp",
           "authType": "oAuth2.0",
           "oAuthConfiguration": {
-            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM4MDZiYTNiOC0zOGE1LTQ5NTgtODFkOS01MGQ2YzZjNDVhNTE="
+            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM5MzIwZDQ0Ny1mZjE4LTRhNDMtOGQzZS1lNTEzY2M0ZjQ2YjU="
           },
           "tools": [
             {
