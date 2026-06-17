@@ -9317,7 +9317,7 @@
           "serverUrl": "https://mcp.atlassian.com/v1/sse",
           "authType": "oAuth2.0",
           "oAuthConfiguration": {
-            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM2MTBkMTIxNC1jZTM5LTQ0Y2MtOTQwYy0yYTYxYjI1MDY1Nzk="
+            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM2OGEwZjA3Yi1hYjQxLTRlMjQtOTlmNi1jNTE2ZTg4MWY1N2U="
           },
           "tools": [
             {
