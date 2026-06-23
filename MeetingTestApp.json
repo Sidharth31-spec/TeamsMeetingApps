@@ -10404,7 +10404,7 @@
           "serverUrl": "https://api.githubcopilot.com/mcp",
           "authType": "oAuth2.0",
           "oAuthConfiguration": {
-            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM2NzE5YzAyYy00Y2Y3LTQ3NjctODMxZi0xNGQ0OTc0MGYwZTQ="
+            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyMzNTc0NmNiNy03OGU2LTRmOWUtOGVhMi1mNzRlYjNmYjEwNzc="
           },
           "tools": [
             {
