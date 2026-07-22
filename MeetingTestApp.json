@@ -52,7 +52,7 @@
       },
       "mcpConfig": {
         "cd2d8695-bdc9-4d8e-9620-cc963ed81f41": {
-          "serverUrl": "https://orgabf50a01.crm5.dynamics.com/api/mcp",
+          "serverUrl": "https://sidhawteamtestorg.crm.dynamics.com/api/mcp",
           "oAuthConfiguration": {
             "oAuthConfigurationId": "placeholder-no-auth"
           },
