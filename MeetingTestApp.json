@@ -2,79 +2,7 @@
   "value": {
     "appCatalogMetadata": {
       "copilotPluginAllowedAppIds": [
-        "c738b607-88dd-4f16-aefe-6a824c65d25d",
-        "30bb610c-6321-40fe-a047-056e7d0dac96",
-        "49e6f432-d79c-49e8-94f7-89b94f3672fd",
-        "5be2b320-a5b7-4221-893c-dee506e4e365",
-        "3ee373aa-62fa-4fc6-b11f-9627d5b4a73d",
-        "2b248bdc-b79d-35eb-ece8-e81c1ba9fcef",
-        "553f93cd-a182-4243-81ac-ccee505a9121",
-        "55ac82fa-249e-43b5-a5a6-4967990764eb",
-        "4b00bbbb-d524-419c-bb3b-9f42aee17424",
-        "05e1f66f-fcad-45c0-8a22-f3b658d375e6",
-        "2b876f4d-2e6b-4ee7-9b09-8893808c1380",
-        "40906836-4323-4bbe-875e-3cbb134c40a2",
-        "2ad804c5-5c19-431f-8801-a9eaefbca7c7",
-        "6b9cc557-e24a-4744-a370-407e717f2195",
-        "3bb4a480-7767-4cca-b896-7d74592a253f",
-        "7d88764a-8601-4e36-8be4-157eb48b5302",
-        "8bbbc813-6d87-497c-9e7c-e401607b2347",
-        "05061717-583f-47fd-aa25-ff6c3781c935",
-        "abb85324-1bfa-4029-b245-782d337fcde5",
-        "87000000-3db9-bb44-5015-0b4a327a6597",
-        "c962d216-55b9-482b-84cf-40aa7c4b1eea",
-        "280c0dfd-72bb-4297-b976-e4fab7ee82b8",
-        "ba4eda44-cd55-4e15-855c-0debafb0490b",
-        "c80cee99-d17f-4b2d-a2a4-57652ffd2a4b",
-        "fe7c3fd3-c78f-45c3-92bb-6eb3b12533c6",
-        "495bcc0e-1ebf-4429-92ea-e2d7cfc8edc9",
-        "cd760caa-5d83-4df6-98bd-d26f10971d28",
-        "04fdcea1-3511-499c-966d-099d59aef45f",
-        "dddf988d-00af-480f-b419-76a357a72460",
-        "94c84fdb-1c18-42b5-9d5a-cafb6b020a0d",
-        "489c5fe7-b8b5-420b-9904-14a03489e259",
-        "ab0eb89b-6ab6-48a0-afab-8a9e437dc93a",
-        "c21fcfa2-1479-404c-9448-63bfc4a378b4",
-        "7d0085c8-7054-4bb7-b728-a06ec1c5fe73",
-        "d718fbf7-be13-4b88-99ef-bbba4e726f7e",
-        "b27c082b-9d45-490a-b8bb-8dcda46c73f3",
-        "3de96799-8d16-463a-9a6f-9d26d42f135f",
-        "c3ff6344-f6f0-4bfa-8697-b9d47b32ca4b",
-        "d136f17e-df84-47f2-97a4-13aa24c0c647",
-        "d3d1be68-066c-4967-a74b-9edcf902dcfb",
-        "997ba2f0-dfc4-4a1a-bdf9-ee8f26e18ab8",
-        "de512141-36fb-4f5e-b6e5-c37af8b0390e",
-        "bee8d388-5b98-46d6-8ecd-d89bc02d1316",
-        "d2a1ed44-6cca-44d2-9b9c-1c9c1d597093",
-        "eab2d3ce-6d6a-4415-abc4-5f40a8317b1f",
-        "a79e783f-bd43-506c-ac03-563d8719bcf7",
-        "95fb5da0-6ced-4247-9d62-294f8fcb75df",
-        "e00456a5-3a89-400a-88b9-368533594cb4",
-        "7f905be6-3226-4a4c-9c54-ab1edce3c99c",
-        "1f510555-b518-4084-84e0-18c7bebc807c",
-        "41cda9a5-16e2-4189-9d59-d0dd518085e1",
-        "1d041f16-ab49-4627-bfda-6b60ad2cab6a",
-        "8216e453-3db5-48ee-a3d6-5122f505c8a3",
-        "d8c3ecdb-62c9-445a-a516-08bdef4376de",
-        "6adc8d55-eb37-4537-a66d-743b3cd4511b",
-        "6fdd2aa7-2dbf-4dd9-ab61-2c0e8dd83cf7",
-        "55560ea0-ae82-48b2-b71e-a45356f56bb1",
-        "b6bdf576-4561-4587-8600-cd79c4523361",
-        "49471a10-fdbc-4ffb-b0b8-944f3df985d9",
-        "fe91c6f4-470e-4a1f-912f-44c26dca4b05",
-        "adb3c870-c01c-11eb-a2cc-4dbd838985a1",
-        "04ef48ab-fceb-42bc-a0c3-3252c2d43cff",
-        "51a9e40e-bf0c-4ca1-bf65-ae2a48c096b4",
-        "97da468e-05c9-427e-876d-3c90640b5245",
-        "eb4059f8-4c52-4352-ba9a-c610e47c6427",
-        "67de0563-0766-4c26-8957-2eee30c4e798",
-        "28b871ff-85bf-48a5-9bee-364f2b74d104",
-        "b4d412f5-c2e6-4ba1-b67e-accb9d0acc84",
-        "f622422e-0bd3-4784-a11c-782e63162638",
-        "bfb36a0c-4e9a-4c1a-95c4-1df2c609c9e8",
-        "beb9e813-30ff-417b-90fc-97d748cbeb4c",
-        "7391ec55-2d88-4294-8e6b-b70267dd719a",
-        "5c3392bc-adbd-44d9-a324-8fbe10ad1d22"
+        "c738b607-88dd-4f16-aefe-6a824c65d25d"
       ],
       "copilotBotsAllowedAppIds": [],
       "federationBlockedAppIds": [
@@ -123,10 +51,662 @@
         ]
       },
       "mcpConfig": {
-        "ddc4caf8-b2d3-4922-b4f2-448b4c4cc868": {
-          "serverUrl": "https://msteamscopilotnowvirtualagent.service-now.com/sncapps/mcp-server/mcp/sn_itsm_mcp_server_itsm_default",
+        "cd2d8695-bdc9-4d8e-9620-cc963ed81f41": {
+          "serverUrl": "https://sidhawteamtestorg.crm.dynamics.com/api/mcp",
           "oAuthConfiguration": {
-            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyNjODJkODIyMC05NmJiLTQwZjItYWQ3Ni02ZWZhMWI1NWI1ZDQ="
+            "oAuthConfigurationId": "placeholder-no-auth"
+          },
+          "tools": [
+            {
+              "name": "read_query",
+              "description": "Dataverse SQL supports only basic SELECT queries with an explicit list of selected fields. \nIf aggregates are used, do not mix aggregated and non-aggregated columns in the SELECT list without a GROUP BY clause. \nIf a query requires comparing to an aggregate (for example, > AVG), do not use subqueries. \nInstead, split the logic into two queries: one to compute the aggregate and another to filter using literal values.\nGETDATE() and GETUTCDATE() functions are supported in predicates but not in the SELECT list.\nThe following features are allowed:\n\nTOP (without OFFSET). Example: SELECT TOP 20 col1 FROM table1\nSimple column-to-literal, column-to-column and column-to-date value function WHERE filters. Example: SELECT age FROM table1 WHERE age > 10 and haircolor=eyecolor or hiredate<GETUTCDATE()\nORDER BY. Example: SELECT col1, age FROM table1 ORDER BY age\nGROUP BY. Only the following aggregates are supported: COUNT, SUM, AVG, MIN, MAX. Example: SELECT col1, COUNT(col2) AS player_count FROM table1 GROUP BY col1.\nJOINs. Example: SELECT table1.col1, table1.col2, table2.col1 FROM table1 JOIN table2 ON table1.col1 = table2.col1\n\nThe following features are NOT supported:\n\nSubqueries are not allowed in SELECT, WHERE, or FROM clauses.\nHAVING. Example: SELECT col1,COUNT(id) AS player_count FROM table1 GROUP BY col1 HAVING COUNT(id) >= 3\nDISTINCT in select lists. Example: SELECT DISTINCT col1 from table1\nSubqueries (in SELECT, WHERE, FROM). Example: SELECT col1, col2 FROM table1 WHERE col1 IN (SELECT col3 FROM table2)\nWITH keyword. Example: WITH Sales AS (WITH Sales SELECT CxId, SUM(Amt) AS Exp FROM Orders GROUP BY CxId ) SELECT CxId, Exp FROM Sales\nOFFSET keyword. Example: SELECT Id, col1 FROM table1 ORDER BY Id OFFSET\nUNION keyword. Example: SELECT col1, col2 FROM table1 WHERE col3 = 'Sales' UNION SELECT col1, col2 FROM table1 WHERE col3 = 'Marketing'\nCAST keyword. Example: SELECT CAST('123' AS INT) AS ValueInt\nCONVERT keyword. Example: SELECT CONVERT(DATE, OrderDate) AS OrderDateOnly, CONVERT(DECIMAL(10,2), Amt) AS Amount FROM Orders\nCASE keyword. Example: SELECT Id, col1, col2, CASE WHEN Sal >= 100 THEN 'High' WHEN Sal >= 500 THEN 'Medium' ELSE 'Low' END AS SalCat FROM table1\nIF-ELSE keyword. Example: SELECT Id, col1, col2, CASE WHEN Sal > 100 THEN 'High' ELSE 'Low' END AS SalCat FROM table1\nAdvanced functions like: ROUND keyword. Example: SELECT PName, ROUND(Price, 2) AS RoundedPrice FROM table1\nDATE functions. Example: DATEDIFF(), DATEADD(), DATE()\nComplex conditions or unsupported aggregate argument types\nJOINs on aggregates. Example: SELECT c.CxId, c.CxName, s.Exp FROM Cxs c JOIN (SELECT CxId, SUM(Amt) AS Exp FROM Orders GROUP BY CxId) AS s ON c.CxId = s.CxId WHERE s.Exp > 100",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "querytext": {
+                    "type": "string",
+                    "description": "The SELECT SQL query to execute. Use list_tables tool to identify the logical table name. Then, use describe_table tool to find the logical names of the attributes along with their supported data types. Ensure that any SQL query you construct follows proper syntax and strictly adheres to the correct data types for each attribute."
+                  }
+                },
+                "required": [
+                  "querytext"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "create_table",
+              "description": "Create a new table in Dataverse with the specified columns",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "tablename": {
+                    "type": "string",
+                    "description": "Logical name (schema name) of the new Dataverse table. DO NOT include table prefixes, just the table name"
+                  },
+                  "displayname": {
+                    "type": "string",
+                    "description": "Display name for the new table"
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "Description for the new table"
+                  },
+                  "item": {
+                    "type": "array",
+                    "description": "Array of column definitions for the new table.",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "name",
+                        "type"
+                      ],
+                      "additionalProperties": false,
+                      "properties": {
+                        "name": {
+                          "type": "string",
+                          "description": "Display name of the column (no publisher prefix)."
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "choice",
+                            "multiselect",
+                            "customer",
+                            "multiline text",
+                            "duration",
+                            "time zone",
+                            "language",
+                            "phone",
+                            "email",
+                            "url",
+                            "lookup",
+                            "money",
+                            "string",
+                            "integer",
+                            "decimal",
+                            "boolean",
+                            "datetime",
+                            "double",
+                            "text area",
+                            "ticker symbol",
+                            "rich text",
+                            "file",
+                            "image"
+                          ],
+                          "description": "Column data type."
+                        },
+                        "required": {
+                          "type": "boolean",
+                          "description": "Whether the column is required."
+                        },
+                        "relatedtable": {
+                          "type": "string",
+                          "description": "Required when type is 'lookup' or 'customer'. Logical name of the target table."
+                        },
+                        "choices": {
+                          "type": "array",
+                          "description": "Required when type is 'choice' or 'multiselect'. Array of option values.",
+                          "items": {
+                            "type": "object",
+                            "required": [
+                              "label",
+                              "value"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                              "label": {
+                                "type": "string",
+                                "description": "Display label for the choice option."
+                              },
+                              "value": {
+                                "type": "integer",
+                                "description": "Numeric value for the choice option."
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "tablename",
+                  "displayname",
+                  "item"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": false,
+                "destructiveHint": false,
+                "idempotentHint": false,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "update_table",
+              "description": "Update an existing table in Dataverse by adding new columns",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "tablename": {
+                    "type": "string",
+                    "description": "Logical name (schema name) of the existing table to update. Use list_tables to find the logical (schema) name of custom tables with default prefix like crb69_tablename."
+                  },
+                  "item": {
+                    "type": "array",
+                    "description": "Array of column definitions to add to the table.",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "name",
+                        "type"
+                      ],
+                      "additionalProperties": false,
+                      "properties": {
+                        "name": {
+                          "type": "string",
+                          "description": "Display name of the column (no publisher prefix)."
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "choice",
+                            "multiselect",
+                            "customer",
+                            "multiline text",
+                            "duration",
+                            "time zone",
+                            "language",
+                            "phone",
+                            "email",
+                            "url",
+                            "lookup",
+                            "money",
+                            "string",
+                            "integer",
+                            "decimal",
+                            "boolean",
+                            "datetime",
+                            "double",
+                            "text area",
+                            "ticker symbol",
+                            "rich text",
+                            "file",
+                            "image"
+                          ],
+                          "description": "Column data type."
+                        },
+                        "required": {
+                          "type": "boolean",
+                          "description": "Whether the column is required."
+                        },
+                        "relatedtable": {
+                          "type": "string",
+                          "description": "Required when type is 'lookup' or 'customer'. Logical name of the target table."
+                        },
+                        "choices": {
+                          "type": "array",
+                          "description": "Required when type is 'choice' or 'multiselect'. Array of option values.",
+                          "items": {
+                            "type": "object",
+                            "required": [
+                              "label",
+                              "value"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                              "label": {
+                                "type": "string",
+                                "description": "Display label for the choice option."
+                              },
+                              "value": {
+                                "type": "integer",
+                                "description": "Numeric value for the choice option."
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "newDisplayName": {
+                    "type": "string",
+                    "description": "New display name for the table. If not provided, the display name will not be changed."
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "Update Description for the table. If not provided, the description will not be changed."
+                  }
+                },
+                "required": [
+                  "tablename",
+                  "item"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": false,
+                "destructiveHint": false,
+                "idempotentHint": false,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "delete_table",
+              "description": "Proceed solely on explicit user consent then only DELETE a table in the Dataverse database",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "tablename": {
+                    "type": "string",
+                    "description": "Logical name (schema name) of the table to delete. Use list_tables to find the logical (schema) name of custom tables with default prefix like crb69_tablename."
+                  },
+                  "hasUserApproved": {
+                    "type": "boolean",
+                    "description": "Set this to true only after asking the user if they are ok with the deletion and you have received an affirmative response"
+                  }
+                },
+                "required": [
+                  "tablename",
+                  "hasUserApproved"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": false,
+                "destructiveHint": true,
+                "idempotentHint": false,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "create_record",
+              "description": "INSERT a row into a table in the Dataverse database and returns the GUID ID of the created record. Call describe first if the table's schema is unknown - DO NOT guess column logical names from display names. Choice columns require numeric option values, not labels.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "tablename": {
+                    "type": "string",
+                    "description": "The logical (schema) name of table to insert into. Use list_tables to find the logical name of custom tables with default prefix like crb69_tablename"
+                  },
+                  "item": {
+                    "type": "object",
+                    "description": "Record field values as key-value pairs. Keys are column logical names from describe. Values: strings, numbers, or booleans for simple fields. For lookup/customer fields use an object: {\"relatedTable\": \"account\", \"name\": \"Contoso Ltd\", \"recordId\": \"6D52BA41-0C1C-4B6F-91EF-731E78D3D34B\"}. For choice fields use the numeric option value. For multi-select choice use comma-separated values like \"100000002,100000004\".",
+                    "additionalProperties": true
+                  }
+                },
+                "required": [
+                  "tablename",
+                  "item"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": false,
+                "destructiveHint": false,
+                "idempotentHint": false,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "update_record",
+              "description": "UPDATE a row into a table in the Dataverse database. Call describe first if the table's schema is unknown - DO NOT guess column logical names from display names. Choice columns require numeric option values, not labels.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "tablename": {
+                    "type": "string",
+                    "description": "The logical name (schema name) of the table to update a record in. Use list_tables to find the logical name of custom tables with default prefix like crb69_tablename."
+                  },
+                  "recordId": {
+                    "type": "string",
+                    "description": "The GUID of the record id"
+                  },
+                  "item": {
+                    "type": "object",
+                    "description": "Properties to update as key-value pairs. Keys are column logical names from describe. Values: strings, numbers, or booleans for simple fields. For lookup/customer fields use an object: {\"relatedTable\": \"account\", \"name\": \"Contoso Ltd\", \"recordId\": \"6D52BA41-0C1C-4B6F-91EF-731E78D3D34B\"}. For choice fields use the numeric option value. For multi-select choice use comma-separated values like \"100000002,100000004\".",
+                    "additionalProperties": true
+                  }
+                },
+                "required": [
+                  "tablename",
+                  "recordId",
+                  "item"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": false,
+                "destructiveHint": false,
+                "idempotentHint": false,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "delete_record",
+              "description": "Proceed solely on explicit user consent then only DELETE a row from a table in the Dataverse database",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "tablename": {
+                    "type": "string",
+                    "description": "The logical name (schema name) of the table to delete a record from. Use list_tables to find the logical (schema) name of custom tables with default prefix like crb69_tablename."
+                  },
+                  "hasUserApproved": {
+                    "type": "boolean",
+                    "description": "Set this to true only after asking the user if they are ok with the deltion and you have received an affirmative response"
+                  },
+                  "recordId": {
+                    "type": "string",
+                    "description": "The GUID of the record id"
+                  }
+                },
+                "required": [
+                  "tablename",
+                  "hasUserApproved",
+                  "recordId"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": false,
+                "destructiveHint": true,
+                "idempotentHint": false,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "search",
+              "description": "Find table schemas, skills, and scopes in Dataverse by keyword.\n\nSearches across:\n- Table schemas (when you need table structure/fields)\n- Skills (business process instructions)\n- Scopes (scopes with their entity lists)\n\nReturns filesystem-style paths:\n  tables/{tablename}\n  skills/{skillname}\n  scopes/{scopeName}\n\nOptional: Pass scope to filter table results to a specific scope's entities.\n\nExamples:\n  search(\"opportunity\")\n  → Find relevant skills, table schemas, and scopes for opportunity\n\n  search(\"sales\", scope=\"msft_dvtablesearch_aiplugin_model_SalesHub\")\n  → Find tables within Sales scope matching 'sales'\n\nUse describe() tool on returned paths to see full details.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "query": {
+                    "type": "string",
+                    "description": "Search keywords or phrase"
+                  },
+                  "limit": {
+                    "type": "integer",
+                    "description": "Max results to return (default: 50, max: 100)"
+                  },
+                  "scope": {
+                    "type": "string",
+                    "description": "Optional. Scope table results to a specific scope's entities. Get scope names from describe('scopes/')."
+                  }
+                },
+                "required": [
+                  "query"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "upsert_skill",
+              "description": "Add or update a Business Skill in Dataverse. To update an existing skill, provide id or name to identify it. Provide unlinkScope: true when updating scope to replace existing scopes rather than merge.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "The name of the skill"
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "The description of the skill"
+                  },
+                  "body": {
+                    "type": "string",
+                    "description": "The detailed body content of the skill"
+                  },
+                  "id": {
+                    "type": "string",
+                    "description": "The GUID of the skill to update. Preferred over name when available to avoid ambiguity."
+                  },
+                  "uniquename": {
+                    "type": "string",
+                    "description": "Unique name for the skill. Auto-generated if not provided. Must start with a customization prefix(ex: new_)."
+                  },
+                  "scope": {
+                    "type": "string",
+                    "description": "JSON array of app scope names to associate with the skill, e.g. [\"scopeA\", \"scopeB\"]"
+                  },
+                  "unlinkScope": {
+                    "type": "boolean",
+                    "description": "When true, replaces existing scopes with the provided scope list. When false or omitted, merges with existing scopes. Required when scope is provided."
+                  }
+                },
+                "required": [
+                  "name",
+                  "description",
+                  "body"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": false,
+                "destructiveHint": false,
+                "idempotentHint": false,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "create_skill_resource",
+              "description": "Creates a skillresource record linked to a skill. Once the record exists, upload the file content using init_file_upload and commit_file_upload. Upload values: tablename: \"skillresource\", recordId: {skillresourceid from result}, fileAttributeName: \"filecontent\", fileName: {just the file name, not the full path}.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "skillid": {
+                    "type": "string",
+                    "description": "The GUID of the skill that owns this resource"
+                  },
+                  "filename": {
+                    "type": "string",
+                    "description": "Relative path of the file from the skill root (where SKILL.md resides). Example: path/to/resourcefile.md"
+                  },
+                  "uniquename": {
+                    "type": "string",
+                    "description": "Unique name for the resource. Auto-generated from the skill uniquename and filename if not provided. Must start with a customization prefix(ex: new_)."
+                  }
+                },
+                "required": [
+                  "skillid",
+                  "filename"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": false,
+                "destructiveHint": false,
+                "idempotentHint": false,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "delete_skill",
+              "description": "Delete a Business Skill by name or ID. Prefer id over name to avoid ambiguity; name will fail if multiple skills share the same name.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "The name of the skill to delete"
+                  },
+                  "id": {
+                    "type": "string",
+                    "description": "The GUID of the skill to delete"
+                  }
+                },
+                "required": [],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": false,
+                "destructiveHint": true,
+                "idempotentHint": false,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "describe",
+              "description": "Use this tool to get comprehensive details for any path from search().\r\n\r\n\t\t\tWorks with all resource types:\r\n\t\t\t- Catalog listing → List all tables, skills, or scopes\r\n\t\t\t- Data records → Full JSON with URL\r\n\t\t\t- Table schemas → Markdown with fields, types, relationships, example queries\r\n\t\t\t- Skills → Full skill with description and body/instructions, and list of resources\r\n\t\t\t- Skill resources → resource files attached to a skill (content truncated for large files)\r\n\t\t\t- Scopes → Scope metadata with name, description, and entity list\r\n\r\n\t\t\tPath formats (from search results):\r\n\t\t\t  tables/                                           - List all available tables\r\n\t\t\t  tables/account/records/{uuid}                    - Full record of {uuid} in account table\r\n\t\t\t  tables/opportunity                                - Opportunity table schema\r\n\t\t\t  skills/                                          - List all available business skills\r\n\t\t\t  skills/{skillname}                               - Business Skill detail and resource list\r\n\t\t\t  skills/{skillname}/skillresources/{filename}     - Business Skill resource file content by filename relative path\r\n\t\t\t  skills/{skillname}/skillresources/{uuid}         - Business Skill resource using skillresource ID\r\n\t\t\t  scopes/                                          - List all available scopes\r\n\t\t\t  scopes/{scopeName}                               - Scope details with entity list\r\n\r\n\t\t\tOptional: Pass scope to filter tables/ listing to a specific scope's entities.\r\n\r\n\t\t\tExamples:\r\n\t\t\t  describe('tables/')\r\n\t\t\t  → List all available tables\r\n\r\n\t\t\t  describe('tables/', scope='msft_dvtablesearch_aiplugin_model_SalesHub')\r\n\t\t\t  → List only tables belonging to the Sales scope\r\n\r\n\t\t\t  describe('tables/account/records/{guid}')\r\n\t\t\t  → Complete account data with URL\r\n\r\n\t\t\t  describe('tables/opportunity')\r\n\t\t\t  → Full schema with SQL field types, relationships, example queries\r\n\r\n\t\t\t  describe('skills/Sales-Call-Logging')\r\n\t\t\t  → Full business skill with description and body/instructions, and list of resources\r\n\r\n\t\t\t  describe('skills/Sales-Call-Logging/skillresources/path/to/resourcefile.md')\r\n\t\t\t  → Skill resource file content, which is truncated if too large. Use the file_download tool to download the full file with tablename:skillresource, recordId:{skillresourceid}, fileAttributeName:'filecontent'\r\n\r\n\t\t\t  describe('skills/Sales-Call-Logging/skillresources/{uuid}')\r\n\t\t\t  → Skill resource using skillresource ID\r\n\r\n\t\t\t  describe('scopes/')\r\n\t\t\t  → List all available scopes\r\n\r\n\t\t\t  describe('scopes/msft_dvtablesearch_aiplugin_model_SalesHub')\r\n\t\t\t  → Scope details with entities",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "description": "Path from search() results (e.g., tables/, tables/account/records/{guid}, tables/opportunity, skills/, skills/{name}, skills/{name}/skillresources/{path/to/file}, skills/{name}/skillresources/{id}, scopes/, scopes/{scopeName})"
+                  },
+                  "scope": {
+                    "type": "string",
+                    "description": "Optional. Scope tables/ or skills/ listing to a specific scope's entities. Get scope names from describe('scopes/')."
+                  }
+                },
+                "required": [
+                  "path"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "init_file_upload",
+              "description": "Step 1 of file upload: generates a SAS URL for uploading a file to a Dataverse record. Returns a SAS URL and continuationToken. Upload the file content via HTTP PUT to the SAS URL, then call commit_file_upload with the continuationToken. Important: Do not change the file extension if it fails to upload.\r\n\r\n\t\t\tExamples:\r\n\t\t\t  Upload a skill resource file:\r\n\t\t\t    tablename: \"skillresource\", recordId: {skillresourceid}, fileAttributeName: \"filecontent\", fileName: {resourcefile.md}",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "tablename": {
+                    "type": "string",
+                    "description": "Logical name of the table containing the record"
+                  },
+                  "recordId": {
+                    "type": "string",
+                    "description": "GUID of the record to attach the file to"
+                  },
+                  "fileAttributeName": {
+                    "type": "string",
+                    "description": "Logical name of the file column on the table"
+                  },
+                  "fileName": {
+                    "type": "string",
+                    "description": "Name of the file to upload including extension"
+                  }
+                },
+                "required": [
+                  "tablename",
+                  "recordId",
+                  "fileAttributeName",
+                  "fileName"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": false,
+                "destructiveHint": false,
+                "idempotentHint": false,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "commit_file_upload",
+              "description": "Step 3 of file upload: commits a completed file upload. Call this only after the file has been successfully uploaded via HTTP PUT to the SAS URL from init_file_upload.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "continuationToken": {
+                    "type": "string",
+                    "description": "Continuation token returned by init_file_upload"
+                  },
+                  "fileName": {
+                    "type": "string",
+                    "description": "Name of the uploaded file including extension"
+                  }
+                },
+                "required": [
+                  "continuationToken",
+                  "fileName"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": false,
+                "destructiveHint": false,
+                "idempotentHint": false,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "file_download",
+              "description": "Generates a SAS URL for downloading a file from a Dataverse record.\r\n\r\n\t\t\tExamples:\r\n\t\t\t  Download a skill resource file:\r\n\t\t\t    tablename: \"skillresource\", recordId: {skillresourceid}, fileAttributeName: \"filecontent\"",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "tablename": {
+                    "type": "string",
+                    "description": "Logical name of the table containing the record"
+                  },
+                  "recordId": {
+                    "type": "string",
+                    "description": "GUID of the record"
+                  },
+                  "fileAttributeName": {
+                    "type": "string",
+                    "description": "Logical name of the file column on the table"
+                  }
+                },
+                "required": [
+                  "tablename",
+                  "recordId",
+                  "fileAttributeName"
+                ],
+                "additionalProperties": false,
+                "$schema": "http://json-schema.org/draft-07/schema#"
+              },
+              "annotations": {
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            }
+          ]
+        },
+        "ddc4caf8-b2d3-4922-b4f2-448b4c4cc868": {
+          "serverUrl": "https://msteamscopilotnowvirtualagent.service-now.com/sncapps/mcp-server/mcp/channelagent_mcp",
+          "oAuthConfiguration": {
+            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM2NjE0Y2JmNi03NDk5LTQ0ZGEtYmEwZi1iYTBmYTRkNmI3NWU="
           },
           "tools": [
             {
@@ -141,69 +721,12 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "number"
-                ]
-              },
-              "annotations": {
-                "title": "incident_summarization",
-                "readOnlyHint": true
-              }
-            },
-            {
-              "name": "get_incident_details",
-              "title": "Get Incident Details",
-              "description": "Retrieves core fields of a single incident record identified by incident number. Returns standard incident fields including state, priority, assignment, caller, CI, linked problem, parent incident, timestamps, resolution details, and most recent work notes and comments. This tool MUST be called first before using any other incident tool — search_similar and modify both require incident context from this tool. sys_ids in the response are internal identifiers — never display them to the user.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {
-                  "number": {
-                    "description": "Number of the ServiceNow Incident Record",
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "number"
-                ]
-              },
-              "annotations": {
-                "title": "get_incident_details",
-                "readOnlyHint": true
-              }
-            },
-            {
-              "name": "search_similar_records",
-              "title": "Search Similar Records",
-              "description": "Performs a semantic similarity search to find incidents similar to a given query. Uses RAG to match by meaning rather than exact keywords. Use when looking for patterns, recurring issues, or similar past resolutions. Build the query from available incident context — include short_description, category, affected CI, and relevant error details for best results. Results are returned grouped by table (e.g. an \"incident\" key contains incident matches). When incident_number is provided, that incident is excluded from the results. READ-ONLY.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {
-                  "incident_number": {
-                    "description": "Number of the ServiceNow Incident RecordIncident number to exclude from results (e.g. INC0012345). Prevents the source incident from appearing in its own similarity results.",
-                    "type": "string"
-                  },
-                  "query": {
-                    "description": "Natural language search query. If incident context is available, include technical terms from the incident such as short_description, category, affected CI, and error messages to improve relevance (e.g. \"VPN tunnel drops intermittently on Cisco ASA\" rather than \"similar incidents for INC0012345\"). Max 1000 chars.",
-                    "type": "string"
-                  },
-                  "resolved_only": {
-                    "description": "When true (default), limits results to resolved and closed incidents only. Set to false to search across all incident states.",
-                    "type": "boolean",
-                    "default": true
-                  }
-                },
-                "required": [
-                  "query"
-                ]
-              },
-              "annotations": {
-                "title": "search_similar_records",
-                "readOnlyHint": true
+                "required": []
               }
             },
             {
               "name": "look_up_incident_records",
-              "title": "Look Up Incident Records",
+              "title": "Look up incident records",
               "description": "Lookup ServiceNow Incident records using structured parameters instead of encoded queries.  This tool provides intelligent querying of ServiceNow tables by parsing natural language  and converting it to specific parameter values that ServiceNow can understand.  FIELD MAPPINGS AND VALUES:  Priority Mapping Instructions: - If user query mentions 'critical' priority or 'highest' priority or something similar, pass '1' or 'Critical' - If user query mentions 'high' priority or 'important' or something similar, pass '2' or 'High' - If user query mentions 'moderate' or 'medium' priority or something similar, pass '3' or 'Moderate' - If user query mentions 'low' priority or 'minor' or something similar, pass '4' or 'Low' - If user query mentions 'planning' priority or something similar, pass '5' or 'Planning'  Status Mapping Instructions: - If user query mentions 'new', 'open', 'not started', or something similar pass '1' or 'New' - If user query mentions 'in progress', 'active', 'working', 'ongoing' or something similar, pass '2' or 'In Progress' - If user query mentions 'on hold', 'waiting', 'pending' or something similar, pass '3' or 'On Hold' - If user query mentions 'resolved', 'fixed', 'completed' or something similar, pass '6' or 'Resolved' - If user query mentions 'closed', 'done', 'finished' or something similar, pass '7' or 'Closed' - If user query mentions 'cancelled', 'terminated' or something similar, 'aborted', pass '8' or 'Cancelled'  Date Parsing Instructions: CURRENT DATE: 2025-07-24 (use this as reference for all relative date calculations)  Convert natural language date expressions to YYYY-MM-DD format: - 'today' → '2025-07-24' - 'yesterday' → '2025-07-23'  - 'last week' → '2025-07-17' (7 days ago) - 'last month' → '2025-06-24' (30 days ago) - '3 days ago' → '2025-07-21' - 'last Monday' → '2025-07-21' (most recent Monday before today) - 'last Tuesday' → '2025-07-22' (most recent Tuesday before today) - 'last Friday' → '2025-07-18' (most recent Friday before today) - 'this Monday' → '2025-07-21' (Monday of current week) - 'beginning of this month' → '2025-07-01' - 'end of last month' → '2025-06-30' - 'since Monday' → calculate based on current week - 'this week' → range from Monday 2025-07-21 to today  For specific dates, convert to YYYY-MM-DD: - 'July 15' → '2025-07-15' (assume current year if not specified) - '15th July 2024' → '2024-07-15' - '2024-01-15' → '2024-01-15' (keep as-is)  For date ranges: - Start dates: Use date with 00:00:00 time - End dates: Use date with 23:59:59 time - Single dates: Use 00:00:00 for start, 23:59:59 for end when creating ranges  Special handling for 'ON' specific date queries: When user asks for events 'on' a specific date (e.g., 'closed on last Monday'): - Set both start and end parameters to the same date - Example: 'closed on last Monday' → closed_at_start='2025-07-21', closed_at_end='2025-07-21' - This creates a date range covering the entire day (00:00:00 to 23:59:59)  User References: - Use display names: 'John Smith', 'Ashish Singh' - Or partial names: 'Ashish', 'Smith'  Sort By Instructions: - Use ServiceNow field names: 'priority', 'state', 'sys_created_on', 'sys_updated_on', 'number' - Can specify direction with field name: 'priority DESC', 'sys_created_on ASC' - If no direction specified, defaults to ASC (ascending) - Common sort fields: 'priority' (1=Critical to 5=Planning), 'sys_created_on' (newest/oldest first), 'number' (incident number)  PARSING EXAMPLES:  Query: 'Give me all high priority incidents closed by Ashish in the last week' Parse to: - table: 'incident' - priority: '2' (High) - closed_by: 'Ashish' - closed_at_start: '2025-07-17' (convert 'last week' using current date 2025-07-24) - status: '7' (Closed)  Query: 'Show me critical incidents assigned to John Smith that are still open' Parse to: - table: 'incident' - priority: '1' (Critical) - assigned_to: 'John Smith' - status: '1' (New/Open)  Query: 'Get top 10 incidents sorted by priority' Parse to: - table: 'incident' - limit: 10 - sortby: 'priority'  Query: 'Show me recent incidents sorted by creation date descending' Parse to: - table: 'incident' - sortby: 'sys_created_on DESC'  Query: 'List incidents assigned to me, ordered by priority then by creation date' Parse to: - table: 'incident' - assigned_to: 'me' (or actual user name) - sortby: 'priority,sys_created_on'  Query: 'How many incidents were closed on last Monday' Parse to: - table: 'incident' - status: '7' (Closed) - closed_at_start: '2025-07-21' (convert 'last Monday' using current date 2025-07-24) - closed_at_end: '2025-07-21' (same date for 'on' queries to cover entire day)",
               "inputSchema": {
                 "type": "object",
@@ -264,257 +787,1053 @@
                   }
                 },
                 "required": []
+              }
+            }
+          ]
+        },
+        "145360ce-cf7d-46e3-92b2-d6773fc0a0e4": {
+          "serverUrl": "https://www.microsoft.com/releasecommunications/mcp",
+          "oAuthConfiguration": {
+            "oAuthConfigurationId": "placeholder-no-auth"
+          },
+          "tools": [
+            {
+              "name": "get_m365_roadmap_by_id",
+              "description": "Retrieves a specific M365 roadmap post from Microsoft Release Communications by its unique identifier. Returns full details including the complete untruncated description, products, and availability dates. Use this after listing to get full information about a specific post.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "description": "Unique numeric identifier of the M365 roadmap post (e.g., '123456')",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
               },
               "annotations": {
-                "title": "look_up_incident_records",
+                "title": "get roadmap by id",
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "get_azure_update_by_id",
+              "description": "Retrieves a specific Azure update post from Microsoft Release Communications by its unique identifier. Returns full details including the complete untruncated description, products, tags, and availability dates. Use this after listing to get full information about a specific post.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "description": "Unique identifier of the Azure update post (e.g., '467931')",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              },
+              "annotations": {
+                "title": "get_azure_update_by_id",
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "get_recent_m365_roadmaps",
+              "description": "Retrieves M365 roadmap posts from Microsoft Release Communications with optional filtering and search capabilities.\r\nReturns up to 50 roadmap items per request with truncated descriptions to manage AI context window.\r\nUse GetM365RoadmapByIdAsync to get full details (including complete description) for specific items.\r\nIf results are empty or insufficient, ask user for more specific filter criteria.\r\n\r\nRESULT EXPLANATION REQUIREMENT:\r\nWhen returning filtered results:\r\n- Order results from most recent to oldest based on the relevant date field used for filtering.\r\n- Briefly state which date field was used:\r\n- Availability dates (GA/preview): 'Filtered by feature release timing (when features become available to customers)'\r\n- Publication dates (created/modified): 'Filtered by post publication date (when posts were published to roadmap)'\r\nExample: 'Here are M365 features with GA in February 2026 (filtered by general availability date)...'",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "filter": {
+                    "description": "OData filter expression for precise querying.\r\n\r\nBASIC FILTERS:\r\n• Products: products/any(p: p eq 'Microsoft Teams') or products/any(p: p eq 'SharePoint')\r\n• Status: status eq 'Launched' | 'Rolling out' | 'In development' | null\r\n• Release Rings (also called Release phases): \r\n  releaseRings/any(r: r eq 'Current Channel') or releaseRings/any(r: r eq 'General Availability') or \r\n  releaseRings/any(r: r eq 'Preview') or releaseRings/any(r: r eq 'Targeted Release') or \r\n  releaseRings/any(r: r eq 'Targeted Release (Entire Organization)') or releaseRings/any(r: r eq 'Targeted Release (Select People)')\r\n• Platforms: \r\n  platforms/any(pl: pl eq 'Android') or platforms/any(pl: pl eq 'Desktop') or platforms/any(pl: pl eq 'Developer') or \r\n  platforms/any(pl: pl eq 'Education') or platforms/any(pl: pl eq 'iOS') or platforms/any(pl: pl eq 'Linux') or \r\n  platforms/any(pl: pl eq 'Mac') or platforms/any(pl: pl eq 'Mobile') or platforms/any(pl: pl eq 'Teams and Surface Devices') or \r\n  platforms/any(pl: pl eq 'Web')\r\n• Cloud Instances: \r\n  cloudInstances/any(ci: ci eq 'DoD') or cloudInstances/any(ci: ci eq 'GCC') or \r\n  cloudInstances/any(ci: ci eq 'GCC High') or cloudInstances/any(ci: ci eq 'Worldwide (Standard Multi-Tenant)')\r\n• Availabilities (nested complex type with ring, year, month):\r\n  availabilities/any(a: a/ring eq 'General Availability' and a/year eq 2026)\r\n  availabilities/any(a: a/ring eq 'General Availability' and a/month eq 'February' and a/year eq 2026)\r\n  availabilities/any(a: a/ring eq 'Preview' and a/year ge 2025)\r\n  Ring values: 'General Availability', 'Preview'\r\n  Month values: 'January', 'February', ..., 'December'\r\n• Title: Use the 'search' parameter instead of filter for title text matching\r\n\r\n\r\nDATE FILTERING (choose based on user intent):\r\n\r\n1. FEATURE AVAILABILITY DATES (DEFAULT - use when user asks about RELEASE TIMING):\r\n   USE THIS FILTER WHEN user query contains words like: 'coming', 'rolling out', 'launching', 'released', 'upcoming', 'planned', 'available', 'GA dates', 'preview dates', 'release dates'\r\n   Format: YYYY-MM (e.g., '2026-01' for January 2026)\r\n   Meaning: WHEN THE FEATURE BECOMES AVAILABLE to customers (release timing)\r\n   \r\n   Examples:\r\n   - generalAvailabilityDate eq '2026-02' (features with GA in February 2026)\r\n   - previewAvailabilityDate ge '2026-01' (previews available in or after January 2026)\r\n   - generalAvailabilityDate le '2026-06' (GA on or before June 2026)\r\n   - (generalAvailabilityDate eq '2026-02' or previewAvailabilityDate eq '2026-02') (GA OR preview in February 2026)\r\n\r\n2. ANNOUNCEMENT/PUBLICATION DATES (use ONLY when user explicitly asks about when a post was published or modified):\r\n   USE THIS FILTER WHEN user query contains words like: 'published', 'updated', 'created', 'added', 'last week', 'modified', 'announcement date', 'post creation date', 'when was this posted', 'newly added', 'recently updated'\r\n   Format: ISO 8601 DateTime (e.g., 2026-02-01T00:00:00Z)\r\n   Meaning: WHEN THE POST WAS PUBLISHED to M365 Roadmap (not when feature becomes available)\r\n   \r\n   Examples:\r\n   - created ge 2026-02-01T00:00:00Z and created le 2026-02-28T23:59:59Z (posts published to roadmap in February 2026)\r\n   - created ge 2026-01-01T00:00:00Z (posts published on or after Jan 1, 2026)\r\n   - modified le 2026-12-31T23:59:59Z (posts last updated on or before Dec 31, 2026)\r\n   - created ge 2025-12-01T00:00:00Z and created le 2025-12-31T23:59:59Z (posts published in December 2025)\r\n\r\nCOMBINING FILTERS:\r\n• Multiple criteria: products/any(p: p eq 'Microsoft Teams') and status eq 'Launched'\r\n• Product + Status + Platform: products/any(p: p eq 'Microsoft Purview') and status eq 'In development' and platforms/any(pl: pl eq 'Web')\r\n• Product + Availability date: products/any(p: p eq 'Microsoft Copilot (Microsoft 365)') and (generalAvailabilityDate eq '2026-02' or previewAvailabilityDate eq '2026-02')\r\n• Product + Announcement date: products/any(p: p eq 'Microsoft Teams') and created ge 2026-02-01T00:00:00Z and created le 2026-02-28T23:59:59Z\r\n• Cloud + Status: cloudInstances/any(ci: ci eq 'GCC High') and status eq 'Launched'\r\n• Release Ring + Availability: releaseRings/any(r: r eq 'Preview') and previewAvailabilityDate ge '2025-01'\r\n• Product + Availabilities: products/any(p: p eq 'Microsoft Teams') and availabilities/any(a: a/ring eq 'General Availability' and a/month eq 'March' and a/year eq 2026)\r\n\r\nAVAILABLE FIELDS:\r\nid, baseId, status, created, modified, generalAvailabilityDate, previewAvailabilityDate, products, platforms, releaseRings, cloudInstances, availabilities (nested: ring, year, month)\r\n\r\nOUTPUT-ONLY FIELDS (not filterable, included in response):\r\ntitle, description, moreInfoUrls",
+                    "type": "string",
+                    "default": null
+                  },
+                  "search": {
+                    "description": "Text search within post titles only. Use for finding posts containing specific keywords or phrases.",
+                    "type": "string",
+                    "default": null
+                  },
+                  "skip": {
+                    "description": "Number of items to skip for pagination. Each request returns up to 50 items. For page 1: skip=0 (default). For page 2: skip=50. For page 3: skip=100. The response includes Offset, Limit, TotalCount, and HasMore to help determine next page.",
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "default": null
+                  },
+                  "include_facets": {
+                    "description": "When true, includes facet taxonomy counts in the response showing distribution of Products, Platforms, ReleaseRings, and CloudInstances. Useful for discovering available filter values or understanding data distribution.",
+                    "type": "boolean",
+                    "default": false
+                  }
+                }
+              },
+              "annotations": {
+                "title": "get_recent_m365_roadmaps",
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "get_recent_azure_updates",
+              "description": "Retrieves Azure update posts from Microsoft Release Communications with optional filtering and search capabilities.\r\nReturns up to 50 Azure updates per request with truncated descriptions to manage AI context window.\r\nUse GetAzureUpdateByIdAsync to get full details (including complete description) for specific items.\r\nIf results are empty or insufficient, ask user for more specific filter criteria.\r\n\r\nRETIREMENT QUERIES:\r\nWhen user asks about retirements, retiring services, or end-of-life:\r\n- Filter by tag: tags/any(t: t eq 'Retirements')\r\n- To filter by retirement date, use the availabilities collection: availabilities/any(a: a/ring eq 'Retirement' and a/month eq 'February' and a/year eq 2026)\r\n- You can combine both: tags/any(t: t eq 'Retirements') and availabilities/any(a: a/ring eq 'Retirement' and a/month eq 'February' and a/year eq 2026)\r\n- Example: 'Azure retirements in Feb 2026' → tags/any(t: t eq 'Retirements') and availabilities/any(a: a/ring eq 'Retirement' and a/month eq 'February' and a/year eq 2026)\r\n- Present retirement timing from the availabilities array: look for entries where ring='Retirement' and show the year and month.\r\n\r\nRESULT EXPLANATION REQUIREMENT:\r\nWhen returning filtered results:\r\n- Order results from most recent to oldest based on the relevant date field used for filtering.\r\n- Briefly state which date field was used:\r\n- Availability dates (GA/preview): 'Filtered by feature release timing (when features become available to customers)'\r\n- Retirement dates: 'Filtered by retirement tag. Retirement dates shown from the availabilities array (ring, year, month).'\r\n- Publication dates (created/modified): 'Filtered by post publication date (when posts were published to Azure Updates)'\r\nExample: 'Here are Azure features with GA in February 2026 (filtered by general availability date)...'",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "filter": {
+                    "description": "OData filter expression for precise querying.\r\n\r\nBASIC FILTERS:\r\n• Tags: tags/any(t: t eq 'Features') or tags/any(t: t eq 'Retirements') or tags/any(t: t eq 'Compliance') or tags/any(t: t eq 'Management') or tags/any(t: t eq 'Microsoft Ignite') or tags/any(t: t eq 'Open Source') or tags/any(t: t eq 'Pricing & Offerings') or tags/any(t: t eq 'Regions & Datacenters') or tags/any(t: t eq 'Security') or tags/any(t: t eq 'Services')\r\n• Products: products/any(p: p eq 'Azure Storage') or products/any(p: p eq 'Azure Machine Learning')\r\n• Product Categories: productCategories/any(pc: pc eq 'Compute') or productCategories/any(pc: pc eq 'Databases') or productCategories/any(pc: pc eq 'Networking') or productCategories/any(pc: pc eq 'Security') or productCategories/any(pc: pc eq 'Storage') or productCategories/any(pc: pc eq 'Analytics') or productCategories/any(pc: pc eq 'Containers') or productCategories/any(pc: pc eq 'DevOps') or productCategories/any(pc: pc eq 'Management and governance') or productCategories/any(pc: pc eq 'Web')\r\n• Status: status eq 'Launched' | 'In preview' | 'In development' | null\r\n• Title: Use the 'search' parameter instead of filter for title text matching\r\n\r\nDATE FILTERING (choose based on user intent):\r\n\r\n1. FEATURE AVAILABILITY DATES (DEFAULT - use when user asks about RELEASE TIMING):\r\n   USE THIS FILTER WHEN user query contains words like: 'coming', 'rolling out', 'launching', 'released', 'upcoming', 'planned', 'available', 'GA dates', 'preview dates', 'release dates'\r\n   Format: YYYY-MM (e.g., '2026-01' for January 2026)\r\n   Meaning: WHEN THE FEATURE BECOMES AVAILABLE to customers (release timing)\r\n   \r\n   Examples:\r\n   - generalAvailabilityDate eq '2026-02' (features with GA in February 2026)\r\n   - previewAvailabilityDate ge '2026-01' (previews available in or after January 2026)\r\n   - privatePreviewAvailabilityDate le '2026-06' (private previews on or before June 2026)\r\n   - (generalAvailabilityDate eq '2026-02' or previewAvailabilityDate eq '2026-02') (GA OR preview in February 2026)\r\n\r\n2. ANNOUNCEMENT/PUBLICATION DATES (use ONLY when user explicitly asks about when a post was published or modified):\r\n   USE THIS FILTER WHEN user query contains words like: 'published', 'updated', 'created', 'added', 'last week', 'modified', 'announcement date', 'post creation date', 'when was this posted', 'newly added', 'recently updated'\r\n   Format: ISO 8601 DateTime (e.g., 2026-02-01T00:00:00Z)\r\n   Meaning: WHEN THE POST WAS PUBLISHED to Azure Updates website (not when feature becomes available)\r\n   \r\n   Examples:\r\n   - created ge 2026-02-01T00:00:00Z and created le 2026-02-28T23:59:59Z (posts published in February 2026)\r\n   - created ge 2026-01-01T00:00:00Z (posts published on or after Jan 1, 2026)\r\n   - modified le 2026-12-31T23:59:59Z (posts last updated on or before Dec 31, 2026)\r\n   - created ge 2025-12-01T00:00:00Z and created le 2025-12-31T23:59:59Z (posts published in December 2025)\r\n\r\nCOMBINING FILTERS:\r\n• Multiple criteria: tags/any(t: t eq 'Features') and status eq 'Launched'\r\n• Product + Availability date: products/any(p: p eq 'Azure Storage') and (generalAvailabilityDate eq '2026-02' or previewAvailabilityDate eq '2026-02')\r\n• Product + Announcement date: products/any(p: p eq 'Azure Storage') and created ge 2026-02-01T00:00:00Z and created le 2026-02-28T23:59:59Z\r\n• Retirements in a specific month: tags/any(t: t eq 'Retirements') and availabilities/any(a: a/ring eq 'Retirement' and a/month eq 'February' and a/year eq 2026)\r\n• Product Category + Status: productCategories/any(pc: pc eq 'Databases') and status eq 'Launched'\r\n• Product + Tag + Availabilities: products/any(p: p eq 'Automation') and tags/any(t: t eq 'Retirements') and availabilities/any(a: a/ring eq 'Retirement' and a/month eq 'March' and a/year eq 2025)\r\n\r\nAVAILABLE FIELDS:\r\nid, baseId, status, created, modified, privatePreviewAvailabilityDate, previewAvailabilityDate, generalAvailabilityDate, tags, products, productCategories, availabilities (nested: ring, year, month)\r\n\r\nOUTPUT-ONLY FIELDS (not filterable, included in response):\r\ntitle, description",
+                    "type": "string",
+                    "default": null
+                  },
+                  "search": {
+                    "description": "Text search within post titles only. Use for finding posts containing specific keywords or phrases.",
+                    "type": "string",
+                    "default": null
+                  },
+                  "skip": {
+                    "description": "Number of items to skip for pagination. Each request returns up to 50 items. For page 1: skip=0 (default). For page 2: skip=50. For page 3: skip=100. The response includes Offset, Limit, TotalCount, and HasMore to help determine next page.",
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "default": null
+                  },
+                  "include_facets": {
+                    "description": "When true, includes facet taxonomy counts in the response showing distribution of ProductCategories, Products, and Tags. Useful for discovering available filter values or understanding data distribution.",
+                    "type": "boolean",
+                    "default": false
+                  }
+                }
+              },
+              "annotations": {
+                "title": "get_recent_azure_updates",
                 "readOnlyHint": true
               }
             }
           ]
         },
-        "9175d2f5-9c7d-4d8a-a13b-e33f1b78b93f": {
-          "serverUrl": "https://workiq.svc.cloud.microsoft/mcp",
+        "3fb34f44-7f4e-4e9e-855f-072404166824": {
+          "serverUrl": "https://agent365.svc.cloud.microsoft/agents/servers/mcp_MailTools",
           "authType": "oAuth2.0",
           "oAuthConfiguration": {
             "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM2ZWM2MjY5MS00NGI1LTQ1NTYtYmVlMC00MzNkYTgxZDQ3MWM="
           },
           "tools": [
             {
-              "name": "ask",
-              "description": "Ask a question to Microsoft 365 Copilot for information about emails, meetings, files, and other M365 data. Returns the answer text in both content and structured content (under 'answer'), with conversationId in structured content for multi-turn conversations.",
+              "name": "AddDraftAttachments",
+              "title": "AddDraftAttachments",
+              "description": "Add attachments (URI) to an existing draft message.",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "question": {
+                  "messageId": {
                     "type": "string",
-                    "description": "The question to ask."
+                    "description": "Graph message ID (draft) to update."
                   },
-                  "agentId": {
-                    "type": "string",
-                    "description": "Optional agent ID to target a specific agent. Defaults to bizchat-as-gpt-scenario."
-                  },
-                  "fileUrls": {
+                  "attachmentUris": {
                     "type": "array",
+                    "description": "List of direct file URIs to attach (must be Microsoft 365 file links: OneDrive, SharePoint, Teams, or Graph /drives/{id}/items/{id}).",
                     "items": {
                       "type": "string"
-                    },
-                    "description": "Optional list of OneDrive or SharePoint file URLs to use as context."
+                    }
+                  }
+                },
+                "required": [
+                  "messageId",
+                  "attachmentUris"
+                ]
+              },
+              "annotations": {
+                "title": "AddDraftAttachments",
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "UpdateDraft",
+              "title": "UpdateDraft",
+              "description": "Update a draft's recipients, subject, body, sensitivity, and attachments. Supports both file URIs (OneDrive/SharePoint) and direct file uploads (base64-encoded). Recipients can be provided as names or email addresses - names will be automatically resolved to email addresses using Microsoft Graph.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "messageId": {
+                    "type": "string",
+                    "description": "Graph message ID (draft) to update."
+                  },
+                  "to": {
+                    "type": "array",
+                    "description": "List of To recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "cc": {
+                    "type": "array",
+                    "description": "List of Cc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "bcc": {
+                    "type": "array",
+                    "description": "List of Bcc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "subject": {
+                    "type": "string",
+                    "description": "Subject of the draft"
+                  },
+                  "body": {
+                    "type": "string",
+                    "description": "Body of the draft. Replaces the entire body. IMPORTANT: For reply/reply-all drafts, the existing draft body already contains HTML with the quoted thread. You must preserve the quoted thread content or it will be lost."
+                  },
+                  "sensitivity": {
+                    "type": "string",
+                    "description": "Sensitivity level: Normal, Personal, Private, or Confidential"
+                  },
+                  "attachmentUris": {
+                    "type": "array",
+                    "description": "List of file URIs to attach (OneDrive, SharePoint, Teams, or Graph /drives/{id}/items/{id})",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "directAttachments": {
+                    "type": "array",
+                    "description": "List of direct file attachments with format: [{\"fileName\": \"file.pdf\", \"contentBase64\": \"base64data\", \"contentType\": \"application/pdf\"}]",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "FileName": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "ContentBase64": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "ContentType": {
+                          "type": "string",
+                          "description": ""
+                        }
+                      },
+                      "required": []
+                    }
+                  }
+                },
+                "required": [
+                  "messageId"
+                ]
+              },
+              "annotations": {
+                "title": "UpdateDraft",
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "SendEmailWithAttachments",
+              "title": "SendEmailWithAttachments",
+              "description": "Create and send an email with optional attachments. Supports both file URIs (OneDrive/SharePoint) and direct file uploads (base64-encoded). Recipients can be provided as names or email addresses - names will be automatically resolved to email addresses using Microsoft Graph.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "to": {
+                    "type": "array",
+                    "description": "List of To recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "cc": {
+                    "type": "array",
+                    "description": "List of Cc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "bcc": {
+                    "type": "array",
+                    "description": "List of Bcc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "subject": {
+                    "type": "string",
+                    "description": "Subject of the email"
+                  },
+                  "body": {
+                    "type": "string",
+                    "description": "Body of the email"
+                  },
+                  "contentType": {
+                    "type": "string",
+                    "description": "Body content type: Text or HTML"
+                  },
+                  "attachmentUris": {
+                    "type": "array",
+                    "description": "List of file URIs to attach (OneDrive, SharePoint, Teams, or Graph /drives/{id}/items/{id})",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "directAttachments": {
+                    "type": "array",
+                    "description": "List of direct file attachments with format: [{\"fileName\": \"file.pdf\", \"contentBase64\": \"base64data\", \"contentType\": \"application/pdf\"}]",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "FileName": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "ContentBase64": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "ContentType": {
+                          "type": "string",
+                          "description": ""
+                        }
+                      },
+                      "required": []
+                    }
+                  }
+                },
+                "required": []
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "CreateDraftMessage",
+              "title": "CreateDraftMessage",
+              "description": "Create a draft email in the signed-in user's mailbox without sending it. Recipients can be provided as names or email addresses - names will be automatically resolved to email addresses using Microsoft Graph.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "subject": {
+                    "type": "string",
+                    "description": "Subject of the email"
+                  },
+                  "body": {
+                    "type": "string",
+                    "description": "Body of the email"
+                  },
+                  "to": {
+                    "type": "array",
+                    "description": "List of To recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "cc": {
+                    "type": "array",
+                    "description": "List of Cc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "bcc": {
+                    "type": "array",
+                    "description": "List of Bcc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "contentType": {
+                    "type": "string",
+                    "description": "Body content type: Text or HTML"
+                  }
+                },
+                "required": []
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "GetMessage",
+              "title": "GetMessage",
+              "description": "Get a message by ID from the signed-in user's mailbox.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "description": "Message ID"
+                  },
+                  "preferHtml": {
+                    "type": "boolean",
+                    "description": "If true, request HTML body format"
+                  },
+                  "bodyPreviewOnly": {
+                    "type": "boolean",
+                    "description": "If true, returns only the body preview (~255 chars) instead of the full body. Useful for reducing payload size."
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "UpdateMessage",
+              "title": "UpdateMessage",
+              "description": "Update a message's mutable properties (subject, body, categories, importance, sensitivity)",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "description": "Message ID"
+                  },
+                  "subject": {
+                    "type": "string",
+                    "description": "New subject"
+                  },
+                  "body": {
+                    "type": "string",
+                    "description": "Body of the message. Replaces the entire body. IMPORTANT: For reply/reply-all messages, the existing body already contains HTML with the quoted thread. You must preserve the quoted thread content or it will be lost."
+                  },
+                  "contentType": {
+                    "type": "string",
+                    "description": "Body content type: Text or HTML"
+                  },
+                  "categories": {
+                    "type": "array",
+                    "description": "Message categories",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "importance": {
+                    "type": "string",
+                    "description": "Importance level: Low, Normal, or High"
+                  },
+                  "sensitivity": {
+                    "type": "string",
+                    "description": "Sensitivity level: Normal, Personal, Private, or Confidential"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "FlagEmail",
+              "title": "FlagEmail",
+              "description": "Update the flag status on an email message. Supports flagging, completing, or clearing a flag.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "messageId": {
+                    "type": "string",
+                    "description": "Id of the email to be flagged."
+                  },
+                  "flagStatus": {
+                    "type": "string",
+                    "description": "Flag status to set: NotFlagged, Complete, or Flagged."
+                  },
+                  "mailboxAddress": {
+                    "type": "string",
+                    "description": "Address of the shared mailbox to update mail."
+                  }
+                },
+                "required": [
+                  "messageId",
+                  "flagStatus"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "DeleteMessage",
+              "title": "DeleteMessage",
+              "description": "Delete a message from the signed-in user's mailbox.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "description": "Message ID"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "ReplyToMessage",
+              "title": "ReplyToMessage",
+              "description": "Reply to an existing message. By default creates a reply draft. Set sendImmediately=true to send the reply immediately instead of creating a draft. Recipients can be provided as names or email addresses - names will be automatically resolved using Microsoft Graph.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "description": "Message ID to reply to"
+                  },
+                  "comment": {
+                    "type": "string",
+                    "description": "Reply text content"
+                  },
+                  "preferHtml": {
+                    "type": "boolean",
+                    "description": "If true, treat comment as HTML"
+                  },
+                  "toRecipients": {
+                    "type": "array",
+                    "description": "Optional override list of To recipients (can be names or email addresses - names will be automatically resolved). If provided, a reply draft is created and patched before sending.",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "ccRecipients": {
+                    "type": "array",
+                    "description": "Optional override list of Cc recipients (can be names or email addresses - names will be automatically resolved). Used only when modifying recipients.",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "bccRecipients": {
+                    "type": "array",
+                    "description": "Optional override list of Bcc recipients (can be names or email addresses - names will be automatically resolved). Used only when modifying recipients.",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "sendImmediately": {
+                    "type": "boolean",
+                    "description": "If true, sends the reply immediately. If false (default), creates a reply draft without sending."
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "ReplyAllToMessage",
+              "title": "ReplyAllToMessage",
+              "description": "Reply-all to an existing message. By default creates a reply-all draft. Set sendImmediately=true to send the reply-all immediately instead of creating a draft. Recipients can be provided as names or email addresses - names will be automatically resolved using Microsoft Graph.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "description": "Message ID to reply-all to"
+                  },
+                  "comment": {
+                    "type": "string",
+                    "description": "Reply text content"
+                  },
+                  "preferHtml": {
+                    "type": "boolean",
+                    "description": "If true, treat comment as HTML"
+                  },
+                  "toRecipients": {
+                    "type": "array",
+                    "description": "Optional override list of To recipients (can be names or email addresses - names will be automatically resolved). If provided, a reply-all draft is created and patched before sending.",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "ccRecipients": {
+                    "type": "array",
+                    "description": "Optional override list of Cc recipients (can be names or email addresses - names will be automatically resolved). Used only when modifying recipients.",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "bccRecipients": {
+                    "type": "array",
+                    "description": "Optional override list of Bcc recipients (can be names or email addresses - names will be automatically resolved). Used only when modifying recipients.",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "sendImmediately": {
+                    "type": "boolean",
+                    "description": "If true, sends the reply-all immediately. If false (default), creates a reply-all draft without sending."
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "SendDraftMessage",
+              "title": "SendDraftMessage",
+              "description": "Send an existing draft message by ID.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "description": "Draft message ID to send"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "SearchMessages",
+              "title": "SearchMessages",
+              "description": "If the user's prompt can be deterministically expressed as OData filters or using KQL search syntax, always try SearchMessagesQueryParameters first as it is faster and does not have indexing delays. Use SearchMessages only when the query requires interpretation, relevance ranking, or intent understanding that cannot be expressed deterministically using OData filters (e.g., 'most urgent emails from last week', 'messages needing my response'). SearchMessages uses natural language powered by Microsoft 365 Copilot. Can be slow (up to 30 seconds) and recent messages may not appear immediately due to indexing delay.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "description": "Natural language search query for finding emails (e.g., 'emails from John about the project', 'unread messages from last week')"
                   },
                   "conversationId": {
                     "type": "string",
-                    "description": "Optional conversation ID to continue an existing conversation."
-                  },
-                  "timeZone": {
-                    "type": "string",
-                    "description": "An IANA time zone identifier matching the user's current UTC offset (from the datetime provided), preferring the most populous zone for that offset (e.g., -04:00 => 'America/New_York', +08:00 => 'Asia/Shanghai'). Do not pass a raw offset or abbreviation. Omit if no offset is available; times will be returned in UTC."
+                    "description": "Existing conversation id (GUID). Auto-created if missing."
                   }
                 },
                 "required": [
-                  "question"
+                  "message"
                 ]
               },
               "annotations": {
-                "title": "ask_question",
                 "readOnlyHint": true
               }
             },
             {
-              "name": "listAgents",
-              "description": "List available Microsoft 365 Copilot agents. Returns agent IDs that can be passed to ask's agentId parameter.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {}
-              },
-              "annotations": {
-                "title": "list agents",
-                "readOnlyHint": true
-              }
-            },
-            {
-              "name": "fetch",
-              "description": "Fetch one or more WorkIQ entities by path. Use entity paths discovered from ask responses or well-known paths like /me/messages. Returns JSON array with results for each path. WorkIQ entity paths borrow from the conventions of M365. Always include a $select query parameter with only the fields you need to reduce response size (e.g., /me/messages?$select=id,subject,from). For collection endpoints, include $top to limit results (e.g., /me/messages?$select=id,subject&$top=10). Some APIs do not support $top (e.g., /me/chats/{id}/members) — omit $top for those. Use the getSchema tool to discover available fields if unsure.",
+              "name": "SearchMessagesQueryParameters",
+              "title": "SearchMessagesQueryParameters",
+              "description": "Searches the current user's mailbox for email messages by passing OData query parameters directly to https://graph.microsoft.com/v1.0/me/messages. This tool does not interpret, rank, or infer intent. IMPORTANT RESTRICTIONS: (1) $search performs keyword matching and supports KQL syntax (from:, to:, subject:, cc:, bcc:). It CANNOT be combined with $filter, $orderBy, or $skip. Use $search alone: '?$search=\"from:alice subject:budget\"'. (2) $filter supported properties: subject, from/emailAddress/address, sender/emailAddress/address, receivedDateTime, isRead, isDraft, hasAttachments, importance, parentFolderId, categories. NOT filterable: body, bodyPreview, displayName, folder. COLLECTION PROPERTIES NOT FILTERABLE: toRecipients, ccRecipients, bccRecipients are collections and cannot be used in $filter (neither direct path nor any()/all()). To search by recipient, use $search instead: '?$search=\"to:user@example.com\"'. (3) Combining $filter with $orderby may fail with 'InefficientFilter'. Prefer $filter alone and sort results client-side. EXAMPLES: '?$filter=isRead eq false', '?$filter=receivedDateTime ge 2025-01-01T00:00:00Z&$top=25'. PAGING: When the response contains hasMoreResults: true, call this tool again passing the nextLink value as the nextLink parameter to retrieve the next page",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "entityUrls": {
+                  "queryParameters": {
+                    "type": "string",
+                    "description": "OData query parameters for searching messages. Must start with '?'. See tool description for supported properties and restrictions. Ignored when nextLink is provided."
+                  },
+                  "nextLink": {
+                    "type": "string",
+                    "description": "The full @odata.nextLink URL from a previous response. When provided, queryParameters is ignored."
+                  },
+                  "preferTextBody": {
+                    "type": "boolean",
+                    "description": "When true (default), message bodies are returned as plain text, which is shorter and easier to read. Set to false to return HTML when you need to interpret structured content such as tables or formatted lists."
+                  }
+                },
+                "required": []
+              }
+            },
+            {
+              "name": "GetAttachments",
+              "title": "GetAttachments",
+              "description": "Get all attachments from a message, returning attachment metadata (ID, name, size, type).",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "messageId": {
+                    "type": "string",
+                    "description": "Message ID"
+                  }
+                },
+                "required": [
+                  "messageId"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "DownloadAttachment",
+              "title": "DownloadAttachment",
+              "description": "Download attachment content from a message. Returns the content as base64-encoded string.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "messageId": {
+                    "type": "string",
+                    "description": "Message ID"
+                  },
+                  "attachmentId": {
+                    "type": "string",
+                    "description": "Attachment ID"
+                  }
+                },
+                "required": [
+                  "messageId",
+                  "attachmentId"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "UploadAttachment",
+              "title": "UploadAttachment",
+              "description": "Upload a small file attachment (less than 3 MB) to a message. File content must be base64-encoded.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "messageId": {
+                    "type": "string",
+                    "description": "Message ID to attach to"
+                  },
+                  "fileName": {
+                    "type": "string",
+                    "description": "File name"
+                  },
+                  "contentBase64": {
+                    "type": "string",
+                    "description": "Base64-encoded file content"
+                  },
+                  "contentType": {
+                    "type": "string",
+                    "description": "MIME type (optional)"
+                  }
+                },
+                "required": [
+                  "messageId",
+                  "fileName",
+                  "contentBase64"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "UploadLargeAttachment",
+              "title": "UploadLargeAttachment",
+              "description": "Upload a large file attachment (3-150 MB) to a message using chunked upload. File content must be base64-encoded.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "messageId": {
+                    "type": "string",
+                    "description": "Message ID to attach to"
+                  },
+                  "fileName": {
+                    "type": "string",
+                    "description": "File name"
+                  },
+                  "contentBase64": {
+                    "type": "string",
+                    "description": "Base64-encoded file content"
+                  },
+                  "contentType": {
+                    "type": "string",
+                    "description": "MIME type (optional)"
+                  }
+                },
+                "required": [
+                  "messageId",
+                  "fileName",
+                  "contentBase64"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "DeleteAttachment",
+              "title": "DeleteAttachment",
+              "description": "Delete an attachment from a message.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "messageId": {
+                    "type": "string",
+                    "description": "Message ID"
+                  },
+                  "attachmentId": {
+                    "type": "string",
+                    "description": "Attachment ID"
+                  }
+                },
+                "required": [
+                  "messageId",
+                  "attachmentId"
+                ]
+              },
+              "annotations": {
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "ReplyWithFullThread",
+              "title": "ReplyWithFullThread",
+              "description": "Reply (or reply-all) adding new recipients while preserving full quoted thread and optionally re-attaching original files. By default creates a reply draft. Set sendImmediately=true to send the reply immediately instead of creating a draft. Recipients can be provided as names or email addresses - names will be automatically resolved using Microsoft Graph.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "messageId": {
+                    "type": "string",
+                    "description": "Original message ID to reply to"
+                  },
+                  "introComment": {
+                    "type": "string",
+                    "description": "Introductory comment placed above quoted thread"
+                  },
+                  "preferHtml": {
+                    "type": "boolean",
+                    "description": "Deprecated: introComment is always rendered as HTML. Plain text is automatically formatted. This parameter is ignored."
+                  },
+                  "additionalTo": {
                     "type": "array",
+                    "description": "Additional To recipients (can be names or email addresses - names will be automatically resolved)",
                     "items": {
                       "type": "string"
-                    },
-                    "description": "List of WorkIQ entity paths to fetch (e.g., /me/messages, /me/events/{id}). Paths must be relative — do not include a base URL."
+                    }
                   },
-                  "agentId": {
-                    "type": "string",
-                    "description": "Optional agent ID to target a specific agent."
+                  "additionalCc": {
+                    "type": "array",
+                    "description": "Additional Cc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalBcc": {
+                    "type": "array",
+                    "description": "Additional Bcc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "replyAll": {
+                    "type": "boolean",
+                    "description": "If true, perform reply-all; otherwise a direct reply"
+                  },
+                  "includeOriginalNonInlineAttachments": {
+                    "type": "boolean",
+                    "description": "If true, re-attach original non-inline attachments (files)"
+                  },
+                  "sendImmediately": {
+                    "type": "boolean",
+                    "description": "If true, sends the reply immediately. If false (default), creates a reply draft without sending."
                   }
                 },
                 "required": [
-                  "entityUrls"
+                  "messageId"
                 ]
               },
               "annotations": {
-                "title": "fetch entities",
                 "readOnlyHint": true
               }
             },
             {
-              "name": "create",
-              "description": "Create a new WorkIQ entity by POSTing JSON to a parent collection path. Use getSchema first to discover required fields. Returns the created entity JSON. WorkIQ entity paths borrow from the conventions of M365.",
+              "name": "ReplyAllWithFullThread",
+              "title": "ReplyAllWithFullThread",
+              "description": "Reply-all adding new recipients while preserving full quoted thread and optionally re-attaching original files. By default creates a reply-all draft. Set sendImmediately=true to send immediately.",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "parentUrl": {
+                  "messageId": {
                     "type": "string",
-                    "description": "WorkIQ parent collection path to POST to (e.g., /me/messages, /me/events). Must be a relative path — do not include a base URL."
+                    "description": "Original message ID to reply-all to"
                   },
-                  "jsonBody": {
-                    "type": "object",
-                    "description": "JSON body for the new entity, supplied as a JSON object (e.g., {\"subject\":\"Hi\"}) or a JSON-encoded string"
-                  },
-                  "agentId": {
+                  "introComment": {
                     "type": "string",
-                    "description": "Optional agent ID to target a specific agent."
-                  }
-                },
-                "required": [
-                  "parentUrl",
-                  "jsonBody"
-                ]
-              }
-            },
-            {
-              "name": "update",
-              "description": "Update an existing WorkIQ entity by PATCHing JSON to its path. Use getSchema first to discover updatable fields. Only include fields you want to change. Returns the updated entity JSON. WorkIQ entity paths borrow from the conventions of M365.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {
-                  "entityUrl": {
-                    "type": "string",
-                    "description": "WorkIQ entity path to update (e.g., /me/messages/{id}, /me/events/{id}). Must be a relative path — do not include a base URL."
+                    "description": "Introductory comment placed above quoted thread"
                   },
-                  "jsonBody": {
-                    "type": "object",
-                    "description": "JSON body with fields to update, supplied as a JSON object (e.g., {\"isRead\":true}) or a JSON-encoded string"
+                  "preferHtml": {
+                    "type": "boolean",
+                    "description": "Deprecated: introComment is always rendered as HTML. Plain text is automatically formatted. This parameter is ignored."
                   },
-                  "headers": {
-                    "type": "object",
-                    "additionalProperties": {
+                  "additionalTo": {
+                    "type": "array",
+                    "description": "Additional To recipients (email addresses)",
+                    "items": {
                       "type": "string"
-                    },
-                    "description": "Optional HTTP request headers. If the operation's schema declares an `If-Match` header parameter, you MUST set it to the `@odata.etag` value from the latest read of the same entity."
+                    }
                   },
-                  "agentId": {
-                    "type": "string",
-                    "description": "Optional agent ID to target a specific agent."
-                  }
-                },
-                "required": [
-                  "entityUrl",
-                  "jsonBody"
-                ]
-              }
-            },
-            {
-              "name": "delete",
-              "description": "Delete a WorkIQ entity by path. Sends HTTP DELETE to the entity path. Returns confirmation with status code on success. WorkIQ entity paths borrow from the conventions of M365.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {
-                  "entityUrl": {
-                    "type": "string",
-                    "description": "WorkIQ entity path to delete (e.g., /me/messages/{id}, /me/events/{id}). Must be a relative path — do not include a base URL."
-                  },
-                  "headers": {
-                    "type": "object",
-                    "additionalProperties": {
+                  "additionalCc": {
+                    "type": "array",
+                    "description": "Additional Cc recipients (email addresses)",
+                    "items": {
                       "type": "string"
-                    },
-                    "description": "Optional HTTP request headers. If the operation's schema declares an `If-Match` header parameter, you MUST set it to the `@odata.etag` value from the latest read of the same entity."
+                    }
                   },
-                  "agentId": {
-                    "type": "string",
-                    "description": "Optional agent ID to target a specific agent."
+                  "additionalBcc": {
+                    "type": "array",
+                    "description": "Additional Bcc recipients (email addresses)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "includeOriginalNonInlineAttachments": {
+                    "type": "boolean",
+                    "description": "If true, re-attach original non-inline attachments (files)"
+                  },
+                  "sendImmediately": {
+                    "type": "boolean",
+                    "description": "If true, sends the reply-all immediately. If false (default), creates a reply-all draft without sending."
                   }
                 },
                 "required": [
-                  "entityUrl"
-                ]
-              }
-            },
-            {
-              "name": "doAction",
-              "description": "Execute a WorkIQ action via HTTP POST. Actions perform complex operations like sending mail, copying items, or moving resources. Use getSchema first to discover required parameters. WorkIQ entity paths borrow from the conventions of M365.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {
-                  "actionUrl": {
-                    "type": "string",
-                    "description": "WorkIQ action path to invoke (e.g., /me/sendMail, /me/messages/{id}/copy, /me/drive/items/{id}/copy). Must be a relative path — do not include a base URL."
-                  },
-                  "jsonBody": {
-                    "type": "object",
-                    "description": "OPTIONAL — some actions require a body (e.g., sendMail), others do not (e.g., /move, /copy). When provided, supply as a JSON object (e.g., {\"comment\":\"...\"}) or a JSON-encoded string."
-                  },
-                  "agentId": {
-                    "type": "string",
-                    "description": "Optional agent ID to target a specific agent."
-                  }
-                },
-                "required": [
-                  "actionUrl"
-                ]
-              }
-            },
-            {
-              "name": "callFunction",
-              "description": "Call a WorkIQ function via HTTP GET. Functions compute or synthesize data rather than simply reading entities — e.g., getSchedule, delta, reminderView. Use getSchema to discover function parameters. WorkIQ entity paths borrow from the conventions of M365.",
-              "inputSchema": {
-                "type": "object",
-                "properties": {
-                  "functionUrl": {
-                    "type": "string",
-                    "description": "WorkIQ function path to call (e.g., /me/calendar/getSchedule, /me/calendarView/delta, /me/reminderView(startDateTime='...',endDateTime='...')). Must be a relative path — do not include a base URL."
-                  },
-                  "agentId": {
-                    "type": "string",
-                    "description": "Optional agent ID to target a specific agent."
-                  }
-                },
-                "required": [
-                  "functionUrl"
+                  "messageId"
                 ]
               },
               "annotations": {
-                "title": "call function",
                 "readOnlyHint": true
               }
             },
             {
-              "name": "getSchema",
-              "description": "Get the OpenAPI schema for a WorkIQ operation. Returns a self-contained YAML schema with request/response schemas inlined. Use to discover required fields before calling create or update.",
+              "name": "ForwardMessageWithFullThread",
+              "title": "ForwardMessageWithFullThread",
+              "description": "Forward a message adding new recipients and an optional intro comment while preserving full quoted thread; returns sensitivity label. Recipients can be provided as names or email addresses - names will be automatically resolved using Microsoft Graph.",
               "inputSchema": {
                 "type": "object",
                 "properties": {
-                  "path": {
+                  "messageId": {
                     "type": "string",
-                    "description": "Entity path (e.g., '/me/messages'). Use paths from prior fetch/ask calls."
+                    "description": "Original message ID to forward"
                   },
-                  "operationType": {
+                  "introComment": {
                     "type": "string",
-                    "description": "Operation type: 'fetch', 'create', 'update', or 'action'. Required."
+                    "description": "Introductory comment placed above quoted thread"
                   },
-                  "format": {
-                    "type": "string",
-                    "description": "Schema output format: 'jsonschema', 'typescript', or 'cddl'. Defaults to 'cddl'."
+                  "preferHtml": {
+                    "type": "boolean",
+                    "description": "If true, introComment is treated as HTML"
                   },
-                  "agentId": {
-                    "type": "string",
-                    "description": "Optional agent ID to target a specific agent."
+                  "additionalTo": {
+                    "type": "array",
+                    "description": "Additional To recipients (can be names or email addresses - names will be automatically resolved) - required",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalCc": {
+                    "type": "array",
+                    "description": "Additional Cc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalBcc": {
+                    "type": "array",
+                    "description": "Additional Bcc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "includeOriginalNonInlineAttachments": {
+                    "type": "boolean",
+                    "description": "If true, re-attach original non-inline attachments (files)"
                   }
-                }
+                },
+                "required": [
+                  "messageId"
+                ]
               },
               "annotations": {
-                "title": "call function",
+                "readOnlyHint": true
+              }
+            },
+            {
+              "name": "ForwardMessage",
+              "title": "ForwardMessage",
+              "description": "Forward an existing message, optionally adding a comment, recipients, and new attachments while preserving the quoted thread. Recipients can be provided as names or email addresses - names will be automatically resolved using Microsoft Graph.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "messageId": {
+                    "type": "string",
+                    "description": "Original message ID to forward"
+                  },
+                  "introComment": {
+                    "type": "string",
+                    "description": "Introductory comment placed above quoted thread"
+                  },
+                  "preferHtml": {
+                    "type": "boolean",
+                    "description": "If true, introComment is treated as HTML"
+                  },
+                  "additionalTo": {
+                    "type": "array",
+                    "description": "Additional To recipients (can be names or email addresses - names will be automatically resolved) - required",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalCc": {
+                    "type": "array",
+                    "description": "Additional Cc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalBcc": {
+                    "type": "array",
+                    "description": "Additional Bcc recipients (can be names or email addresses - names will be automatically resolved)",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "attachmentUris": {
+                    "type": "array",
+                    "description": "List of file URIs to attach (OneDrive, SharePoint, Teams, or Graph /drives/{id}/items/{id})",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "directAttachments": {
+                    "type": "array",
+                    "description": "List of direct file attachments with format: [{\"fileName\": \"file.pdf\", \"contentBase64\": \"base64data\", \"contentType\": \"application/pdf\"}]",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "FileName": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "ContentBase64": {
+                          "type": "string",
+                          "description": ""
+                        },
+                        "ContentType": {
+                          "type": "string",
+                          "description": ""
+                        }
+                      },
+                      "required": []
+                    }
+                  }
+                },
+                "required": [
+                  "messageId"
+                ]
+              },
+              "annotations": {
                 "readOnlyHint": true
               }
             }
@@ -2832,13 +4151,13 @@
                     "type": "string",
                     "description": "The IcM team name.Do NOT provide a value unless the user explicitly states it. Leave null — the system resolves this automatically."
                   },
-                  "tenantNameList": {
+                  "tenantName": {
                     "type": "string",
-                    "description": "The IcM tenant/service name(s). When the user mentions multiple tenants or services, include ALL of them in this single list and call the tool only once. Do NOT make separate calls per tenant."
+                    "description": "The IcM tenant/service name.Do NOT provide a value unless the user explicitly states it. Leave null — the system resolves this automatically."
                   },
                   "keywordList": {
                     "type": "string",
-                    "description": "The list of keywords to filter incidents by. Prefix each keyword with INCLUDE: or EXCLUDE: to control filtering.INCLUDE: keywords match incidents containing that term (default if no prefix).EXCLUDE: keywords remove incidents containing that term.At most 10 keywords are used across INCLUDE and EXCLUDE entries; each keyword is capped at 128 characters after trimming and prefix removal.Example: ['INCLUDE:deployment', 'EXCLUDE:Ring Blocker']"
+                    "description": "Comma-separated keywords to search for in incident title and tags. Empty means no keyword filtering."
                   }
                 },
                 "required": []
@@ -7639,7 +8958,7 @@
           "serverUrl": "https://mcp.atlassian.com/v1/mcp",
           "authType": "oAuth2.0",
           "oAuthConfiguration": {
-            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM2MTBkMTIxNC1jZTM5LTQ0Y2MtOTQwYy0yYTYxYjI1MDY1Nzk="
+            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM2OGEwZjA3Yi1hYjQxLTRlMjQtOTlmNi1jNTE2ZTg4MWY1N2U="
           },
           "tools": [
             {
@@ -9280,7 +10599,7 @@
             },
             {
               "name": "searchJiraIssuesUsingJql",
-              "description": "Search issues with JQL, total counts only when explicitly requested.",
+              "description": "Search issues with JQL",
               "inputSchema": {
                 "type": "object",
                 "properties": {
@@ -9323,21 +10642,11 @@
                       "adf"
                     ],
                     "description": "Content format for body content. Use \"markdown\" for simplified plain text. Use \"adf\" (Atlassian Document Format, JSON) for full programmatic fidelity. Defaults vary by tool when omitted."
-                  },
-                  "searchResultMode": {
-                    "type": "string",
-                    "enum": [
-                      "issues",
-                      "count",
-                      "all"
-                    ],
-                    "description": "Default \"issues\". Never count for normal search or if nextPageToken used. If total for same query is known, reuse it. Use \"count\" only when no trusted count exists and either the user asks or a downstream step needs it. Use \"all\" only if both count and issues required."
                   }
                 },
                 "required": [
                   "cloudId",
-                  "jql",
-                  "searchResultMode"
+                  "jql"
                 ],
                 "additionalProperties": false,
                 "$schema": "http://json-schema.org/draft-07/schema#"
