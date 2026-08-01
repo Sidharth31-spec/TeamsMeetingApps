@@ -51,7 +51,122 @@
         ]
       },
       "mcpConfig": {
-       "87dc802d-1067-427e-97c2-ebf07f8799a4": {
+        "9175d2f5-9c7d-4d8a-a13b-e33f1b78b93f": {
+          "serverUrl": "https://agent365.svc.cloud.microsoft/mcp",
+          "oAuthConfiguration": {
+            "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyNjMWEyZDM4NS0zNmIzLTQ5MGQtOGFiMi01MzYzN2FjY2FlMmU="
+          },
+          "tools": [
+            {
+              "name": "search",
+              "description": "Search for relevant resources, such as tables, business skills, api, mcp servers and tools for a given natural language query. Omit environmentId to search across your environments; pass one to scope the search to a single environment. Returns file-style paths (environments/{environmentId}/tables/{name}, .../skills/{name}, .../apis/{name}) under 'results', plus matching MCP server paths under 'mcpServers' and matching MCP tool paths under 'mcpTools' (each a ready-to-use 'environments/{environmentId}/mcp/{serverName}/tools/{toolName}'). A multi-word query is split on whitespace and matches on OR, so adding words broadens the matches. Pass a returned path straight to describe(); for an MCP tool path, describe it for the input schema then run it with execute_operation(path, payload). Per-environment failures are reported under 'errors' and do not fail the whole search. ReadOnly, Idempotent.",
+              "inputSchema": {
+                "type": "object",
+                "required": [
+                  "query"
+                ],
+                "properties": {
+                  "query": {
+                    "type": "string",
+                    "description": "Natural language search query."
+                  },
+                  "environmentId": {
+                    "type": "string",
+                    "description": "Optional environment ID to scope the search to a single environment. Omit to search across all your environments."
+                  }
+                }
+              }
+            },
+            {
+              "name": "describe",
+              "description": "Describe resources across the tenant using a file-style path. ONLY call describe with a path you obtained from a prior search or describe result — either a 'path' those results returned, or such a path with one of its returned 'SubPaths' appended (the {path} or {path}/{subPath} model). Do NOT guess, invent, or hand-assemble paths or fill in placeholder segments ({environmentId}, {tableName}, {recordId}, {serverName}, {toolName}, {appName}, {apiName}, ...) from your own knowledge; every segment must be a concrete value that appeared in an earlier result. The only two paths you may call without a prior result are the bootstrap entry point 'environments/' (start here for Dataverse) and an MCP server path surfaced by search. 'environments/{environmentId}/mcp/{serverName}' describes an MCP server and returns its SubPaths ('tools'); '{mcpServerPath}/tools' lists the server's tools; '{mcpServerPath}/tools/{toolName}' returns a single tool's inputSchema. 'environments/' lists the environments available to you (recentEnvironments and allEnvironments); 'environments/{environmentId}/tables' lists tables; 'environments/{environmentId}/tables/{tableName}' returns a table's schema; 'environments/{environmentId}/skills' lists skills; 'environments/{environmentId}/skills/{skillName}' returns a skill; 'environments/{environmentId}/apps' lists apps; 'environments/{environmentId}/apps/{appName}' returns an app's details; 'environments/{environmentId}/apps/{appName}/{subPath}' describes any resource scoped under an app; 'environments/{environmentId}/apis' lists apis (Custom APIs); 'environments/{environmentId}/apis/{apiName}' returns an api's input parameters (call this before invoke). ReadOnly, Idempotent.",
+              "inputSchema": {
+                "type": "object",
+                "required": [
+                  "path"
+                ],
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "description": "A file-style resource path obtained from a prior search or describe result (or the bootstrap 'environments/'). Do not guess or hand-assemble paths."
+                  }
+                }
+              }
+            },
+            {
+              "name": "execute_operation",
+              "description": "Perform an operation across the tenant. The operation is encoded in the 'path' as a trailing 'operations/{operationName}' segment on a collection container, and the resource identifier goes in the 'payload'. To discover what operations a container supports and the exact payload each takes: call describe on the container (it returns an 'operations' array), then call describe on the operation path itself to get that operation's inputSchema and outputSchema. Examples: 'environments/{environmentId}/tables/operations/create' (payload { tableName, columns, ... }); 'environments/{environmentId}/tables/{tableName}/records/operations/create|read|update|delete'; 'environments/{environmentId}/skills/operations/upsert|read|delete'; 'environments/{environmentId}/operations/query' runs a read-only SELECT (payload { querytext }); 'environments/{environmentId}/apis/{apiName}' runs a Custom API directly (payload is the API inputs object); 'environments/{environmentId}/mcp/{serverName}/tools/{toolName}' calls a tool on another in-process MCP server directly (payload is the tool arguments object). IMPORTANT: Only call execute_operation with a path you obtained from a prior search or describe result; do NOT guess or hand-assemble paths or fill in placeholder segments — discover each one via describe first. Destructive, not Idempotent.",
+              "inputSchema": {
+                "type": "object",
+                "required": [
+                  "path"
+                ],
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "description": "An operation path obtained from a prior describe result (e.g. '.../operations/{operationName}', a Custom API path, or an MCP tool path). Do not guess or hand-assemble paths."
+                  },
+                  "payload": {
+                    "type": "object",
+                    "description": "The operation's input object as defined by the operation's inputSchema (e.g. the resource identifier and/or item). Omit for parameterless operations.",
+                    "additionalProperties": true
+                  }
+                }
+              }
+            },
+            {
+              "name": "execute-work",
+              "description": "Delegate a natural-language instruction to the agentic sandbox sub-agent and return the aggregated result of the streamed run. Use this to hand off multi-step work (planning, querying, building, and editing artifacts) rather than the single-shot data tools. 'instruction' is the work to perform. 'environmentId' scopes the run to an environment (obtain it from describe('environments/')). Optional 'sessionId' continues a prior run; optional 'model' overrides the default. The run streams progress while it executes and the result includes the final answer, usage metrics, any artifacts changed, and any approval the sandbox requested mid-run. Destructive, OpenWorld.",
+              "inputSchema": {
+                "type": "object",
+                "required": [
+                  "instruction",
+                  "environmentId"
+                ],
+                "properties": {
+                  "instruction": {
+                    "type": "string",
+                    "description": "The natural-language work to perform."
+                  },
+                  "environmentId": {
+                    "type": "string",
+                    "description": "The environment ID to scope the run to. Obtain it from describe('environments/')."
+                  },
+                  "sessionId": {
+                    "type": "string",
+                    "description": "Optional. Continue a prior run by passing its session ID."
+                  },
+                  "model": {
+                    "type": "string",
+                    "description": "Optional. Override the default model."
+                  }
+                }
+              }
+            },
+            {
+              "name": "ask",
+              "description": "Ask a natural-language question about the data in a specific app and get a synthesized answer plus the supporting records. Provide 'query' (the question) and 'path' (an 'environments/{environmentId}/apps/{appName}' path identifying the app — obtain it from a describe or search result). Returns 'answer' (the natural-language answer, when the run produced one), 'results' (supporting records as environments/{environmentId}/tables/{name}/records/{id} paths that chain into describe), 'citations' (supporting citation links), 'count', and 'totalResultCount'. IMPORTANT: Only call ask with a 'path' you obtained from a prior search or describe result; do not guess or hand-assemble it. ReadOnly, Idempotent.",
+              "inputSchema": {
+                "type": "object",
+                "required": [
+                  "query",
+                  "path"
+                ],
+                "properties": {
+                  "query": {
+                    "type": "string",
+                    "description": "The natural-language question to ask about the app's data."
+                  },
+                  "path": {
+                    "type": "string",
+                    "description": "An 'environments/{environmentId}/apps/{appName}' path identifying the app, obtained from a prior describe or search result."
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "87dc802d-1067-427e-97c2-ebf07f8799a4": {
           "serverUrl": "https://agent365.svc.cloud.microsoft/agents/servers/mcp_CalendarTools",
           "oAuthConfiguration": {
             "oAuthConfigurationId": "NzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IyM2ZWM2MjY5MS00NGI1LTQ1NTYtYmVlMC00MzNkYTgxZDQ3MWM="
